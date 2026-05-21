@@ -693,7 +693,7 @@ function computeStats() {
 
   const salaryPct = total ? Math.round((withSalary / total) * 100) : 0;
 
-  return { total, categories, workTypes, postingTimeline, salary_pct: salaryPct, salary_ranges: salaryBuckets, topTags, with_salary: withSalary };
+  return { total, categories, work_types: workTypes, posting_timeline: postingTimeline, salary_pct: salaryPct, salary_ranges: salaryBuckets, top_tags: topTags, with_salary: withSalary };
 }
 
 async function loadDashboard() {
