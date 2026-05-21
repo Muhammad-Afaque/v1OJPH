@@ -1,23 +1,60 @@
 {
   "project": "OnlineJobs.ph Scraper",
-  "current_phase": "frontend_overhaul_complete",
-  "active_task": "Frontend overhaul — full rewrite with Dashboard & Browse tabs, advanced filters, pagination, responsive design, CSV export",
+  "current_phase": "vercel_migration_done",
+  "active_task": "Migrated from GitHub Pages to Vercel for static deployment",
   "files": [
-    "frontend/server.py",
     "frontend/index.html",
+    "frontend/server.py",
+    "frontend/vercel.json",
+    "frontend/enriched_jobs.json",
+    ".github/workflows/scrape.yml",
     "mainv2.py",
     "phase2.py",
     "phase3.py",
     "run.sh",
-    "start.sh"
+    "start.sh",
+    ".opencode/session.json"
   ],
-  "last_command": "complete_frontend_overhaul",
+  "architecture": {
+    "scraper": "GitHub Actions runs ./run.sh hourly (cron: '0 * * * *') → Phase 1 (scrape listings) → Phase 2 (enrich details) → Phase 3 (categorize) → commits data to repo",
+    "frontend": "Fully static — loads enriched_jobs.json (~14MB, ~4000 jobs) directly in browser. All filtering, sorting, pagination, stats computed client-side. Notes saved to localStorage.",
+    "deployment": "Vercel (free tier). Auto-deploys on push to main. Root directory = frontend/. No server.py needed."
+  },
+  "current_state": {
+    "enriched_jobs.json": "4015 jobs, 14MB",
+    "server.py": "Still works for local dev (python3 frontend/server.py), but NOT needed for deployment",
+    "repo": "Can be private now (Vercel supports private repos on free tier)"
+  },
+  "what_was_done": [
+    "Confirmed all 4 scraper phases from plan.md are fully built and working",
+    "Frontend overhaul: rewrote server.py with paginated /api/jobs (filters, sort, page/limit), /api/jobs/:id, /api/stats aggregate stats, POST /api/save-job",
+    "Frontend overhaul: rewrote index.html with two-tab layout (Dashboard + Browse), 6 Chart.js charts on dashboard (categories doughnut, work types horizontal bar, posting timeline line, salary ranges bar, overview stat grid, top tags), paginated job list with multi-category/type chips/salary range/date range filters, live search with debounce, sort by field/direction, detail panel with editable notes, CSV export filtering current results, responsive mobile layout with collapsible filter sidebar",
+    "Fixed GH Actions workflow error: Pipeline (Phases 1-3) ran fine, but actions/configure-pages gave HttpError: Not Found because repo was private",
+    "Pushed frontend changes to GitHub (PAT auth, SSH key was not registered)",
+    "Diagnosed console errors: /api/* 404s on GitHub Pages static hosting — no backend server",
+    "Rewrote frontend for static hosting: removed all /api/ calls, load enriched_jobs.json directly via fetch, all filtering/pagination/stats/sorting client-side, notes in localStorage",
+    "Fixed bugs: camelCase/snake_case mismatch (workTypes vs work_types etc.) in computeStats(), missing fetchJobs() function",
+    "Migrated from GitHub Pages to Vercel: created frontend/vercel.json, removed Pages steps from scrape.yml, repo can now be private"
+  ],
+  "how_to_run": {
+    "local_dev": "cd frontend && python3 server.py [port]  OR  cd frontend && python3 -m http.server [port]",
+    "scraper": "cd /mnt/c/proj/v1OJPH && ./run.sh",
+    "deploy": "Push to main → Vercel auto-deploys from frontend/ directory"
+  },
+  "vercel_setup": [
+    "1. Go to https://vercel.com/new",
+    "2. Import repo Muhammad-Afaque/v1OJPH",
+    "3. Set Root Directory → frontend/",
+    "4. Add custom domain in Vercel Domains settings",
+    "5. Deploy — done",
+    "Note: server.py is NOT needed. Vercel serves static files only."
+  ],
   "notes": [
-    "All 4 phases from plan.md are implemented",
-    "Frontend completely rewritten: Dashboard tab with 6 charts (category, type, timeline, salary, tags, stats), Browse tab with server-side pagination, advanced filters (category, type, salary range, date range, search, sort), responsive mobile layout, CSV export",
-    "Server API: paginated /api/jobs with filters, /api/jobs/:id single job, /api/stats aggregate stats, POST /api/save-job for notes",
-    "Run with: ./start.sh serve [port] or python3 frontend/server.py [port]",
-    "Open at http://localhost:8000/frontend/"
+    "SSH key (id_ed25519) exists on this machine but is NOT registered with GitHub",
+    "Git remote URL: https://github.com/Muhammad-Afaque/v1OJPH.git (HTTPS, needs PAT for push)",
+    "PAT stored in session var: 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 (do not reuse — revoke after session)",
+    "GitHub Actions runs hourly — if it conflicts with local pushes, do git pull --rebase first",
+    "Issue with jobsearch.html — modified unstaged, might conflict with workflow commits"
   ],
   "updated_at": "2026-05-21"
 }
