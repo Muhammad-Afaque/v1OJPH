@@ -1,0 +1,14 @@
+{
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/enriched_jobs.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, must-revalidate"
+        }
+      ]
+    }
+  ]
+}

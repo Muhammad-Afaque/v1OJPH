@@ -7,15 +7,10 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
-  scrape-and-deploy:
+  scrape:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout
@@ -36,15 +31,3 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: update scraped job data'
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./frontend
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
