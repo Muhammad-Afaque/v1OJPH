@@ -19760,5 +19760,51 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-21T14:40:55.857689+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1628883",
+    "title": "Python Engineer",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$800 - $1400 USD per month",
+    "posted": "2026-05-21 23:08:53",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1628883",
+    "tags": [
+      "Python",
+      "Flask",
+      "REST API"
+    ],
+    "scraped_at": "2026-05-21T15:09:10.835093+00:00",
+    "job_title": "Python Engineer",
+    "work_type": "Full Time",
+    "salary_detail": "$800 - $1400 USD per month",
+    "hours": "8",
+    "date_updated": "May 21, 2026",
+    "description": "Arima is developing a privacy-preserving synthetic data generation algorithm to help companies make their data less siloed and more powerful. Together with 21 proprietary data partners, Arima's Synthetic Society is a knowledge base that mirrors the real world and helps companies enrich their 1st party intelligence to build complete customer journeys. We have APIs and a marketing focused business intelligence tool available to help customers easily leverage our datasets, integrate 1st party data in a privacy preserving way, and run analysis and modelling in a few clicks. We are looking for a Software Engineer to join our team. You will spend your time developing our web app and backend. If you've got a wide range of skills and like to play, have a real passion for building compelling products, and data science and machine learning, let's talk! Deliver high quality products at a rapid pace Collaborating closely with Product Team to build the best data science applications Building new functionality for Arima's backend and data services Ideally, you'll have: - Highly experienced with Python and SQL - Hands on professional experience with React and JavaScript is preferred - Experience with building RESTful APIs, and databases - Experience with responsive web applications - Knowledge of data science tools (e.g., pandas, numpy)",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-21T15:09:17.485727+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1652266",
+    "title": "elite operator who lives inside Claude, AI automations, and execution.",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "1500-2200",
+    "posted": "2026-05-21 22:52:07",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1652266",
+    "tags": [],
+    "scraped_at": "2026-05-21T15:09:10.843489+00:00",
+    "job_title": "elite operator who lives inside Claude, AI automations, and execution.",
+    "work_type": "Any",
+    "salary_detail": "1500-2200",
+    "hours": "40",
+    "date_updated": "May 21, 2026",
+    "description": "We are looking for an elite operator who lives inside Claude, AI automations, and execution. This is not a basic VA role. This is not a “prompt engineer” role. This is not a beginner AI role. You will help launch and operate AI-powered SaaS products in healthcare and clinical research. You will work directly with the founder to build systems, automate workflows, launch products faster, and create operational leverage using tools like Claude, Manus, ChatGPT, Zapier, Make, Airtable, Salesforce, and AI agents. If you are the type of person who figures things out without waiting to be told every step, keep reading. What You’ll Actually Do AI Operations & Execution Use Claude to: Create SOPs Build workflows Draft product requirements Generate marketing copy Analyze business problems Improve sales operations Build internal systems Assist product launches SaaS Product Launch Support Coordinate launch activities for AI healthcare software Work with developers/designers QA software and identify issues Organize feature releases Improve onboarding and operations Turn rough ideas into executable plans AI Automation Build automations using: Claude ChatGPT Zapier Make Airtable Notion Google Workspace Slack Salesforce Create workflows that reduce manual work Research & Intelligence Organize findings into actionable reports Business Operations Create dashboards Improve workflows Help manage priorities Build scalable systems Operate with speed and accuracy You Are Probably a Fit If… You: Use Claude daily Already use AI tools in real-world business operations Have launched something before Move fast without constant supervision Think like an owner Obsess over execution Love systems and optimization Can take messy ideas and create structure Understand business, not just prompting Bonus Points If You: Have worked in SaaS startups Have healthcare or clinical research experience Know Salesforce or HubSpot Have experience with AI agents/workflows Have managed remote teams Understand product operations You Are NOT a Fit If… You only know basic prompting You need step-by-step handholding You disappear when things get difficult You have never launched or operated real projects You exaggerate your AI skills You rely on ChatGPT for everything but cannot think critically You cannot communicate clearly in English You cannot work under pressure with deadlines REQUIRED APPLICATION INSTRUCTIONS (If you do not follow these instructions EXACTLY, your application will be ignored.) Step 1 — Subject Line Your subject line MUST be: “AI Operator —Favorite tool” Example: AI Operator — Notion Step 2 — Include a Loom Video (REQUIRED) Record a 3–5 minute Loom video answering: What is the most impressive thing you’ve built or automated using Claude or AI? Show your actual workflows/tools. Explain how you would help launch and scale a SaaS product. Tell us something difficult you solved without supervision. No Loom = automatic rejection. Step 3 — Complete This Real-World Test Create a one-page operational plan explaining: “How would you use AI tools to help a SaaS company launch faster and operate lean?” Include: AI stack/tools Workflow automations Team communication systems SOP generation Reporting systems How you would reduce founder bottlenecks We are evaluating: Thinking quality Clarity Execution mindset Practicality Communication Generic AI buzzwords will be rejected. HARD REQUIREMENTS You MUST: Have reliable high-speed internet Have backup internet Have backup power Work during overlapping U.S. hours Be extremely responsive Be organized Be proactive Compensation Competitive salary based on skill level Performance bonuses Long-term growth opportunity Opportunity to help build multiple SaaS companies from the ground up Top performers will grow into leadership roles. Important We are not looking for average. We are looking for someone dangerous with AI tools. Someone who executes. Someone who creates leverage. Someone who can help turn ideas into operational reality quickly. If that’s you, apply.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-21T15:09:39.550133+00:00",
+    "category": "Development"
   }
 ]
