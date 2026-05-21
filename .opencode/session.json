@@ -1,9 +1,23 @@
 {
   "project": "OnlineJobs.ph Scraper",
-  "current_phase": null,
-  "active_task": null,
-  "files": [],
-  "last_command": null,
-  "notes": [],
-  "updated_at": null
+  "current_phase": "frontend_overhaul_complete",
+  "active_task": "Frontend overhaul — full rewrite with Dashboard & Browse tabs, advanced filters, pagination, responsive design, CSV export",
+  "files": [
+    "frontend/server.py",
+    "frontend/index.html",
+    "mainv2.py",
+    "phase2.py",
+    "phase3.py",
+    "run.sh",
+    "start.sh"
+  ],
+  "last_command": "complete_frontend_overhaul",
+  "notes": [
+    "All 4 phases from plan.md are implemented",
+    "Frontend completely rewritten: Dashboard tab with 6 charts (category, type, timeline, salary, tags, stats), Browse tab with server-side pagination, advanced filters (category, type, salary range, date range, search, sort), responsive mobile layout, CSV export",
+    "Server API: paginated /api/jobs with filters, /api/jobs/:id single job, /api/stats aggregate stats, POST /api/save-job for notes",
+    "Run with: ./start.sh serve [port] or python3 frontend/server.py [port]",
+    "Open at http://localhost:8000/frontend/"
+  ],
+  "updated_at": "2026-05-21"
 }
