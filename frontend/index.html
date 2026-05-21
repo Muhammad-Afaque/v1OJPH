@@ -631,6 +631,16 @@ function paginateJobs(jobs) {
 }
 
 // ══════════════════════════════════════════════════════════
+//  BROWSE QUERY
+// ══════════════════════════════════════════════════════════
+function fetchJobs() {
+  const filtered = filterJobs(allJobs);
+  const sorted = sortJobs(filtered);
+  const page = paginateJobs(sorted);
+  return { jobs: page, total: state.totalResults, totalPages: state.totalPages };
+}
+
+// ══════════════════════════════════════════════════════════
 //  DASHBOARD
 // ══════════════════════════════════════════════════════════
 function computeStats() {
