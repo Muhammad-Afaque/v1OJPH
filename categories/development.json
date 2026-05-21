@@ -19806,5 +19806,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-21T15:09:39.550133+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1652278",
+    "title": "Full Stack Architect / Senior Full Stack Developer",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$1000/Month",
+    "posted": "2026-05-21 23:13:59",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1652278",
+    "tags": [
+      "Angular JS",
+      "CICD",
+      "REST API"
+    ],
+    "scraped_at": "2026-05-21T15:16:54.712745+00:00",
+    "job_title": "Full Stack Architect / Senior Full Stack Developer",
+    "work_type": "Full Time",
+    "salary_detail": "$1000/Month",
+    "hours": "40",
+    "date_updated": "May 21, 2026",
+    "description": "Job Summary: L ---------- is seeking a highly skilled Full Stack Architect / Senior Full Stack Developer to lead the design, architecture, and development of scalable web applications and compliance management platforms. The ideal candidate will be responsible for building modern, secure, and scalable full stack solutions while collaborating closely with business analysts, product teams, and stakeholders to transform business requirements into high-quality software products. This role requires strong experience in frontend development, backend architecture, database design, APIs, cloud infrastructure, and software scalability. Key Responsibilities: Design and develop scalable full stack web applications Architect secure and high-performance backend systems and APIs Build responsive frontend applications with modern UI/UX practices Collaborate with Business Analysts and stakeholders to understand business requirements Translate functional requirements into scalable technical solutions Lead technical architecture discussions and development planning Design database structures, workflows, and system integrations Develop REST APIs and third-party integrations Optimize application performance, scalability, and security Implement authentication, authorization, and role-based access controls Conduct code reviews and enforce coding standards and best practices Mentor junior developers and guide technical teams Participate in deployment, DevOps, and cloud infrastructure activities Troubleshoot application issues and implement long-term solutions Required Technical Skills: Frontend: React JS Next.js JavaScript / TypeScript HTML5 CSS3 Responsive UI Design Backend: Node.js Express.js Python ---------- preferred REST API Development Authentication & Authorization Database: PostgreSQL MySQL MongoDB Database Design & Optimization Cloud & DevOps: AWS preferred Docker CI/CD pipelines Git/GitHub Deployment and server management Preferred Qualifications: Experience building SaaS platforms Experience with workflow automation systems Experience with compliance management or enterprise applications Knowledge of Agile/Scru ---------- thodologies Experience with system integrations and API architecture Familiarity with security best practices and scalable system design Nice to Have: Experience in food compliance, manufacturing, or regulatory systems Knowledge of AI integrations or automation tools Experience with reporting dashboards and analytics systems Required Skills: Full Stack Development System Architecture Problem Solving Technical Leadership API Development Database Design Cloud Deployment Application Security Analytical Thinking Team Collaboration",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-21T15:16:58.301071+00:00",
+    "category": "Development"
   }
 ]
