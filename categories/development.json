@@ -21265,5 +21265,51 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-22T21:10:21.919574+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1653396",
+    "title": "3D Claude Code Website",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "18/ hour",
+    "posted": "2026-05-23 06:19:53",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1653396",
+    "tags": [],
+    "scraped_at": "2026-05-22T22:53:25.545159+00:00",
+    "job_title": "3D Claude Code Website",
+    "work_type": "Any",
+    "salary_detail": "18/ hour",
+    "hours": "TBD",
+    "date_updated": "May 22, 2026",
+    "description": "I am looking to build a first-rate Claude code website. You need experience developing 3D websites or regular websites just as a first-rate designer. send me your portfolio and your 3d modelling process for buildingin cluade code",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-22T22:53:54.734450+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1653352",
+    "title": "Experienced WordPress Developer / VA — Custom Website Setup (Health & Wellness Brand)",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "$6-7+/hr",
+    "posted": "2026-05-23 05:48:57",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1653352",
+    "tags": [
+      "PHP",
+      "HTML",
+      "Wordpress"
+    ],
+    "scraped_at": "2026-05-22T22:53:27.952705+00:00",
+    "job_title": "Experienced WordPress Developer / VA — Custom Website Setup (Health & Wellness Brand)",
+    "work_type": "Gig",
+    "salary_detail": "$6-7+/hr",
+    "hours": "20",
+    "date_updated": "May 22, 2026",
+    "description": "We're a US-based health and wellness company launching a new website and need an experienced WordPress developer to take our completed website design (fully coded HTML/CSS/JavaScript files) and implement them into a clean, fast, professional WordPress site. This is NOT a \"build from scratch\" project. The full website is already designed, coded, and tested — including homepage, product pages, interactive features, cart system, and all content. Your job is to take these files and properly implement them into WordPress using best practices. This is a project-based role to start. If the setup goes well and you're reliable, there's ongoing work available for site management, updates, content changes, and technical support on a part-time, as-needed basis. What You'll Be Doing Phase 1 — WordPress Setup (Main Project) Install and configure WordPress on our existing hosting Set up GeneratePress theme (free version) Create a child theme and build custom page templates from our provided HTML/CSS/JS files Install and configure required plugins (WPForms, Yoast SEO, Wordfence, WP Fastest Cache, UpdraftPlus, Code Snippets) Wire up form submissions so cart orders, wholesale inquiries, and email signups are sent to our business email Set up SSL certificate (HTTPS) Configure SEO settings (Yoast) for all pages Ensure the site is fully responsive and looks perfect on mobile, tablet, and desktop Test all interactive features (product filters, cart drawer, checkout form, modals, popups) Optimize page load speed (target under 3 seconds) Phase 2 — Ongoing Support (If Phase 1 Goes Well) Product updates (new products, purity changes, content edits) Adding blog posts and content pages Plugin updates and security monitoring Site speed optimization Minor design tweaks and improvements Troubleshooting any issues that come up What We'll Provide You A detailed, step-by-step setup guide with every plugin, setting, and configuration decision already made for you Three fully coded HTML/CSS/JavaScript website files (homepage, product page template, standalone product page) All product data, descriptions, and content — nothing for you to write WordPress admin access Hosting and domain access as needed Clear communication and fast responses Requirements Must Have: 2+ years of hands-on WordPress experience (not just installing themes — actual custom development) Experience creating custom page templates and child themes Solid understanding of HTML, CSS, and JavaScript Experience with GeneratePress or similar lightweight themes Familiarity with common plugins: WPForms (or similar), Yoast SEO, caching plugins, security plugins Ability to take existing HTML files and convert them into proper WordPress templates Experience with responsive design and mobile optimization Basic understanding of PHP (for custom functions and form handling) Reliable internet connection and able to communicate in English Attention to detail — the design is already pixel-perfect, we need it implemented that way Nice to Have: Experience with e-commerce or product catalog websites Experience with custom JavaScript (cart systems, dynamic content rendering) Knowledge of Google Analytics and Search Console setup SEO knowledge beyond basic Yoast configuration Experience with page speed optimization (Core Web Vitals) How to Apply Please DO NOT send a generic application. To show that you've actually read this post, start your application with the answer to this question: \"What is a WordPress child theme and why would we use one instead of editing the parent theme directly?\" Then include: A brief summary of your WordPress experience (2-3 sentences is fine) A link to 1-2 WordPress websites you've built or worked on Your honest assessment of how many hours you think Phase 1 would take Your hourly rate within the $5-8/hr range Your availability to start About Us We're a small, growing US-based company in the health and wellness space. We value quality, transparency, and attention to detail — in our products and in our website. We're looking for someone reliable, communicative, and skilled who we can build a long-term working relationship with. We pay on time, give clear instructions, and respect your time. This is a great opportunity if you're looking for a client who knows exactly what they want, provides everything you need to do the job well, and has potential for ongoing work. Job Type: Project-Based ? Potential Ongoing Part-Time Budget: $5–8/hr USD Estimated Project Length: 8–12 hours for Phase 1 Start Date: As soon as possible",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-22T22:54:19.143276+00:00",
+    "category": "Development"
   }
 ]
