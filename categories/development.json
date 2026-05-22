@@ -21095,5 +21095,55 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-22T17:08:17.706005+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1653270",
+    "title": "Wordpress Website Developer",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "$4 per hour",
+    "posted": "2026-05-23 03:17:08",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1653270",
+    "tags": [
+      "CSS",
+      "Wordpress",
+      "Web Development"
+    ],
+    "scraped_at": "2026-05-22T19:28:25.038669+00:00",
+    "job_title": "N/A",
+    "work_type": "N/A",
+    "salary_detail": "N/A",
+    "hours": "N/A",
+    "date_updated": "N/A",
+    "description": "Failed to scrape",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-22T19:28:43.654144+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1607508",
+    "title": "Unity Developer (3D) – Mobile Game (Idle / Progression-Based)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "1000",
+    "posted": "2026-05-23 01:14:42",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1607508",
+    "tags": [
+      "3D unity",
+      "Mobile Development",
+      "Game Development"
+    ],
+    "scraped_at": "2026-05-22T19:28:31.826628+00:00",
+    "job_title": "Unity Developer (3D) – Mobile Game (Idle / Progression-Based)",
+    "work_type": "Full Time",
+    "salary_detail": "1000",
+    "hours": "40",
+    "date_updated": "May 22, 2026",
+    "description": "About the Role We are looking for an experienced Unity Developer (3D) to join our team at Growth Chain and help build a large-scale mobile game. The project is a 3D idle / progression-based mobile game inspired by top-performing titles in the genre, with a strong focus on engaging gameplay loops, smooth progression systems, and mobile optimization. You will play a key role in building the core systems of the game and working closely with a small, driven team to bring the project to life. ????Responsibilities: -Develop and maintain core gameplay systems in Unity (3D) -Implement mechanics similar to idle / progression-based games -Optimize performance for mobile devices (iOS & Android) -Collaborate with designers and artists to implement assets and features -Debug, test, and improve overall game stability ????? Requirements: -5+ years of experience with Unity (3D development) -Strong understanding of low-poly workflows -Experience building mobile games (iOS/Android) -Solid knowledge of C# -Experience implementing gameplay systems (movement, progression, UI, etc.) -Ability to work independently and take ownership of tasks -Good English communication skills -Strong sense of aesthetics and animation -Experience with Blender and Photoshop is a plus -You should have some sort of Mac, if you don't let us know ???? This Role Is Perfect For Someone Who: -Wants long-term, stable work -Is motivated to grow their income over time -Enjoys building games from the ground up -Takes ownership and works without constant supervision ????What It’s Like Working With Growth Chain: We are a fast-growing team of young, driven builders focused on creating successful mobile games and scalable digital products. We currently have: -500,000+ downloads across our apps -70,000+ daily active users -A team that values execution, ownership, and growth If you are someone who wants to make money, build a real career, and maximize your potential, this is the kind of environment where you can do that. During the interview process, you will also have the opportunity to: -Speak directly with one of our current developers in the Philippines and learn about -Learn what it’s like working with our team -Learn about how other developers have grown into larger roles, including revenue share or partnership opportunities with our company for other projects we have made. ????Compensation & Benefits Starting Pay: $6.25/hour (~$1,000/month). Prove yourself and your skills. Post-Launch Pay: $8.25/hour (immediate increase after game release)($1320/month) Monthly Raises: +$0.25/hour every month (uncapped growth) Work Schedule: 40 hours per week Paid Sick Leave: After 6 months Health Insurance: After 6 months Revenue Share Opportunity: Potential to earn from future games ???? How to Apply To apply, please include: Your portfolio or previous Unity projects (playable builds preferred) A short description of your experience with similar games Your availability Important: Include the phrase \"LETS GAME\" in your application so we know you read everything!.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-22T19:30:20.769229+00:00",
+    "category": "Development"
   }
 ]
