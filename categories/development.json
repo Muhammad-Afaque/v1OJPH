@@ -21982,5 +21982,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-23T19:16:19.706342+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1653752",
+    "title": "Product Designer and Product Engineer",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "$900",
+    "posted": "2026-05-24 05:24:55",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1653752",
+    "tags": [
+      "Product Design",
+      "User Experience Design",
+      "UI UX Design"
+    ],
+    "scraped_at": "2026-05-23T21:50:56.812704+00:00",
+    "job_title": "Product Designer and Product Engineer",
+    "work_type": "Gig",
+    "salary_detail": "$900",
+    "hours": "40",
+    "date_updated": "May 23, 2026",
+    "description": "Build Beautiful Digital Products From the Beginning We are building a portfolio of premium digital experiences and are seeking an exceptional Product Designer + Product Engineer to help bring them to life. This is not a traditional design role and not a standard developer role. This is an opportunity to work directly with the Founders to shape multiple products from the earliest stages—transforming concepts into intuitive, emotionally engaging and commercially scalable experiences. We are creating products designed to feel: Beautiful Emotionally intelligent Intuitive Elegant Immersive Human-centred State-of-the-art Premium There is meaningful work planned across multiple products with strong long-term opportunity for the right person. ABOUT THE ROLE You will act as both: Product Designer Create the experience. AND Product Engineer Help bring it to life. You should be excited to move fluidly between: Vision ? Product ? Design ? Prototype ? Build You will own the experience from early concept through functional MVP. You will work remotely with the founders being in Australia and Canada. This role is for the duration of the project from development to launch - possibility to continue on permanently post launch in a support role and future development opportunities. Fast moving - first digital experience ready to launch in 90 days. Second experience 90 days immediately after. PRODUCT AREAS Projects remain confidential initially and span categories including: Consumer applications Membership ecosystems Content platforms Education experiences Media and video experiences Family and lifestyle products Shortlisted candidates will receive additional details under confidentiality. YOUR MISSION Create products people remember. Design experiences people feel. Build products people return to. RESPONSIBILITIES Product Thinking Translate ideas into product opportunities Define user journeys Recommend features Shape product architecture Simplify complexity Prioritise MVP decisions Experience Design Design: Mobile-first applications Subscription experiences Content ecosystems Learning environments Member experiences Consumer products Deliver: Wireframes High fidelity UI Clickable prototypes Design systems Tools: Figma FigJam roduct Engineering Build: Responsive applications Frontend systems Interactive experiences MVP product experiences Support: Authentication Content structures Integrations Deployment Preferred stack: Frontend: React Next.js TypeScript Tailwind Backend familiarity: Supabase APIs Stripe Database concepts Deployment: Vercel. No requirement to be a senior backend engineer, but you must understand how products are delivered. Prototype ? Build Ownership You will: Convert design into working product Maintain visual quality Improve usability Support launch readiness Think beyond screens We’re Looking For Someone Who… Thinks in systems, not pages Loves building products from zero Has exceptional product taste Understands premium digital experiences Can make complex experiences feel effortless Notices details others miss Balances creativity and execution Required Experience Required: 5+ years Product Design or Product Engineering Strong Figma capability Frontend build experience Mobile-first experience Portfolio of shipped products Experience moving from design into implementation Must demonstrate BOTH: Design excellence + build capability Highly Preferred Experience in one or more: Subscription products Video platforms Education platforms Consumer applications Membership ecosystems Wellness experiences Premium digital brands Early-stage startups Application Requirements Please submit: Portfolio Live products you designed and contributed to building Favourite digital experience and why Short Loom walkthrough (2–5 mins) Availability Rate expectations Please answer: Tell us about a product you helped shape from idea to launch. What was your contribution? AND What creates a truly unforgettable digital experience?",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-23T21:52:36.253371+00:00",
+    "category": "Development"
   }
 ]
