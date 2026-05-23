@@ -22007,5 +22007,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-23T21:52:36.253371+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1653778",
+    "title": "Technical Operations Manager",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "",
+    "posted": "2026-05-24 06:48:20",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1653778",
+    "tags": [
+      "Call Center Operations Management",
+      "Technical Support",
+      "API Integration"
+    ],
+    "scraped_at": "2026-05-23T23:53:43.216613+00:00",
+    "job_title": "Technical Operations Manager",
+    "work_type": "Part Time",
+    "salary_detail": "N/A",
+    "hours": "TBD",
+    "date_updated": "May 23, 2026",
+    "description": "We’re hiring a Technical Operations Manager for a growing performance marketing / intake network in the legal space. Looking for someone who understands both the technical infrastructure side AND how lead generation / affiliate operations actually work. You would be responsible for: • LeadConduit setup & optimization • TrustedForm / Jornaya compliance workflows • Publisher onboarding & routing setup • Postbacks, webhooks & API integrations • Call tracking configuration • CRM automations & lead flow logic • QA & compliance systems • Rejection reason workflows • Vendor troubleshooting • Intake infrastructure & operational support Bonus if you have experience with: • Legal / MVA campaigns • Retreaver, LeadConduit, TrackDrive etc. • Affiliate networks or pay-per-call traffic • TCPA compliance workflows • Intake or call center operations Part-time to start with opportunity to grow into a larger operational role. Remote position. If this sounds like you (or you know someone), message me  with: • Your experience • Platforms/tools you’ve worked with • Previous verticals/campaigns • Your availability",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-23T23:54:08.049064+00:00",
+    "category": "Development"
   }
 ]
