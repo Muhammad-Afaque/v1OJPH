@@ -21882,5 +21882,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-23T16:02:16.256015+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1653680",
+    "title": "IT manager",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$1500-$2000",
+    "posted": "2026-05-24 00:19:53",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1653680",
+    "tags": [
+      "IT",
+      "AI Tools",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-05-23T17:57:59.038125+00:00",
+    "job_title": "IT manager",
+    "work_type": "Full Time",
+    "salary_detail": "$1500-$2000",
+    "hours": "40",
+    "date_updated": "May 23, 2026",
+    "description": "Job Overview Apex Residential is a top-producing luxury real estate brokerage based in Scottsdale, Arizona. We’re looking for a sharp, self-driven AI Agent Builder to design, deploy, and maintain custom AI agents and automations that power our lead nurture, contract review, content creation, and back-office operations. This is not a generic VA role. You will own our “AI operating system” — the connected layer of GPTs, agents, and automations that runs our business behind the scenes. What You’ll Do • Build and configure custom AI agents using Anthropic platform with Claude • Design AI workflows for lead engagement, follow-up sequences, and SMS/email nurture (integrating with Sierra Interactive, Follow Up Boss, and WooSender) • Build AI-assisted contract review and compliance workflows (we use tools like ListedKit/Ava, AREAL.ai) • Create AI-powered content systems for social media, listing descriptions, market reports, and video scripts • Maintain and improve integrations between our CRM, MLS (ARMLS), email , and marketing platforms • Document every workflow you build (SOPs, Loom walkthroughs) • Monitor agent performance, prompts, and outputs — iterate weekly Required Skills • 2+ years hands-on building with GPTs, Claude, or other LLM agents (please share examples) • Solid prompt engineering skills — you can show before/after results • Comfortable with APIs, webhooks, and JSON • Excellent written English — you’ll be writing prompts, SOPs, and customer-facing copy • Self-managing — you ask smart questions, then execute Nice to Have • Real estate, mortgage, or US-based service business experience • Experience with Sierra Interactive, Follow Up Boss, or any major real estate CRM • Familiarity with vector databases / RAG (Pinecone, Supabase, etc.) • Video/content tools (Descript, Dubb, ReachOut) Schedule & Compensation • Full-time, 40 hrs/week — flexible schedule with some overlap with Arizona business hours (MST / GMT-7) • $1500-$2000 USD/month depending on experience and portfolio • 13th month pay, paid time off, performance bonuses • Long-term role with growth into team lead as we scale our AI ops How to Apply Please reply with: 1. A short intro — why this role fits you 2. 2–3 specific examples of AI agents or automations you’ve built (screenshots, Loom videos, or links preferred) 3. Your favorite AI tool right now and why 4. Answer this in your reply so I know you read the ad: “Silverleaf” Applications without examples or the keyword will not be reviewed. Looking forward to meeting you. — Jay Macklin, Designated Broker & Partner, Apex Residential",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-23T18:00:07.599794+00:00",
+    "category": "Development"
   }
 ]
