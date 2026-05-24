@@ -22152,5 +22152,80 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-24T06:35:31.700973+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1653917",
+    "title": "AI Vibe Coder & Agentic Engineer ($500/mo to start)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$500",
+    "posted": "2026-05-24 16:45:26",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1653917",
+    "tags": [
+      "Typescript",
+      "Software",
+      "Web Development"
+    ],
+    "scraped_at": "2026-05-24T09:18:43.735184+00:00",
+    "job_title": "AI Vibe Coder & Agentic Engineer ($500/mo to start)",
+    "work_type": "Full Time",
+    "salary_detail": "$500",
+    "hours": "40",
+    "date_updated": "May 24, 2026",
+    "description": "What we do We run a venture studio building multiple operating ventures (web platforms, AI products, internal tools). We're building an ecosystem of AI agents from scratch, Claude, Codex, Cursor, MCP servers, custom pipelines, to design, build, ship, and maintain these ventures. We need someone who can plug into that ecosystem and become an operator inside it. What is a \"vibe coder\"? It is someone who builds working software by directing AI tools instead of typing every line by hand. You describe what you want, you read what the AI produces, you test it, you push back when it is wrong, you ship it. You do not need a CS degree but developers are a bonus***. You need taste, judgment, and the ability to learn fast. What you will actually do** - Use AI coding tools (Claude Code, Cursor, ChatGPT, etc.) to build and ship features across our ventures - Orchestrate AI agents to run repeatable workflows (research, code review, content, deployment) - Read code carefully enough to know when the AI is lying to you - Run tests, fix bugs, deploy to Vercel / similar platforms - Document what you build so the next AI session can pick up where you left off - Work directly with the founder on whatever venture is hot that week **Who we are looking for** - Obsessed with AI tools, you already use ChatGPT or Claude daily for non-trivial work - Can read JavaScript, Python, or TypeScript well enough to debug — you do not need to write it from scratch - Comfortable in a terminal (git, npm, basic bash) - Fast learner, when you hit something new, you figure it out in hours, not weeks - Written English strong enough to write clear prompts and clear documentation - Honest about what you do not know **Bonus (not required)** - Experience with Next.js, Supabase, Vercel, or similar modern web stacks - Have shipped something, anything, built with AI assistance (show us) - Familiar with MCP, agent frameworks, or n8n / Zapier-style orchestration **How to apply** Do not send a generic cover letter. Send: 1. A link to one thing you built with AI help (even small — a script, a site, a Chrome extension) 2. A 3-5 sentence description of how you used AI to build it and what went wrong 3. Your favorite AI tool right now and why 4. The phrase \"good vibes\" in your application headline so we know you read this far 5. An intro video explaining who you are and your work Applications without these will be ignored. *We are building a long-term home for the right person. If you are looking for a stable, intellectually demanding role where you learn the cutting edge of AI engineering on the job, apply.*",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-24T09:19:09.740475+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1653822",
+    "title": "Web & Android Developer",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "",
+    "posted": "2026-05-24 14:54:24",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1653822",
+    "tags": [
+      "Node JS",
+      "Typescript",
+      "Java"
+    ],
+    "scraped_at": "2026-05-24T09:18:46.117703+00:00",
+    "job_title": "Web & Android Developer",
+    "work_type": "Full Time",
+    "salary_detail": "N/A",
+    "hours": "TBD",
+    "date_updated": "May 24, 2026",
+    "description": "We are a SaaS company delivering innovative technical solutions to support the healthcare and AEC (Architecture, Engineering, and Construction) industries. We are seeking a highly skilled Senior Software Engineer with experience in both web and Android application development to join our growing team. Key Responsibilities: Design, develop, and maintain scalable web and Android applications Collaborate with cross-functional teams to define, design, and deliver high-quality software solutions Ensure performance, quality, and responsiveness of applications Contribute to architectural decisions and technical strategy Review code and mentor junior team members Troubleshoot, debug, and optimize existing systems Requirements: Proven experience as a Senior Software Engineer or similar role Strong expertise in modern web development technologies (e.g., JavaScript/TypeScript, React, or similar frameworks) Solid experience in Android development (Kotlin and/or Java) Experience working with APIs, backend services, and cloud environments Strong problem-solving skills and attention to detail Excellent communication skills with fluency in spoken English About Us: We are a technology-driven SaaS company focused on building solutions that improve efficiency and outcomes in the healthcare and AEC sectors. Our team values innovation, collaboration, and continuous learning.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-24T09:19:38.536934+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1533418",
+    "title": "Quant Trading Developer – MT4, Pine Script, Chrome Extensions & AI (Full-Time)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "?60,000 – ?100,000",
+    "posted": "2026-05-24 14:35:37",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1533418",
+    "tags": [
+      "Web Programming",
+      "Javascript",
+      "Forex Trading"
+    ],
+    "scraped_at": "2026-05-24T09:18:46.125349+00:00",
+    "job_title": "Quant Trading Developer – MT4, Pine Script, Chrome Extensions & AI (Full-Time)",
+    "work_type": "Full Time",
+    "salary_detail": "?60,000 – ?100,000",
+    "hours": "40",
+    "date_updated": "May 24, 2026",
+    "description": "We are a trading education and tools business based in the UK (FX, indices, crypto). We’re building a modular strategy-builder and subscription platform where traders can create, test and run their own systems without coding. Over time we also want to use AI/agents to help with testing and reporting. We are looking for a full-time, long-term Quant Trading Developer from the Philippines who understands trading and loves building algos – not just a one-off freelancer. Responsibilities You will work directly with the founder (professional trader) to: Build and maintain: MT4 Expert Advisors and indicators (MQL4) TradingView indicators and strategies (Pine Script v5) Small internal tools for backtesting, analysis and reporting Help design a modular “build any system” framework where: Entries, filters, exits, risk management and time filters are plug-and-play Build and maintain simple Chrome extensions / JS tools that: Pull or display market data from websites or APIs Run backtests and forward tests and summarise results: Win rate, R:R, equity curve, drawdown, parameter variations (Later phase) Help integrate AI/LLM/agents into the workflow to: Automate testing runs Collect and summarise results Suggest parameter or strategy tweaks This is a long-term role. If we are a good fit, you will become a core part of our product development team. Requirements Please apply only if you have most of the following: Strong experience with MQL4 / MT4 (building EAs and indicators) Strong experience with TradingView Pine Script (indicators + strategies) Good JavaScript/TypeScript skills and experience with Chrome extensions Solid understanding of trading: Entries, exits, SL/TP, trailing stops Risk % per trade and position sizing ---------- filters and basic risk management Experience building complete automated systems, not just single indicators Good written and spoken English Able to work full-time, with at least 2–3 hours overlap with UK time Nice to Have (Bonus) Python for data analysis, backtesting or calling APIs Any experience using AI/LLM APIs (e.g. OpenAI) in scripts or workflows Experience with prop-firm style risk rules Experience converting strategies between Pine and MT4/MT5 How to Apply Please send via OnlineJobs.ph message: A short introduction about you and your trading/dev background. Links or screenshots of: MT4 EAs/indicators you have built Pine Script strategies or indicators you have created A short explanation (1–2 paragraphs) of how you would design a modular framework where entries, filters, exits and risk are plug-and-play components. Any experience you have with AI/LLM or Python-based testing/analysis. Your desired monthly salary in PHP and your typical working hours (Philippines time). We will start with a small paid test task, then a 1–2 month trial, with the goal of offering a long-term full-time position if we are a good match.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-24T09:20:06.754138+00:00",
+    "category": "Development"
   }
 ]
