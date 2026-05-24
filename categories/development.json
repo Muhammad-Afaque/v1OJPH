@@ -22032,5 +22032,54 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-23T23:54:08.049064+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1639969",
+    "title": "Webmaster",
+    "company": "VETERANS ELITE CONTRACTORS, LLC",
+    "type": "Full Time",
+    "salary": "$465 - $505/month",
+    "posted": "2026-05-24 10:00:03",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1639969",
+    "tags": [
+      "Content Management",
+      "Wordpress",
+      "Javascript"
+    ],
+    "scraped_at": "2026-05-24T02:47:31.401777+00:00",
+    "job_title": "Webmaster",
+    "work_type": "Full Time",
+    "salary_detail": "$465 - $505/month",
+    "hours": "40",
+    "date_updated": "May 24, 2026",
+    "description": "Looking for someone who can handle day-to-day operations and maintains a website. The person will be responsible for updating content, security monitoring, ensuring technical functionality, and ensuring the site functions smoothly. In addition to, focuses specifically on updating text, images, and marketing materials.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-24T02:48:03.173387+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1653798",
+    "title": "Senior Security Engineer",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "15",
+    "posted": "2026-05-24 08:21:00",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1653798",
+    "tags": [
+      "Systems Administration",
+      "Network Administration"
+    ],
+    "scraped_at": "2026-05-24T02:47:33.773625+00:00",
+    "job_title": "Senior Security Engineer",
+    "work_type": "Full Time",
+    "salary_detail": "15",
+    "hours": "40",
+    "date_updated": "May 24, 2026",
+    "description": "READ HOW TO APPLY OR YOU WILL NOT BE CONSIDERED Security Engineer - (Remote) | Full-Time Company: Ekim IT Solutions | Portland, Maine, USA Hours: 8:00 AM - 4:00 PM Eastern (Mon-Fri) Compensation: Competitive, based on experience (Range is $12-$15hr) Who We Are Ekim IT Solutions is a fast-growing, dental-specialized managed service provider based in Maine. We are the preferred IT partner of the Maine Dental Association and we serve dental practices across the Northeast and beyond. We are not a generic MSP. We are specialists, and we operate with discipline, speed, and a standard most MSPs in our market can't touch. We are growing fast and we need someone who can keep up. The Role We are looking for a Security Engineer who is an absolute force on the ticket queue. This is not a button-pressing job. This is not for someone who escalates everything and waits to be told what to do. We need a technician who owns problems start to finish, thinks two steps ahead, and makes our boots-on-the-ground team in the US faster and more effective, not more dependent. You will be the first line of fire every morning when our dental office managers arrive and start submitting issues. You will triage, resolve, escalate intelligently, and document, before most of our US team even has their coffee. Your job is to make every other person on this team feel like they have a superpower. Your Responsibilities Own the ticket queue during your shift, triage, prioritize, and resolve with urgency Handle Tier 2 and Tier 3 issues independently: networking, server, endpoint, M365, security, dental software integration Support our on-site US engineers remotely , be the brain when they need one Identify patterns in recurring issues and build toward permanent fixes, not band-aids Maintain and contribute to our documentation in Hudu , if it isn't documented, fix that Streamline internal processes , if something is inefficient, call it out and fix it Communicate clearly with clients and internal team in written English What You Must Have 10+ years of hands-on IT experience, with significant time inside a managed service provider CCNA certification minimum , higher certifications (CCNP, MCSE, etc.) are a strong advantage Deep experience with Microsoft 365 administration and security (Conditional Access, Entra ID, Defender, Exchange) Strong Windows Server background , Active Directory, DNS, DHCP, GPO, Hyper-V Solid networking fundamentals , VLANs, routing, firewall policy, VPN Experience working with RMM and PSA platforms in an MSP environment Excellent written and spoken English , you will interface directly with clients via phone and in writing, and will be expected to handle client calls independently over time Bonus Points Familiarity with any of our stack: HaloPSA, NinjaRMM, Huntress, Hudu, Axcient, Domotz, UniFi Experience with dental practice software (Eaglesoft, Dentrix, Curve, Sidexis, Dexis) Experience supporting HIPAA-compliant environments Experience with Microsoft Azure or AWS What to Expect Week 1: You get acquainted with our systems, our clients, our stack, and our standards. We will invest in getting you up to speed. Week 2 onward: You are expected to show value. We will know quickly if you are the right person. We are direct. If something isn't working, we will tell you. If you are performing, we will reward it. We are a strong team that works hard, communicates well, and takes care of each other. If you want a place where your skills are actually used and recognized, this is it. What We Offer Unlimited paid time off , we measure output, not hours A team that actually values you , high standards go both ways; if you perform, you will be recognized and rewarded Work with a specialized, fast-moving MSP that is ahead of the curve , not a stagnant shop with stale processes A Word of Honesty We have worked with talented engineers from the Philippines before and we are proud of those relationships. We are also being straight with you: we have had people attempt to coast , collect a paycheck, do the minimum, and treat this like easy money. If that is what you are looking for, we are not the right fit and we would rather you know that now. We work hard. We move fast. We hold each other to a high standard. If you want a place where that energy is matched and rewarded, you will thrive here. If you are looking for easy money, we can save you the trouble. How to Apply To be considered, you must submit a video application. Apply directly on onlinejobs.ph with your resume and, in addition, record a Loom video under 2 minutes and send the link along with a quick note to ---------- to be considered. Your video must begin with the words \"Hey Mike\" or your application will not be reviewed. This is a simple instruction. It tells us everything we need to know about whether you follow directions. In your video, cover: Your background and why you are qualified for this role A specific example of a complex technical problem you solved independently at an MSP How you are going to make an immediate impact on our team We are not looking for someone who is available. We are looking for someone who is exceptional. If that's you, apply.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-24T02:48:41.080942+00:00",
+    "category": "Development"
   }
 ]
