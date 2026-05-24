@@ -22273,5 +22273,50 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-24T13:15:36.101159+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1654023",
+    "title": "Claude AI Anthropic Specialist",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "5.00",
+    "posted": "2026-05-24 22:42:17",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1654023",
+    "tags": [],
+    "scraped_at": "2026-05-24T14:59:34.383304+00:00",
+    "job_title": "Claude AI Anthropic Specialist",
+    "work_type": "Gig",
+    "salary_detail": "5.00",
+    "hours": "5",
+    "date_updated": "May 24, 2026",
+    "description": "Looking for someone to assist CEO integrate Claude Anthropic into Business for Marketing and Design purposes.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-24T15:00:02.533228+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1654021",
+    "title": "# WordPress Developer Needed (Elementor + Crocoblock / JetEngine)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$4–$7 USD/hour",
+    "posted": "2026-05-24 22:38:27",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1654021",
+    "tags": [
+      "Wordpress",
+      "Elementor"
+    ],
+    "scraped_at": "2026-05-24T14:59:34.385644+00:00",
+    "job_title": "# WordPress Developer Needed (Elementor + Crocoblock / JetEngine)",
+    "work_type": "Full Time",
+    "salary_detail": "$4–$7 USD/hour",
+    "hours": "40",
+    "date_updated": "May 24, 2026",
+    "description": "We are currently building a guided industrial safety recommendation platform focused on confined space and fall protection systems. The platform will help contractors, municipalities, industrial companies, and workers determine the correct compatible safety equipment based on their application and environment. We are looking for: * Frontend-focused WordPress developers * Backend / logic-focused WordPress developers This is NOT a basic brochure website project. The platform includes: * Dynamic recommendation workflows * Multi-step forms * Product compatibility logic * Custom post types * Advanced relations * Guided system builders * Recommendation result pages * WooCommerce integration * Crocoblock / JetEngine architecture ## Required Skills You MUST have strong experience with: * WordPress * Elementor * Crocoblock * JetEngine * JetFormBuilder * Dynamic listings * Relations * Query Builder * Custom post types * Responsive frontend development Bonus if you also have experience with: * WooCommerce * UI/UX design * Complex filtering systems * Dynamic recommendation tools * Performance optimization ## Salary $4–$7 USD/hour depending on experience, skill level, communication, and ability to work independently. ## Important Please send: * Your portfolio * Examples of Elementor/Crocoblock projects * Examples of advanced JetEngine or JetFormBuilder implementations * Whether you prefer frontend/UI work or backend/logic work * Your current availability (hours per week) * Why you believe you are the right fit for this project We are looking for long-term collaboration with developers who are detail-oriented, proactive, and capable of building complex structured systems.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-24T15:00:09.671854+00:00",
+    "category": "Development"
   }
 ]
