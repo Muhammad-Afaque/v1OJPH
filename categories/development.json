@@ -22463,5 +22463,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-24T17:57:04.488205+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1654091",
+    "title": "Front-End Developer — AI-Powered SaaS Platform",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "Based on skill/experience.",
+    "posted": "2026-05-25 02:13:45",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1654091",
+    "tags": [
+      "React JS",
+      "Next JS",
+      "API Integration"
+    ],
+    "scraped_at": "2026-05-24T19:14:37.598517+00:00",
+    "job_title": "Front-End Developer — AI-Powered SaaS Platform",
+    "work_type": "Full Time",
+    "salary_detail": "Based on skill/experience.",
+    "hours": "40",
+    "date_updated": "May 24, 2026",
+    "description": "Job Overview We are a fast-growing SaaS company building an AI-powered business platform. We are multiple hiring front-end developers to join our engineering team under an experienced lead engineer. You will take finalized UI/UX designs from Figma and build them into a working, interactive product. This is a build sprint. Our UI/UX team is producing screen designs now, and we want front-end developers ready to turn those designs into production-quality interfaces as they land. Each developer will own a specific section of the platform end to end — dashboards, CRM interfaces, content builders, AI-powered features, and similar. We'll match assignments based on your strengths and our priorities. You are not building generic pages — you are owning a product area. Some of these roles may transition to long-term positions. Others are being brought on specifically to accelerate this phase. Either way, you will ship real product used by real customers. What You Will Do You will receive completed Figma designs from our UI/UX team and translate them into pixel-perfect, responsive, interactive screens. Our back-end team handles the data and logic — your job is making sure the user experience matches what was designed, performs well, and works across devices. Core Skills (Required) React and Next.js — this is the stack Translating Figma designs into clean, responsive, pixel-perfect interfaces API integration — GraphQL and REST State management — Redux, Zustand, or Context API Clear written English for daily team communication Extra consideration for experience with Tailwind CSS, design systems, SaaS or dashboard interfaces, and accessibility optimization. Schedule and Availability Full-time, 40 hours per week. Our core team window is 12:00 PM – 8:00 PM PHT, Monday through Friday. Design and engineering work at the same time so questions get answered fast and handoffs stay clean. There will be weeks during the sprint where we may ask you to go beyond 40 hours — paid at your hourly rate. Pay Open to discussion based on experience. How to Apply Reply with a short message that includes: 1. Your name and location. 2. Years of front-end development experience. 3. Which of these are your strongest: React, Next.js, GraphQL, REST APIs, Redux/Zustand, CSS/responsive design? Pick your top 3 and tell us why. 4. Link to your portfolio, GitHub, or a live project you built — we want to see your work, not read about it. 5. Are you currently working with other companies? How many hours per week are you available? 6. Answer this: Pick any SaaS product you use regularly. Name one screen or flow in that product that frustrates you as a user, and describe how you would rebuild it. Be specific — we want to see how you think, not that you can write a paragraph. Applications missing question 6 will not be reviewed. Thanks",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-24T19:15:07.987327+00:00",
+    "category": "Development"
   }
 ]
