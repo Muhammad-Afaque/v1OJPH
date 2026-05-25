@@ -61,6 +61,12 @@ def fetch_page(url):
             if "onlinejobs" in response.text.lower():
                 return response.text
         except requests.RequestException as e:
+            status = None
+            if hasattr(e, 'response') and e.response is not None:
+                status = e.response.status_code
+            if status and status != 429 and status != 503 and status != 520:
+                print(f"  {status} {e} — not retrying")
+                return None
             print(f"  Retry {attempt}/{MAX_RETRIES}: {e}")
             if attempt < MAX_RETRIES:
                 time.sleep(2)
