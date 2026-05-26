@@ -7734,5 +7734,80 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-26T05:02:39.101804+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1641404",
+    "title": "Full-Stack Developer — B2B Marketplace Platform",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "up to $1,000/month",
+    "posted": "2026-05-26 15:59:51",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1641404",
+    "tags": [
+      "Node JS",
+      "Next JS",
+      "PostgreSQL"
+    ],
+    "scraped_at": "2026-05-26T08:36:38.100336+00:00",
+    "job_title": "Full-Stack Developer — B2B Marketplace Platform",
+    "work_type": "Full Time",
+    "salary_detail": "up to $1,000/month",
+    "hours": "TBD",
+    "date_updated": "May 26, 2026",
+    "description": "What you will build: -A two-sided marketplace where craft companies post capacity offers and requests -Company profiles, verification, and trust/rating system -Search, filter, and matching logic (by trade, location, time window, headcount) -Messaging/inquiry system between companies -Dashboard for managing listings, bookings, and history -Responsive web app (mobile-friendly for use on job sites) -Admin panel for moderation and user management Tech stack: -Frontend: React (Next.js preferred) -Backend: Node.js / Express or NestJS -Database: PostgreSQL -Auth: JWT or NextAuth Requirements: -3+ years of professional full-stack web development experience -Strong React and Node.js skills — show us what you have built -Experience building marketplace or multi-tenant platforms is a big plus -Comfortable with PostgreSQL and relational data modeling -Able to work independently and make architectural decisions -Good English communication — German is a bonus but not required -Availability: full-time (40h/week), overlap with CET timezone (GMT+1) preferred Nice to have: -Experience with two-sided marketplaces or SaaS platforms -Familiarity with map/geo-based search (e.g. Mapbox, Google Maps API) -Knowledge of payment integration (Stripe) -UI/UX sense — you can make things look clean without a designer What we offer: -Full-time long-term position — we are not looking for a one-time freelancer -Fully remote, work from wherever you are -Real ownership: you will shape architecture and product decisions -Salary: up to $1,000/month depending on experience, with room to grow -If you are realy Hardworking bonuses are possible -Stable work — this is a serious business investment, not a side experiment",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-26T08:37:16.612186+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1247856",
+    "title": "Full Stack Developer",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$1600 USD",
+    "posted": "2026-05-26 15:19:24",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1247856",
+    "tags": [
+      "Node JS",
+      "React JS",
+      "REST API"
+    ],
+    "scraped_at": "2026-05-26T08:36:40.580401+00:00",
+    "job_title": "Full Stack Developer",
+    "work_type": "Full Time",
+    "salary_detail": "$1600 USD",
+    "hours": "40",
+    "date_updated": "May 26, 2026",
+    "description": "MUST BE AVAILABLE TO START IMMEDIATELY. We need a full stack developer with experience in REACT, API, NODE. Other skills which are \"Nice to have\", include TERRAFORM, TAILWIND, OTHER DATABASE experience. Please reply to this message WITH SPECIFIC REFERENCE to the above items. PLEASE PROVIDE GITHUB (or similar) user name, as well as any portfolios relevant to the above skills.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-26T08:37:29.627512+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1655060",
+    "title": "Full-Stack Developer (AI + CI/CD Systems) 1-Month Contract",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "15000",
+    "posted": "2026-05-26 14:32:14",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1655060",
+    "tags": [
+      "Python",
+      "Fullstack",
+      "GitHub"
+    ],
+    "scraped_at": "2026-05-26T08:36:42.998700+00:00",
+    "job_title": "Full-Stack Developer (AI + CI/CD Systems) 1-Month Contract",
+    "work_type": "Any",
+    "salary_detail": "15000",
+    "hours": "40",
+    "date_updated": "May 26, 2026",
+    "description": "About Us: We are building Pontifex, an early-stage AI product focused on creating a “memory layer” for users helping them remember conversations, context, and important details over time. Think of it as a system that bridges gaps in human memory through intelligent recall. Note: This is a 1 month project. We are currently in the early stages, building the foundation and validating core systems. Overview: We are looking for a highly capable full-stack developer to work on a short-term (1 month) project focused on building an AI-assisted coding pipeline integrated with GitHub. This is a hands-on role for someone who can build real systems, not just design them. Project Scope: You will help develop an agentic coding pipeline that can: Plan development tasks using AI agents Create hierarchical task structures Run automated tests and validations Enforce CI/CD gates Open and manage pull requests Track errors and system performance Maintain a memory and quality dashboard Must-Have Skills: Strong full-stack development experience (10–15 years preferred) GitHub Actions and CI/CD pipeline setup Git workflows (hooks, branch protection, pull requests) Python automation and scripting Testing frameworks (pytest, linting, type checking, security scans) API integrations Experience using AI coding tools such as Claude Code, Cursor, OpenAI, DeepSeek, or OpenRouter Nice to Have: Android or Kotlin experience Experience with RAG or memory systems SQLite or lightweight databases Agent-based or autonomous workflows DevOps or security tooling Dashboard or analytics system development Compensation: $1,500 total for a 1-month project Equivalent to approximately 20–40 hours of work Send your resume and or portfolio link in your reply for review, and email ---------- with the email subject line \"I understand that this is a 1 month project\" with your email address and portfolio.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-26T08:38:15.082994+00:00",
+    "category": "Development"
   }
 ]
