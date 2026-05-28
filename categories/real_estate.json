@@ -3901,5 +3901,28 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-28T07:57:49.162556+00:00",
     "category": "Real Estate"
+  },
+  {
+    "job_id": "1656442",
+    "title": "Real Estate App designer",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "1,000 monthly or gig work",
+    "posted": "2026-05-28 17:29:12",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1656442",
+    "tags": [
+      "iOS Development"
+    ],
+    "scraped_at": "2026-05-28T11:34:11.920169+00:00",
+    "job_title": "Real Estate App designer",
+    "work_type": "Full Time",
+    "salary_detail": "1,000 monthly or gig work",
+    "hours": "40",
+    "date_updated": "May 28, 2026",
+    "description": "Senior Mobile App Designer / Full Stack App Developer Real Estate Technology Platform | SNAP Ecosystem “We are not looking for someone who simply writes code. We are looking for someone who understands platform adoption, workflow design, and scalable mobile ecosystems.” We are looking for a high-level mobile app designer/developer to help architect and build the next evolution of our proprietary real estate platform, SNAP (Select Network Agent Portal). This is not a basic app build. We are looking for someone who understands platform ecosystems, user experience, workflow automation, CRM connectivity, API integrations, and scalable mobile-first architecture. The ideal candidate can think like a product designer, architect like an engineer, and execute like a builder. Our platform serves thousands of real estate professionals across multiple brands, offices, and states. The mobile experience must be modern, intuitive, fast, scalable, and deeply integrated into our existing systems. What We’re Building The app will connect directly into SNAP and may include: CRM functionality Push notifications Marketing center access AI integrations Training & event systems Transaction workflow tools Open house lead capture Document access Recruiting dashboards Performance tracking Internal communication tools SSO / user authentication MLS / IDX integrations Calendar and booking systems Ancillary service integrations (mortgage, title, etc.) We are looking for someone who can help us rethink the entire user experience — not simply “convert a website into an app.” Required Skills & Experience You MUST have strong experience with: Mobile app architecture UI/UX design for scalable platforms Cross-platform app development API integrations Authentication/security systems Database structure & optimization Modern frontend frameworks Cloud infrastructure Real-time data handling Workflow automation Preferred Technology Experience Candidates should be highly proficient in several of the following: Frontend / Mobile React Native Flutter Swift (iOS) Kotlin (Android) TypeScript Next.js React Backend ---------- / C# Python Firebase GraphQL REST APIs Database / Infrastructure PostgreSQL MySQL MongoDB AWS Azure Google Cloud Design / Product Figma Adobe XD User journey mapping Mobile-first UI systems Dashboard design UX optimization Bonus Experience CRM systems Real estate technology IDX / MLS integrations AI-assisted workflows Twilio / SMS systems Notification systems Single sign-on environments Enterprise SaaS platforms What We DON’T Want Template app builders Fiverr-style developers Individuals who only build simple brochure apps Developers without scalable platform experience Teams that outsource all work overseas without direct lead communication Anyone who cannot think strategically about workflow and user experience What We DO Want Builders Product thinkers Problem solvers Someone who understands adoption and usability Someone who can modernize an ecosystem Someone capable of long-term collaboration and ongoing development To Apply Please include: Portfolio of mobile apps/platforms you’ve personally worked on Your exact role in each project Technologies used Links to live apps (App Store/Google Play if applicable) Examples of dashboards, CRM systems, or workflow tools Experience with scalable SaaS environments Whether you work independently or with a team Bonus points if you have experience in real estate technology or enterprise workflow systems. This is a serious long-term opportunity for the right individual or team.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-28T11:36:45.427953+00:00",
+    "category": "Real Estate"
   }
 ]
