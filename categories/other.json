@@ -20522,5 +20522,26 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-30T11:17:40.595598+00:00",
     "category": "Other"
+  },
+  {
+    "job_id": "1658179",
+    "title": "Hiring Manager",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "$100 Reward",
+    "posted": "2026-05-30 20:31:01",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1658179",
+    "tags": [],
+    "scraped_at": "2026-05-30T13:18:19.463547+00:00",
+    "job_title": "Hiring Manager",
+    "work_type": "Gig",
+    "salary_detail": "$100 Reward",
+    "hours": "TBD",
+    "date_updated": "May 30, 2026",
+    "description": "If you can find someone who meets the requirements to accept the following job offer, you will be awarded $100: https://www.onlinejobs.ph/employer/editjob/ ----------",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-30T13:18:43.314767+00:00",
+    "category": "Other"
   }
 ]
