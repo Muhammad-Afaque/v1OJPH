@@ -12671,5 +12671,51 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-30T22:00:07.955522+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1658377",
+    "title": "Senior Full Stack AI Developer",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "500-800",
+    "posted": "2026-05-31 06:46:59",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1658377",
+    "tags": [],
+    "scraped_at": "2026-05-30T22:57:27.349082+00:00",
+    "job_title": "Senior Full Stack AI Developer",
+    "work_type": "Full Time",
+    "salary_detail": "500-800",
+    "hours": "TBD",
+    "date_updated": "May 30, 2026",
+    "description": "We are looking for a highly experienced and strategic Senior Full Stack AI Developer to join our core team. You will lead the architecture, development, and implementation of robust, scalable AI-driven applications, complex automation systems, and advanced multi-agent workflows. This role is perfect for an expert software engineer who thrives on taking full ownership of end-to-end solutions. If you write exceptionally clean, scalable code across the stack, possess deep expertise in modern AI architectures (LLMs, RAG, multi-agent systems), have advanced hands-on experience with Python, modern web frameworks, and n8n, and are a power user of AI coding tools like Cursor or Claude Code to maximize velocity—we want you to drive our technology forward. Responsibilities Architecture & Full Stack Development: Architect, build, and scale resilient frontend user interfaces and high-performance backend infrastructure for our mission-critical AI applications. Advanced AI Agent & Workflow Engineering: Design, deploy, and manage complex, high-throughput AI agents and automation workflows using n8n and custom code. Take the lead in optimizing these systems for speed and reliability. Custom Python & Node.js Microservices: Engineer scalable microservices, complex data pipelines, and robust backend processes to handle high-volume data manipulation and advanced API integrations. AI-Driven Development Leadership: Pioneer the use of AI coding assistants (Claude Code, Cursor, Copilot) within the team to accelerate development cycles, ensure high code quality, and set the standard for AI-assisted software engineering. Complex System Integration: Lead seamless and secure integrations connecting our platforms with enterprise third-party tools, SaaS platforms, Vector Databases, and CRMs via REST APIs, Webhooks, and OAuth. Observability & Optimization: Design and implement comprehensive error handling, monitoring, logging, and fault-tolerance architectures to ensure 99.9% uptime and reliable AI outputs. Mentorship: Set coding standards, conduct code reviews, and mentor junior tea ---------- mbers to elevate the overall technical proficiency of the team. Requirements (Must-Haves) Proven Full Stack Expertise: 2+ years of experience in software engineering with a strong mastery of web architecture, system design, and clean code principles. Extensive experience in both frontend (React, Next.js, or Vue) and backend development. Python & TypeScript/JavaScript Mastery: Expert-level proficiency in writing robust, production-grade code in both languages. Deep AI & Agentic Workflow Knowledge: Strong understanding of LLM architectures, advanced prompt engineering, and proven experience implementing complex RAG (Retrieval-Augmented Generation) pipelines and multi-agent frameworks (e.g., LangChain, LlamaIndex, AutoGen, CrewAI). Advanced n8n Experience: Deep, practical expertise in building and managing enterprise-level automation workflows in n8n (including custom node creation and handling complex data transformations). AI Tool Proficiency: Power user of modern AI coding assistants (Claude Code, Cursor, etc.), utilizing them to drastically improve development velocity and code architecture. Technical Foundation: Deep expertise in REST/GraphQL APIs, advanced Webhook architecture, JSON, and complex database management (SQL, NoSQL, and Vector Databases like Pinecone, Weaviate, or Qdrant). Mindset: A proactive problem-solver and strategic thinker who takes full ownership of their work. Excellent communication skills, highly adaptable, and experienced in driving projects from conception to deployment in a remote environment. Nice to Have Modern Frameworks: Mastery of frameworks like Next.js, FastAPI, Django, or NestJS. AI Fine-Tuning: Experience fine-tuning open-source models or working directly with local LLMs. Cloud & DevOps: Solid experience with cloud providers (AWS, GCP, or Azure), Docker, CI/CD pipelines, and serverless architectures. Advanced Integrations: Deep experience with WhatsApp Business APIs, Twilio, or complex enterprise CRM integrations (Salesforce, HubSpot). Workflow Platform Breadth: Experience scaling operations using Make (Integromat), Zapier, or custom event-driven architectures.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-30T22:58:11.312912+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1658367",
+    "title": "Shopify Store Developer & Designer — Fashion Brand (Long-term opportunity)",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "$500/month $4/hour",
+    "posted": "2026-05-31 06:26:45",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1658367",
+    "tags": [
+      "Web Design & Page Layout",
+      "CSS",
+      "Shopify"
+    ],
+    "scraped_at": "2026-05-30T22:57:27.352462+00:00",
+    "job_title": "Shopify Store Developer & Designer — Fashion Brand (Long-term opportunity)",
+    "work_type": "Part Time",
+    "salary_detail": "$500/month $4/hour",
+    "hours": "28",
+    "date_updated": "May 30, 2026",
+    "description": "About us We are building multiple French fashion brands. The first one is Soline, an elegant polka dot and striped tops brand with a very precise aesthetic — think Sézane meets Jacquemus. If you do great work on this first project, you will be working on all our future brands as well. We are looking for someone to grow with us long term. What you'll work on Build and customize our Shopify store (theme Dawn) Implement design changes based on our brand guidelines Fix CSS, HTML and Liquid code Maintain visual consistency across all pages (homepage, product pages, cart, checkout) Set up apps and integrations when needed Eventually work on new brand projects as we scale What we need from you Strong experience with Shopify and Dawn theme customization Solid knowledge of HTML, CSS, Liquid (Shopify templating language) An eye for design — you must understand branding and visual consistency Ability to follow precise instructions without improvising Attention to detail — one wrong color or wrong font ruins everything Good written English to communicate clearly Reliability — we need someone we can count on every day What we don't want Someone who will use generic solutions that don't match the brand Someone who needs to be micromanaged on basic tasks Someone who will change things without asking first Our brand guidelines (Soline) Color palette : cream #FAF7F2, dark brown #3D2B1F, caramel #A0845C, pale blue, butter yellow Fonts : Cormorant Garamond (titles) + Jost (body text) Mood : elegant, minimal, editorial — Sézane / Rouje / Jacquemus level Every decision must feel premium, not generic Work details 4 hours per day, part-time $500/month fixed salary Long-term position — if the work is excellent you will work on all our future brand projects Remote, flexible hours Payment via PayPal or Wise Availability during European hours (CET) at least partially required Why this is a great opportunity This is not a one-time project. We are building multiple brands and we want one reliable person to handle all of them. If you deliver quality work on Soline, you become our go-to developer for everything we build next. This is a stable, long-term collaboration with room to grow. How to apply Please send : Your Shopify portfolio — stores you have built or customized One example where you respected a strict brand identity A short paragraph explaining why you're the right person for this Confirm you are available during partial CET hours Applications without a portfolio will not be considered.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-30T22:58:54.305725+00:00",
+    "category": "Development"
   }
 ]
