@@ -12621,5 +12621,55 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-30T20:09:25.307371+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1658342",
+    "title": "Full Stack Developer (Long Term Project)",
+    "company": "Boundless Limousine",
+    "type": "Full Time",
+    "salary": "15 USD PER HOUR",
+    "posted": "2026-05-31 05:17:06",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1658342",
+    "tags": [
+      "Javascript",
+      "Typescript",
+      "SQL"
+    ],
+    "scraped_at": "2026-05-30T21:57:01.347091+00:00",
+    "job_title": "Full Stack Developer (Long Term Project)",
+    "work_type": "Full Time",
+    "salary_detail": "15 USD PER HOUR",
+    "hours": "38",
+    "date_updated": "May 30, 2026",
+    "description": "Full Stack Developer (Long Term Project) Up to 13,8836.40 PHP/month • Paid Weekly with opportunity for Paid Weekly We are looking for a skilled Full Stack Developers for a long-term project building a custom reservation and chauffeur management system for the airport transportation and limousine industry. This is a stable, multi-phase project with ongoing development — ideal for someone who wants consistent work and real product ownership. This Application a MANDATORY SKILLS TEST!! What You’ll Build - Customer booking portal (instant quotes, reservations) - Admin/dispatch dashboard - Chauffeur mobile app (iOS/Android) - Payment integration (Stripe) - Google Maps integration (distance, routing, tracking) Requirements - 3+ years full-stack experience - Can build applications without AI-generated code - Strong with APIs, databases, authentication, and deployment - Experience with booking/logistics systems is a plus - Ability to build mobile apps (React Native, Flutter, or native) Mandatory Skills Test!!!! To be considered, complete this small test: Recreate the booking form shown in this image: ---------- /4raUZ8a Your version must: - Match the layout - Be responsive - Validate inputs - Use Google Maps API for distance + travel time - Save Phone numbers (Ask for first name, last name, and email if the number is not recognized. Otherwise, greet the customer by first name) - Submit to a mock API endpoint Submit Skill Test: - GitHub repo (code + README) - 2–3 minute screen recording (form working + code editor) Applications without the test will not be reviewed. Send : - Resume - GitHub/portfolio - Completed skills test - Brief note on any booking/logistics experiencev",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-30T21:59:04.445310+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1658331",
+    "title": "DevOps & Systems Tech Wizard Wanted",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "6",
+    "posted": "2026-05-31 04:30:46",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1658331",
+    "tags": [
+      "Fullstack",
+      "Database Management",
+      "API Integration"
+    ],
+    "scraped_at": "2026-05-30T21:57:01.349927+00:00",
+    "job_title": "DevOps & Systems Tech Wizard Wanted",
+    "work_type": "Part Time",
+    "salary_detail": "6",
+    "hours": "20",
+    "date_updated": "May 30, 2026",
+    "description": "// who we're looking for We are looking for a tech wizard — a genuine enthusiast, a self-described nerd, a person who tinkers because they can't help themselves. Someone who has opinions about encryption protocols at midnight and has probably already broken and rebuilt their own home server stack for fun. This is a long-term relationship, and we're treating it like one. We are starting small — a handful of hours per week — while we mutually vet and validate fit. We'll be testing your knowledge, your thinking, your instincts. If you're the real deal, the hours grow, the trust grows, and so does the opportunity. If you have the credentials, the curiosity, and the character — we're not just hiring you. We're building with you. Equity conversations are on the table for the right long-term partner. We are building an advanced, multi-layer technical infrastructure. We need someone who can grow into it, ideally from the ground floor. You don't need to check every box. But you need to be deeply, personally invested in technology — and we need to be able to see that in how you write, what you know, and where you spend your time online. // core technical requirements Server & Infrastructure VPS server stack setup, management, and maintenance Back-end network infrastructure design and administration Linux proficiency — command line fluency is non-negotiable VOIP system configuration and network integration Webhooks, CI/CD concepts, automated deployment pipelines N8N workflow automation (preferred over simpler drag-and-drop tools) Web Development Full-stack or strong back-end web development capabilities API integration — building, connecting, and maintaining third-party APIs Database management: design, optimization, and security WordPress and web design experience a plus Security & Privacy Linux penetration testing fundamentals Encryption and privacy protocol literacy Cipher knowledge, VPN configuration and management Familiarity with Tails OS, Tor, Qubes OS Crypto and digital asset basic operations // tooling & workflow proficiency You will be working inside a modern, tool-rich environment. Comfort navigating and connecting these systems is essential: ClickUp Google Workspace Obsidian N8N GitHub / Git Webhooks REST APIs Linux CLI VPS Providers VOIP Systems LLM & AI Integration — this is a serious requirement, not an afterthought: Must have genuine, working knowledge of multiple leading LLM platforms Understand prompt engineering at a functional level — tokens, context windows, model selection for specific use cases Know the differences between models and when to deploy which for what purpose Capable of doing all work manually and independently — AI tools enhance your output, they do not replace your skill We will provide full subscription access to multiple leading AI platforms for use in our projects. You bring the expertise; we supply the tools. Blockchain Familiarity (preferred, not required): You don't need to be a blockchain developer, but a working familiarity with blockchain fundamentals is a meaningful plus. If it's already in your world — even casually — flag it. // programming languages We expect proficiency in at least several programming languages relevant to systems, back-end, and automation work. In your application, please tell us specifically: Which languages you are proficient in How comfortable you are in each — be honest, be specific What you have actually built or maintained with them We're not running a quiz — we're looking for self-awareness and depth. Someone who knows three languages deeply interests us more than someone who lists twelve and masters none. // compensation & hours Starting rate: $6/hr, sliding scale based on demonstrated skill and validated expertise. We know what someone with this full stack of capabilities commands on the market — we're not pretending otherwise. We are specifically looking for someone who sees the value in getting in early, growing with us, and earning more as we do. Initial engagement: 2–4 hours/day, 5 days/week, as we establish the working relationship. Growth toward full-time (8 hrs/day) is the goal, and we have real client work that can fill those hours. If you are a seasoned senior-level engineer who sees this and thinks the rate is beneath you — we still want to hear from you. We are maintaining a talent file. As our infrastructure scales, higher-tier paid engagements will follow, and we'd rather already know who we want to call. Additionally, this position can be paired with our general Virtual Assistant opening (posted separately). If you have the technical chops for this role, the admin side is well within reach. That position pays at its own rate for qualifying admin tasks, giving you a potential path to a fuller day's work from day one. // how to apply — read this carefully We are not interested in AI-generated cover letters that mirror our job posting back at us with different formatting. We can spot it. It will disqualify you immediately. What we want to see in your application: Your actual background — where your technical experience came from, how you developed it, what you've built What you are personally into — the technologies you explore on your own time, the rabbit holes you go down for fun The communities you're part of — forums, ---------- servers, GitHub communities, subreddits, open-source projects, anything that shows you live in this world The specific tools and programs you use — be precise, not vague A demonstration that you are a genuine enthusiast — not someone who learned these things for a job, but someone for whom this is a way of life English proficiency is preferred for this role, as a portion of the work involves live collaboration with tea ---------- mbers on calls. That said, if you are a legitimate technical savant who speaks passable English and can communicate clearly in writing, we will prioritize your technical depth over polish. Additional requirements: Strong typing speed, fast reading comprehension, quick analytical thinking, and the ability to context-switch across complex tasks without losing the thread. We are looking for a diamond in the rough. If you don't meet every requirement but you are deeply invested in this world, you learn fast, and you can prove it — apply anyway and make your case.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-30T22:00:07.955522+00:00",
+    "category": "Development"
   }
 ]
