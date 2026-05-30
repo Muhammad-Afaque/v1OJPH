@@ -4658,5 +4658,80 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-30T04:50:45.085034+00:00",
     "category": "Real Estate"
+  },
+  {
+    "job_id": "1399047",
+    "title": "Real Estate Analyst",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$500-$1200",
+    "posted": "2026-05-30 15:26:28",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1399047",
+    "tags": [
+      "Analysis",
+      "Real Estate",
+      "Communication"
+    ],
+    "scraped_at": "2026-05-30T07:37:37.653333+00:00",
+    "job_title": "N/A",
+    "work_type": "N/A",
+    "salary_detail": "N/A",
+    "hours": "N/A",
+    "date_updated": "N/A",
+    "description": "Failed to scrape",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-30T07:37:46.223574+00:00",
+    "category": "Real Estate"
+  },
+  {
+    "job_id": "1452343",
+    "title": "Real Estate Sales Disposition Mgr",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$800-$1600",
+    "posted": "2026-05-30 15:26:28",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1452343",
+    "tags": [
+      "Real Estate Marketing",
+      "Analysis",
+      "Disposition Real Estate"
+    ],
+    "scraped_at": "2026-05-30T07:37:37.654006+00:00",
+    "job_title": "N/A",
+    "work_type": "N/A",
+    "salary_detail": "N/A",
+    "hours": "N/A",
+    "date_updated": "N/A",
+    "description": "Failed to scrape",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-30T07:37:47.491302+00:00",
+    "category": "Real Estate"
+  },
+  {
+    "job_id": "1453338",
+    "title": "Real Estate Disposition Mgr",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$800-$1600",
+    "posted": "2026-05-30 15:26:28",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1453338",
+    "tags": [
+      "Real Estate Marketing",
+      "Analysis",
+      "Disposition Real Estate"
+    ],
+    "scraped_at": "2026-05-30T07:37:37.654699+00:00",
+    "job_title": "N/A",
+    "work_type": "N/A",
+    "salary_detail": "N/A",
+    "hours": "N/A",
+    "date_updated": "N/A",
+    "description": "Failed to scrape",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-30T07:37:48.875523+00:00",
+    "category": "Real Estate"
   }
 ]

@@ -12497,5 +12497,29 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-30T04:50:40.796450+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1658087",
+    "title": "N8n Automation Specialist",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "$8 - $12 depending on experience",
+    "posted": "2026-05-30 13:10:00",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1658087",
+    "tags": [
+      "Marketing Automation",
+      "API Integration"
+    ],
+    "scraped_at": "2026-05-30T07:37:37.668977+00:00",
+    "job_title": "N8n Automation Specialist",
+    "work_type": "Part Time",
+    "salary_detail": "$8 - $12 depending on experience",
+    "hours": "20",
+    "date_updated": "May 30, 2026",
+    "description": "We’re looking for a part-time technical integrator to support our automation ecosystem. You’ll be working with n8n workflows, Airtable databases and APIs, Lovable frontend projects, and integrations with services like Twilio, Gmail, and Outlook. Your main responsibilities will include maintaining existing workflows, troubleshooting integration issues, building new automations, and occasionally implementing frontend changes based on requirements. You should be comfortable working independently, communicating clearly in professional English when things break or need clarification, and providing full code solutions rather than partial edits. Experience with n8n and Airtable is essential. We’re based in Australia and operate across multiple timezones. We’re flexible on hours but need reliable availability. Compensation is competitive and performance-based, with potential for growth into full-time work on more complex prompt engineering projects if the fit is right. We communicate primarily via WhatsApp with regular video calls. We work with confidential client information and data. We require all tea ---------- mbers to sign a non-disclosure agreement before starting, and we need someone we can trust to handle sensitive information securely and professionally. Discretion is non-negotiable. Please share examples of n8n workflows or Airtable integrations you’ve built, or a portfolio link. We’d rather see your actual work than a generic CV.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-30T07:38:18.594312+00:00",
+    "category": "Development"
   }
 ]
