@@ -12546,5 +12546,80 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-30T13:18:40.800266+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1658309",
+    "title": "Tier 2/3 IT Support & Security Systems Engineer (Remote — US MSP, Night Shift)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$2,000 - $2,500 per month",
+    "posted": "2026-05-31 03:36:16",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1658309",
+    "tags": [
+      "IT",
+      "Server",
+      "Microsoft 365"
+    ],
+    "scraped_at": "2026-05-30T20:05:49.714999+00:00",
+    "job_title": "Tier 2/3 IT Support & Security Systems Engineer (Remote — US MSP, Night Shift)",
+    "work_type": "Full Time",
+    "salary_detail": "$2,000 - $2,500 per month",
+    "hours": "45",
+    "date_updated": "May 30, 2026",
+    "description": "Sentry is a US-based managed service provider (MSP) and physical security integrator serving small and mid-sized businesses across the New York metro area. On the IT side, we manage our clients' networks, Microsoft 365 environments, endpoints, and phone systems. On the security side, we design, install, and support their video surveillance and access control systems. We do things differently from most MSPs: we don't run a Tier 1 help desk. When a client calls or email s, they reach a skilled engineer who takes ownership and gets to work on it immediately, not a scripted first-tier queue or an automated phone tree. That first-contact competence is a significant part of why our clients enjoy working with us, and it's why we only hire technicians at Tier 2 and above. At the same time, you'll always have support. You'll work directly with senior engineers and the owner, and we take on the most difficult problems as a team. The role is fully remote, but you'll be a full member of ours, not an isolated, outsourced contractor. We stay in close contact and share knowledge openly. We're looking for a Tier 2/Tier 3 engineer to be a direct, front-line point of contact for our clients across both their IT and physical security needs, fielding requests by phone, email , and ticket, and owning each issue from first contact through resolution. This is a full-time, long-term remote role working US Eastern business hours. What you'll do - Serve as the first point of contact for client issues by phone, email , and ticket, and own them from first contact through resolution - Deliver a confident, professional experience on every interaction; clients should feel they're in good hands from the first minute - Administer Microsoft 365 / Entra ID (Azure AD): user and license provisioning, Exchange Online, mail flow, and email security - Monitor and respond to RMM alerts (Atera) and manage endpoint security tools (Huntress, Bitdefender) - Troubleshoot networks: firewalls (FortiGate), switches and access points (UniFi), VLANs, VPNs, and DNS - Administer Windows Server, Active Directory, and Group Policy - Manage and verify backups (Datto) - Support VoIP systems and IP phones - Configure, support, and troubleshoot video surveillance systems (IP cameras, NVRs, and video management software such as Hikvision, Digital Watchdog, and Speco), including secure remote access and viewing - Administer access control systems (users, credentials, and door schedules) and troubleshoot controllers and readers - Remotely support our field technicians during security-system installs and service calls - Collaborate with the team and bring in senior engineers when a problem calls for it - Keep clear, accurate documentation for every client environment - Work alongside our AI tooling, which we use heavily across daily operations What we're looking for - 3+ years of hands-on IT support experience, ideally at an MSP - Excellent spoken and written English, with a strong customer-first attitude; you'll be the voice of our company on every call - The confidence to own client interactions directly, along with the judgment to know when to involve the team on more complex problems - Solid knowledge of Microsoft 365/Entra, Windows Server, Active Directory, and networking fundamentals - Hands-on experience with firewalls and managed switches (FortiGate and UniFi a strong plus) - Experience with IP video surveillance and/or access control systems, or the aptitude and willingness to develop this expertise quickly (it's a core part of what we do) - Reliable high-speed internet, a backup connection, and a UPS/power backup - A quiet, dedicated home workspace Bonus points for - Deep familiarity with AI tools, especially Claude, which we use extensively day to day - Spanish-speaking ability (written and/or spoken) - Hands-on experience with VMS platforms (e.g., DW Spectrum), access control systems, or remote video monitoring services (e.g., Immix) - Certifications (CompTIA A+/Network+/Security+, Microsoft, Fortinet NSE, Ubiquiti, Cisco CCNA) - PowerShell or other scripting Work setup - 100% remote, based in the Philippines - Full-time, permanent employee position, not contract work - Night shift (approximately 9:00 PM to 6:00 AM PHT) to align with US Eastern business hours What we offer - Competitive USD salary: $2,000 to $2,500 per month, based on experience - Paid leave and holidays - A stable, long-term role with real room to grow - A supportive, AI-forward team that invests in its people To apply: Send your resume and a short note about your MSP/IT experience, including any hands-on work with security systems and AI tools.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-30T20:07:05.815861+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1658296",
+    "title": "IT Systems & Security Manager",
+    "company": "Journey Psyche Psychiatry & Virtual Care",
+    "type": "Part Time",
+    "salary": "$8-$9 per hour",
+    "posted": "2026-05-31 02:56:34",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1658296",
+    "tags": [
+      "Airtable",
+      "Google Workspace",
+      "API Integration"
+    ],
+    "scraped_at": "2026-05-30T20:05:49.720916+00:00",
+    "job_title": "IT Systems & Security Manager",
+    "work_type": "Part Time",
+    "salary_detail": "$8-$9 per hour",
+    "hours": "25",
+    "date_updated": "May 30, 2026",
+    "description": "JOURNEY PSYCHE IT Systems & Security Manager Remote | Full-Time About Journey Psyche Journey Psyche is a rapidly growing multi-state psychiatric healthcare organization focused on building scalable operational systems, secure infrastructure, and exceptional patient care. We are seeking an experienced IT Systems & Security Manager to own our internal technology environment and help build a secure, scalable foundation for continued growth. Position Overview The IT Systems & Security Manager will be responsible for administration, security, auditing, documentation, user management, and technology operations across all company systems. This is a hands-on role for someone who enjoys troubleshooting, security, system administration, and operational ownership. Primary Responsibilities Identity & Access Management Google Workspace administration Microsoft 365 / Outlook administration User onboarding and offboarding Group and permission management Role-based access control Multi-factor authentication enforcement Password manager administration Security & Investigations Investigate suspicious login activity Review audit logs and security events Investigate unauthorized access concerns User account reviews Device and endpoint reviews Access verification and remediation Security documentation and reporting Systems Administration Automation API N8 Keragon Google Workspace Microsoft 365 RingCentral Hubstaff Password management platforms Shared drives and permissions Internal documentation systems Telephony & Communications RingCentral administration Call queue management User provisioning Voi cemail routing Device setup and troubleshooting Workforce Systems Hubstaff administration User setup Project management structure Productivity reporting Workforce visibility and auditing Documentation & SOPs Create and maintain IT SOPs Maintain system inventories Document security procedures Maintain onboarding and offboarding checklists Required Experience Google Workspace administration Microsoft 365 / Outlook administration User provisioning and access control MFA deployment and management Password management systems RingCentral administration Hubstaff or workforce tracking platforms Security auditing and log review Remote workforce support Preferred Experience Healthcare environment HIPAA awareness Identity management Endpoint management Security investigations Documentation and SOP creation Preferred Skills Strong troubleshooting ability Detail-oriented Excellent documentation habits Strong written English Process-driven mindset Ability to work independently Important Notes This role will not receive unrestricted administrative access immediately. All access will be granted through a staged onboarding process under Journey Psyche’s Zero-Trust Access Model. Background verification, identity verification, and access review are required prior to onboarding. Journey Psyche Building secure systems. Supporting better care.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-30T20:08:20.146661+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1596198",
+    "title": "Full Stack Web Developer",
+    "company": "Boundless Limousine",
+    "type": "Full Time",
+    "salary": "138836.40",
+    "posted": "2026-05-31 02:18:27",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1596198",
+    "tags": [
+      "Javascript",
+      "Typescript",
+      "SQL Server"
+    ],
+    "scraped_at": "2026-05-30T20:05:56.471925+00:00",
+    "job_title": "Full Stack Web Developer",
+    "work_type": "Full Time",
+    "salary_detail": "138836.40",
+    "hours": "40",
+    "date_updated": "May 30, 2026",
+    "description": "Up to 13,8836.40 PHP/month • Paid Bi Weekly We are looking for a skilled Full Stack Developer for a long-term project building a custom reservation and chauffeur management system for the airport transportation and limousine industry. This is a stable, multi-phase project with ongoing development — ideal for someone who wants consistent work and real product ownership. What You’ll Build - Customer booking portal (instant quotes, reservations) - Admin/dispatch dashboard - Chauffeur mobile app (iOS/Android) - Payment integration (Stripe) - Google Maps integration (distance, routing, tracking) Requirements - 3+ years full-stack experience - Can build applications without AI-generated code - Strong with APIs, databases, authentication, and deployment - Experience with booking/logistics systems is a plus - Ability to build mobile apps (React Native, Flutter, or native) Mandatory Skills Test To be considered, complete this small test: Recreate the booking form shown in this image: ---------- /4raUZ8a Your version must: - Match the layout - Be responsive - Validate inputs - Use Google Maps API for distance + travel time - Save Phone numbers (Ask for first name, last name, and email if the number is not recognized. Otherwise, greet the customer by first name) - Submit to a mock API endpoint Submit: - GitHub repo (code + README) - 2–3 minute screen recording (form working + code editor) Applications without the test will not be reviewed. Send: - Resume - GitHub/portfolio - Completed skills test - Brief note on any booking/logistics experience",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-30T20:09:25.307371+00:00",
+    "category": "Development"
   }
 ]
