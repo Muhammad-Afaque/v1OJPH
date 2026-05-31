@@ -12838,5 +12838,54 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-31T05:16:15.501431+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1657715",
+    "title": "MT5 and Python coding for Trading",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "Up to $75",
+    "posted": "2026-05-31 16:19:45",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1657715",
+    "tags": [
+      "Python",
+      "Technical Analysis"
+    ],
+    "scraped_at": "2026-05-31T08:39:08.225971+00:00",
+    "job_title": "MT5 and Python coding for Trading",
+    "work_type": "Gig",
+    "salary_detail": "Up to $75",
+    "hours": "10",
+    "date_updated": "May 31, 2026",
+    "description": "Require the following : - MT5 / Python coding for trading - min 3-5 years experience - good English language - good understanding of trading - create code - create word doc user guide for installing code into MT5 - strong work ethic on deliverables - think outside the box - budget $25-75 for the whole work Full details will be provided if chosen.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-31T08:39:28.335905+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1650718",
+    "title": "AI Architect / AI Engineer (Claude)",
+    "company": "Triforce Digital Marketing",
+    "type": "Any",
+    "salary": "$6-9/hour",
+    "posted": "2026-05-31 14:01:02",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1650718",
+    "tags": [
+      "Workflow",
+      "AI Tools",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-05-31T08:39:10.714856+00:00",
+    "job_title": "AI Architect / AI Engineer (Claude)",
+    "work_type": "Any",
+    "salary_detail": "$6-9/hour",
+    "hours": "TBD",
+    "date_updated": "May 31, 2026",
+    "description": "We are looking for a skilled AI Architect/Engineer to design and build the AI systems that power our agency. We need someone who goes beyond plugging into an API. Someone who can architect agents, ship production features, and bring real intelligence into how we serve clients. If you love working with frontier models and want to join a team that treats AI as a core product, not a bolt-on, this is the role for you. What You'll Do Architect & Build: Design end-to-end AI systems on Anthropic's Claude (Opus, Sonnet, Haiku) covering prompts, tool use, retrieval, and evaluation. Ship Agents: Develop agentic workflows using MCP (Model Context Protocol), tool calling, and orchestration to automate research, content, ad ops, and reporting. Integrate: Connect Claude to our marketing stack — HubSpot, GA4, Meta/Google Ads, GSC, Notion, Slack, and CRMs. Enable: Train marketers, strategists, and creatives on how to use Claude effectively. What We're Looking For Experience: 2+ years in software engineering, with hands-on experience shipping LLM-powered applications. Claude Expertise: Hands-on with the Anthropic API — messages, tool use, and prompt caching. Technical Basics: Strong Python and/or TypeScript. Comfortable with async and APIs. AI Stack: Practical experience with prompt engineering, RAG, and agentic patterns (tool calling, MCP). Why Join Us? Real Ownership: You own the AI roadmap of an agency that's all-in on AI, not dabbling. Remote-First: Work from anywhere. Learning Budget: Conferences, courses, books, and generous API credits to keep building. Direct Access: Short path from idea to production, with leadership backing you. Quarterly Employee Review: Eligibility for salary raise every quarter, depending on your performance. How to Apply: Submit your application through this form: ---------- / ---------- /f/a ---------- /VRLFUF5TDAZNPI1QXJ Good luck!",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-31T08:40:03.881529+00:00",
+    "category": "Development"
   }
 ]
