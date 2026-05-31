@@ -21729,5 +21729,55 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-31T16:03:23.982981+00:00",
     "category": "Other"
+  },
+  {
+    "job_id": "1542814",
+    "title": "Unreal Engine Level Designer",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "$850.00 USD Per Month",
+    "posted": "2026-06-01 00:40:33",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1542814",
+    "tags": [
+      "3D Design",
+      "3D blender",
+      "Unreal Engine"
+    ],
+    "scraped_at": "2026-05-31T17:57:24.390057+00:00",
+    "job_title": "Unreal Engine Level Designer",
+    "work_type": "Part Time",
+    "salary_detail": "$850.00 USD Per Month",
+    "hours": "15",
+    "date_updated": "May 31, 2026",
+    "description": "We’re looking for an Unreal Engine Level Designer to create engaging, playable levels that support fun, readable gameplay. This role is focused on layout, flow, pacing, and player experience rather than asset creation or programming. Responsibilities: • Design and build levels using Unreal Engine tools • Block out levels and iterate quickly based on feedback • Place gameplay elements (objectives, enemies, pickups, hazards) • Tune difficulty, pacing, and player flow • Work with existing assets, lighting, and gameplay systems • Collaborate with a small team and follow clear direction Requirements: • Strong experience with Unreal Engine level design tools • Understanding of gameplay flow, pacing, and player guidance • Ability to block out levels using basic geometry and placeholders • Familiarity with collision, nav mesh, and basic lighting • Clean, organized level layouts • Reliable communication and ability to hit deadlines Bonus (Nice to Have): • Experience designing platformer or action game levels • Basic Blueprint knowledge (trigger volumes, simple logic) • Experience playtesting and iterating on feedback • Experience shipping a game or playable prototype Why This Role: • Fully remote • Flexible hours • Opportunity to work on active game projects and prototypes • Growing team, cement your spot in our studio • Fast-moving environment with real ownership over levels Please include your ---------- .",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-31T17:57:55.773360+00:00",
+    "category": "Other"
+  },
+  {
+    "job_id": "1543103",
+    "title": "Google Apps Script / Agency Automation",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "$850.00 USD Per Month",
+    "posted": "2026-06-01 00:40:33",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1543103",
+    "tags": [
+      "Google Data Studio",
+      "Google Workspace",
+      "Apps Script"
+    ],
+    "scraped_at": "2026-05-31T17:57:24.390729+00:00",
+    "job_title": "Google Apps Script / Agency Automation",
+    "work_type": "Part Time",
+    "salary_detail": "$850.00 USD Per Month",
+    "hours": "15",
+    "date_updated": "May 31, 2026",
+    "description": "We’re looking for a Google Apps Script Developer to build custom automations and internal tools that help our marketing agency operate faster, smarter, and more uniquely. This role is focused on creating powerful, custom Google Apps Scripts that go beyond off-the-shelf tools. Responsibilities: • Build custom Google Apps Scripts for Sheets, Docs, Drive, Gmail, and Forms • Create internal tools for reporting, client management, and workflows • Automate repetitive agency tasks and data processing • Integrate Google Workspace with third-party tools and APIs • Maintain and improve existing scripts as our agency scales • Collaborate with the team to turn ideas into working systems Requirements: • Strong experience with Google Apps Script (JavaScript-based) • Deep knowledge of Google Sheets automation and data manipulation • Experience working with APIs and webhooks • Ability to design clean, reusable, well-documented scripts • Problem-solving mindset with attention to detail • Reliable communication and ability to hit deadlines Bonus (Nice to Have): • Experience in a marketing or agency environment • Knowledge of CRMs, analytics platforms, or ad platforms • Experience building custo ---------- nus, sidebars, or web apps • Familiarity with automation tools (Zapier, Make) • Experience scaling scripts for larger datasets Why This Role: • Fully remote • Flexible hours • High-impact role shaping our internal systems • Opportunity to create unique tools that differentiate our agency • Growing team, cement your spot in our agency • Fast-moving environment with real ownership over systems Please include your ---------- .",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-31T17:57:58.729056+00:00",
+    "category": "Other"
   }
 ]
