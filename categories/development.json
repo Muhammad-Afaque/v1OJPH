@@ -13207,5 +13207,55 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-31T14:28:32.366007+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1658609",
+    "title": "Development & Accountability Coach | Therapist",
+    "company": "Care Flo USA Logistics LLC",
+    "type": "Part Time",
+    "salary": "$20 per hour",
+    "posted": "2026-05-31 23:48:28",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1658609",
+    "tags": [
+      "Life Coaching",
+      "Counseling",
+      "Psychology"
+    ],
+    "scraped_at": "2026-05-31T16:02:55.381114+00:00",
+    "job_title": "Development & Accountability Coach | Therapist",
+    "work_type": "Part Time",
+    "salary_detail": "$20 per hour",
+    "hours": "TBD",
+    "date_updated": "May 31, 2026",
+    "description": "Remote Personal Development & Accountability Coach We are seeking an experienced and compassionate Remote Personal Development & Accountability Coach to provide one-on-one guidance and support. Position Details • Remote position • 1–2 sessions per week • Flexible scheduling • Monthly performance bonus. • $20 per hour • Master degree required ** But Exceptions if your experience is verifiable and compensate for not having a masters. Applications will be accepted. Responsibilities • Provide guidance and support for personal life challenges • Help establish goals and develop practical action plans • Monitor progress and provide accountability • Assist with mindset development and personal growth • Encourage positive habits, discipline, and consistency • Serve as a mentor and trusted advisor • Understand my goals and objectives • Good record keeping for future review and improvement key points. Requirements • Strong belief in and understanding of the Law of Attraction (required) • Experience with one-on-one coaching, mentoring, counseling, or personal guidance • Excellent listening and communication skills • Patient, supportive, and professional approach • Ability to motivate and hold clients accountable for agreed-upon goals • Willingness to sign a Non-Disclosure Agreement (NDA) • Current NBI Clearance (for applicants in the Philippines) or equivalent background check documentation Preferred Qualifications • Background in life coaching, personal development, psychology, counseling, or a related field • Experience helping individuals navigate personal challenges, improve focus, build confidence, and achieve goals How to Apply Please provide a video summary: • A brief summary of your experience • Your coaching approach • Your availability • Your hourly or per-session rate • Your location and time zone • Confirmation that you can sign an NDA and provide an recent NBI Clearance",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-31T16:03:04.238221+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1658606",
+    "title": "Web Developer — Small US Business",
+    "company": "Versed Hand",
+    "type": "Full Time",
+    "salary": "$8/hr",
+    "posted": "2026-05-31 23:35:21",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1658606",
+    "tags": [
+      "SEO",
+      "Web Design & Page Layout",
+      "Web Development"
+    ],
+    "scraped_at": "2026-05-31T16:02:55.382820+00:00",
+    "job_title": "Web Developer — Small US Business",
+    "work_type": "Full Time",
+    "salary_detail": "$8/hr",
+    "hours": "40",
+    "date_updated": "May 31, 2026",
+    "description": "We're a small IT and marketing company in Nashville, TN. We build websites and manage SEO for local service businesses — plumbers, HVAC, cleaners, contractors. We use AI (Claude Code) heavily in our development workflow. The AI writes most of the code. We need a developer who can run the project, review what AI produces, catch what it gets wrong, test everything, and ship sites that are actually done. **What you'll do:** - Own client website projects from blank repo to deployed site - Review and fix AI-generated code — you don't write everything from scratch, but you understand everything that ships - Test across devices and browsers — forms work, links work, mobile looks right, pages load fast - Implement SEO from the start — schema, meta tags, local pages, Google Business Profile - Maintain and update existing client sites - Use AI tools for non-development tasks as assigned — research, data processing, content, whatever needs doing **Skills:** - React / Next.js - Tailwind CSS - HTML / CSS / JavaScript - Git - SEO — built into sites from the start, not bolted on after - Eye for design — you notice when spacing is off or a layout feels wrong - Experience using AI coding tools (Cursor, Copilot, Claude, ChatGPT) **Requirements:** - 3+ years web development experience - Portfolio of sites you've built start to finish - Bachelor's degree (must provide proof) - C1+ English proficiency - References will be contacted **Nice to have:** - Python - Linux command line - WordPress / PHP **Schedule:** - Full-time, 40 hrs/week, weekly pay - Must be available 8 PM–12 AM PHT daily. Remaining 20 hrs/week scheduled by you weekly in advance. **To apply:** Click \"Apply\" on OnlineJobs.ph AND complete this form: ---------- Applications without the OFS application, English C1 or C2, the completed form, and proof of degree will not be reviewed.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-31T16:03:08.193995+00:00",
+    "category": "Development"
   }
 ]
