@@ -13182,5 +13182,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-31T12:09:19.921703+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1658584",
+    "title": "Python Automation Engineer Needed – Web Scraping + Data Extraction + Spreadsheet + Basecamp Calendar Integration (MVP 2–",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "150-300",
+    "posted": "2026-05-31 22:10:30",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1658584",
+    "tags": [
+      "HTML",
+      "Python",
+      "JSON"
+    ],
+    "scraped_at": "2026-05-31T14:28:18.928267+00:00",
+    "job_title": "Python Automation Engineer Needed – Web Scraping + Data Extraction + Spreadsheet + Basecamp Calendar Integration (MVP 2–",
+    "work_type": "Gig",
+    "salary_detail": "150-300",
+    "hours": "TBD",
+    "date_updated": "May 31, 2026",
+    "description": "Good—this changes the project from “scraping job” into a **full automation pipeline with scheduling + external system integration (Basecamp + spreadsheet sync)**. That needs to be explicitly stated or you’ll get someone who only builds scrapers and stops there. Here’s your updated job description with that requirement integrated cleanly. --- # ???? Job Title **Python Automation Engineer Needed – Web Scraping + Data Extraction + Spreadsheet + Basecamp Calendar Integration (MVP 2–4 Days)** --- # ???? Project Overview Looking for a Python developer to build an automated system that: 1. Scrapes structured data from multiple websites (HTML, JS-rendered, and PDF sources) 2. Extracts key information from legal notices / listings 3. Stores the data in a structured spreadsheet 4. Automatically creates scheduled events in Basecamp calendar This is a **fast MVP build (2–4 days)** focused on working automation, not enterprise-level architecture. --- # ???? Core Objective Build an end-to-end automation pipeline that: * Collects data from multiple web sources * Converts unstructured legal notice content into structured records * Writes cleaned data into a spreadsheet (Google Sheets or CSV) * Pushes relevant entries into Basecamp as calendar events or to-dos * Runs automatically on a daily schedule --- # ?? Required Features ## 1. Web Scraping Engine * Python-based implementation * Must use **Playwright** for JavaScript-heavy sites * Support: * Login/session handling where required * Pagination and infinite scroll * Modular per-source scraper design --- ## 2. Data Extraction Layer From each notice/listing, extract where available: * Title / notice type * Property or listing name * Address or location * Auction or event date/time * Case or reference number * Parties involved (if present) * Source URL * Raw text backup --- ## 3. Data Normalization + Spreadsheet Output * Convert all scraped data into a unified schema * Write to: * Google Sheets (preferred) OR * CSV file Spreadsheet must include structured rows per record. --- ## 4. Basecamp Integration (IMPORTANT) For each valid record: * Create a **Basecamp calendar event or to-do item** * Include: * Title (cleaned notice title or property name) * Date/time (auction or event date) * Description (key extracted details) * Link back to source Must use **Basecamp API** (authentication via token) --- ## 5. PDF Parsing Support * Extract data from PDF notices * Convert unstructured text into structured rows * Tools: pdfplumber or PyMuPDF --- ## 6. Deduplication * Prevent duplicate entries across all sources * Use hash/composite key (address + date + case number or similar) --- ## 7. Automation / Scheduling * System must run daily automatically * Can use: * cron job OR * Python scheduler script --- # ???? Optional Enhancements (if time allows) * LLM-based extraction to clean legal text into structured fields * Logging system for failures/retries * Docker containerization * Simple admin config file for adding new sources --- # ???? Tech Stack Required: * Python * Playwright * BeautifulSoup * pdfplumber / PyMuPDF * Pandas Integration: * Google Sheets API (or CSV fallback) * Basecamp API (mandatory) Optional: * Cron / scheduling tools --- # ? Timeline This is a **fast MVP build (2–4 days)**: * Day 1: Core scraping framework + 1–2 sources * Day 2: Expand sources + spreadsheet output * Day 3: Basecamp integration + PDF parsing * Day 4: Testing, cleanup, automation --- # ???? Key Challenges * Mixed data formats (HTML, JS, PDFs) * Some sites may require authentication * Extracting consistent structured data from legal text * Reliable Basecamp API event creation * Avoiding duplicates across multiple sources --- # ???? Deliverables * Working Python project * Modular scraping system * Spreadsheet integration (Google Sheets or CSV) * Basecamp automation (calendar/tasks creation) * PDF parsing module * Setup instructions --- # ???? Ideal Candidate * Strong Python automation experience * Expert in Playwright scraping * Experience with APIs (especially Basecamp or similar project tools) * Comfortable handling messy/unstructured data * Able to deliver quickly with minimal supervision --- # ???? Budget Guidance (global contractors) * MVP range: **$ ---------- total** * Higher end only if: * Basecamp integration is fully working * Multiple dynamic sources are stable * PDF extraction is reliable --- # ???? Application Requirements Applicants must include: * Relevant scraping + automation experience * API integration examples (especially task/calendar systems) * Confirmation of 2–4 day delivery capability * Brief approach to handling scraping + scheduling pipeline",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-31T14:28:32.366007+00:00",
+    "category": "Development"
   }
 ]
