@@ -13328,5 +13328,55 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-05-31T17:57:59.976002+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1394351",
+    "title": "Skilled Smart Contract Dev With API Data Integration",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "800",
+    "posted": "2026-06-01 02:36:26",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1394351",
+    "tags": [
+      "Python",
+      "API Testing",
+      "Cryptocurrency"
+    ],
+    "scraped_at": "2026-05-31T19:18:51.925104+00:00",
+    "job_title": "Skilled Smart Contract Dev With API Data Integration",
+    "work_type": "Full Time",
+    "salary_detail": "800",
+    "hours": "40",
+    "date_updated": "May 31, 2026",
+    "description": "Building an automation that will be written in python. The work will consist of getting data from an API and using that to make actions.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-31T19:19:04.808109+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1400905",
+    "title": "Skilled Smart Contract Dev With API Data Integration",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "1500",
+    "posted": "2026-06-01 02:36:26",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1400905",
+    "tags": [
+      "Python",
+      "Blockchain",
+      "API Testing"
+    ],
+    "scraped_at": "2026-05-31T19:18:51.925506+00:00",
+    "job_title": "Skilled Smart Contract Dev With API Data Integration",
+    "work_type": "Full Time",
+    "salary_detail": "1500",
+    "hours": "40",
+    "date_updated": "May 31, 2026",
+    "description": "Building an automation that will be written in python. The project will consist of getting data from an API and using that to make actions on the blockchain.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-05-31T19:19:05.900056+00:00",
+    "category": "Development"
   }
 ]
