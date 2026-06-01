@@ -21538,5 +21538,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-01T00:08:43.994217+00:00",
     "category": "Sales"
+  },
+  {
+    "job_id": "1658910",
+    "title": "Med spa sales/appointment setter",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "$10 an appointment",
+    "posted": "2026-06-01 13:42:00",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1658910",
+    "tags": [
+      "Inbound Sales",
+      "Admin Data Processing",
+      "Medical Virtual Assistant"
+    ],
+    "scraped_at": "2026-06-01T05:58:41.610833+00:00",
+    "job_title": "Med spa sales/appointment setter",
+    "work_type": "Gig",
+    "salary_detail": "$10 an appointment",
+    "hours": "25",
+    "date_updated": "Jun 1, 2026",
+    "description": "I need a caller on demand that calls the med spa leads that come in. Explains the services we provide and collects a deposit for the appointment. They need to speak good English.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-01T06:09:10.963233+00:00",
+    "category": "Sales"
   }
 ]
