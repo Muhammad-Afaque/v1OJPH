@@ -15831,5 +15831,80 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-02T23:01:49.867575+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1660593",
+    "title": "IT Support Officer (Remote)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "1200",
+    "posted": "2026-06-03 09:39:49",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1660593",
+    "tags": [
+      "IT",
+      "Windows Administrator",
+      "Microsoft 365"
+    ],
+    "scraped_at": "2026-06-03T01:42:37.983583+00:00",
+    "job_title": "IT Support Officer (Remote)",
+    "work_type": "Full Time",
+    "salary_detail": "1200",
+    "hours": "36",
+    "date_updated": "Jun 3, 2026",
+    "description": "I am seeking a dedicated full time IT Support person to look after following issues, - M365 - Google Business - Windows computers - Printing problems - Windows Server environment - Linux and Unix enviroment suppoort - Outlook issues and more Your role will be to answer support tickets and deal with incoming calls. The roll is not fast paced, but does require attention to detail. Only item required is a computer. your working time will be 8:30am - 5pm Monday to Friday, Filipino time. Lunch will be taken as required as this is a flexible working environment.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-03T01:42:52.780967+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1630805",
+    "title": "API Developer & Systems Integrator",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "TBD",
+    "posted": "2026-06-03 09:02:15",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1630805",
+    "tags": [
+      "Java",
+      "API Development",
+      "Zapier"
+    ],
+    "scraped_at": "2026-06-03T01:42:40.529018+00:00",
+    "job_title": "API Developer & Systems Integrator",
+    "work_type": "Full Time",
+    "salary_detail": "TBD",
+    "hours": "TBD",
+    "date_updated": "Jun 3, 2026",
+    "description": "About the Role We are seeking a skilled API Developer & Systems Integrator to join our team. In this role, you will be responsible for designing, developing, and maintaining the critical connections between our core software platforms. You will bridge the gap between disparate systems—from CRMs and property management systems (PMS) to modern AI and automation tools—ensuring seamless data flow and operational efficiency. The ideal candidate is proficient in modern programming languages, has a strong grasp of database architecture, and possesses a passion for leveraging low-code automation platforms and cutting-edge AI technologies to solve complex business challenges. Key Responsibilities - API Development & Management: Design, build, and maintain scalable RESTful APIs and webhooks to facilitate communication between internal and external systems. - Systems Integration: Lead integration projects with third-party platforms, including CRMs, PMS solutions, and communication tools (Twilio, Vonage). - Automation & Workflow: Develop and maintain automated workflows using platforms like n8n, Make, Zapier, and the Microsoft Power Platform (Power Automate, Power Apps) to streamline business processes. - Data Engineering & Reporting: Write complex SQL queries to extract, transform, and load (ETL) data. Build and maintain interactive dashboards and reports in Power BI to provide stakeholders with actionable insights. - Cloud & Infrastructure: Utilize Microsoft Azure services (including Azure Functions, Logic Apps, and App Services) to deploy and manage integration solutions. Leverage Microsoft Fabric for data integration and analytics where applicable. - AI & LLM Integration: Experiment with and implement solutions utilizing Large Language Models (LLMs) by integrating with OpenAI API, Azure AI, and other voice AI platforms (VAPI). - Code Maintenance: Write clean, maintainable code in Python or JavaScript/Node.js to support custom integration logic that goes beyond low-code capabilities. Required Skills & Qualifications - Education: Bachelor’s degree in Computer Science, Information Systems, or equivalent practical experience. - Programming: Proficiency in at least one modern language: Python or JavaScript/Node.js. - Database: Strong working knowledge of SQL for querying, data manipulation, and performance optimization. - Cloud: Hands-on experience with Microsoft Azure services (Functions, Logic Apps, Storage). - Reporting: Proven experience building reports and dashboards in Power BI. - Integration Logic: Deep understanding of webhooks, event-driven architecture, and API security protocols (OAuth, API Keys). Preferred Experience - Automation Platforms: Experience building workflows with n8n, Zapier, Make (Integromat). - Microsoft Stack: Proficiency with the Microsoft Power Platform (Power Automate/Flow, Power Apps) and Microsoft Fabric. - AI & Voice: Experience integrating with Voice AI platforms (VAPI, Twilio, Vonage) or AI/LLM APIs (OpenAI, Azure AI). - Domain Expertise: Previous experience integrating with Property Management Systems (PMS) or CRM platforms (e.g., Salesforce, HubSpot, Dynamics 365). - Azure Advanced: Experience developing with Azure Apps and navigating the Microsoft Fabric ecosystem. Benefits: - Competitive salary and performance-based incentives. - Complete PC package - Comprehensive benefits package, including health and life insurance. - Flexible work environment with the option to work remotely. - Opportunities for professional growth and development. - Collaborative and supportive team culture To apply, please include the link of your CV.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-03T01:43:16.789060+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1660569",
+    "title": "SOFTWARE PRODUCT DELIVERY COORDINATOR - Scrum process",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "60000PHP",
+    "posted": "2026-06-03 09:00:17",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1660569",
+    "tags": [
+      "User Experience Design",
+      "Software Development Project Manager",
+      "Scrum"
+    ],
+    "scraped_at": "2026-06-03T01:42:40.529713+00:00",
+    "job_title": "SOFTWARE PRODUCT DELIVERY COORDINATOR - Scrum process",
+    "work_type": "Full Time",
+    "salary_detail": "60000PHP",
+    "hours": "40",
+    "date_updated": "Jun 3, 2026",
+    "description": "Full-time role, Australian hours. Leave and Medical. We build custom web and mobile applications for clients in Australia and overseas. We're looking for someone to assist our CTO with product delivery. You will be highly organised, proactive and detail-oriented to help turn ideas into completed software features. You won't be expected to define product strategy or gather requirements from clients. Feature briefs will be provided by the CTO. Your role is to take those briefs and drive them through to completion. WHAT YOU'LL DO - Create wireframes and screen mockups - Write clear feature stories and descriptions and acceptance criteria - Break work into development tasks - Coordinate developers and QA to manage scrum process and delivery dates - Track progress and follow up outstanding items - Test completed features - Create release notes and user documentation - Ensure work is delivered completely and accurately WHAT YOU'LL NEED - Experience working on software projects - Excellent written English - Strong organisational skills - Experience creating wireframes - Strong attention to detail - Ability to independently drive work to completion - Confidence working with developers BONUS POINTS FOR - Agile or Scrum experience - Azure DevOps, Jira or ClickUp experience - Software testing experience - Basic understanding of SQL or software development TO APPLY Please send a link to your CV - A copy of a recent requirements or story for software you have created - A short description of a software project you helped deliver No agencies, individuals only. No I dont need to hear from you if you are an agency, recruiter or outsourced service. We only hire direct.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-03T01:43:19.673446+00:00",
+    "category": "Development"
   }
 ]
