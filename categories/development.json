@@ -17819,5 +17819,54 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-04T17:45:53.324326+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1480848",
+    "title": "Shopify Developer",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "$3 a hour",
+    "posted": "2026-06-05 03:56:34",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1480848",
+    "tags": [
+      "SEO",
+      "Shopify"
+    ],
+    "scraped_at": "2026-06-04T19:59:21.823285+00:00",
+    "job_title": "Shopify Developer",
+    "work_type": "Part Time",
+    "salary_detail": "$3 a hour",
+    "hours": "TBD",
+    "date_updated": "Jun 4, 2026",
+    "description": "Role Overview We’re looking for a Shopify Developer (Freelance or Full-Time) who can customize themes, improve site performance, and implement new features that make our site smooth, fast, and user-friendly. Responsibilities Customize Shopify themes (liquid, sections, templates) Implement SEO-friendly structures (sitemaps, canonical tags, meta optimization) Build new features (deal grids, product categories, custom pages) Optimize speed, mobile experience, and UI/UX Integrate affiliate links, apps, and APIs Troubleshoot technical issues and ensure smooth functionality Requirements Proven experience with Shopify development (Liquid, HTML, CSS, JavaScript) Experience with theme customization and Shopify app integrations Understanding of SEO best practices and structured data Strong eye for UI/UX design Bonus: Experience with automation tools (Zapier, RSS feeds, WhatsApp/Telegram bots)",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-04T19:59:42.751279+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1662034",
+    "title": "ElevenLabs AI Audio Specialist (Voice Cloning, Narration, Dubbing & AI Agents)",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "$18 USD/hours",
+    "posted": "2026-06-05 02:55:47",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1662034",
+    "tags": [
+      "Audacity",
+      "Voice Over",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-04T19:59:24.194848+00:00",
+    "job_title": "ElevenLabs AI Audio Specialist (Voice Cloning, Narration, Dubbing & AI Agents)",
+    "work_type": "Gig",
+    "salary_detail": "$18 USD/hours",
+    "hours": "TBD",
+    "date_updated": "Jun 4, 2026",
+    "description": "We are seeking an experienced ElevenLabs specialist to support the creation of online courses, audiobooks, multilingual content, and AI voice assistants. The ideal candidate will have hands-on experience with ElevenLabs voice cloning, text-to-speech, dubbing, conversational AI agents, and audio post-production. The role will support educational and personal development content, including English and Spanish materials. Responsibilities Create high-quality narrations using ElevenLabs Text-to-Speech. Clone and optimize voices using ElevenLabs Voice Cloning tools. Generate professional audio for online courses, presentations, YouTube videos, and audiobooks. Translate and dub content into multiple languages while maintaining natural tone and emotion. Configure and test ElevenLabs conversational AI agents. Improve pronunciation, pacing, emphasis, and emotional delivery. Edit and clean audio using tools such as Audacity, Adobe Audition, or Descript. Organize voice libraries and maintain audio assets. Produce deliverables on schedule with minimal supervision. Required Skills Essential 1+ year experience using ElevenLabs. Strong understanding of: Text-to-Speech (TTS) Voice Cloning AI Dubbing Voice Design Conversational AI Agents Excellent English communication. Experience with audio editing software. Ability to create natural-sounding narration. Preferred Spanish language skills. Experience producing online courses. Experience creating YouTube or audiobook content. Experience integrating ElevenLabs API. Deliverables (for your specific needs) Voice clone creation and maintenance. Narration of online courses such as: The Hearted Path Sustainable & Regenerative Living Roots and Wings English-to-Spanish dubbing. AI voice assistant setup for course support. Creation of audiobook versions of courses. Weekly delivery of edited audio files. Candidate Screening Questions How many projects have you completed using ElevenLabs? Have you created voice clones? Please provide examples. Have you used ElevenLabs Dubbing Studio? Have you created conversational AI agents? Which audio editing software do you use? Please provide 3 samples of narration you produced. What is your hourly rate? What is your weekly availability? Are you comfortable working with English and Spanish content? Can you provide a short sample using a supplied script?",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-04T20:00:27.259252+00:00",
+    "category": "Development"
   }
 ]
