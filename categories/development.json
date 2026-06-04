@@ -17868,5 +17868,51 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-04T20:00:27.259252+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1419596",
+    "title": "AI-Enabled Web Developer (Replit, Cursor AI, Next.js, AWS)",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "Php 28,000 - 40,000",
+    "posted": "2026-06-05 04:59:22",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1419596",
+    "tags": [
+      "Website Builder",
+      "AWS",
+      "AI Tools"
+    ],
+    "scraped_at": "2026-06-04T21:47:37.223985+00:00",
+    "job_title": "AI-Enabled Web Developer (Replit, Cursor AI, Next.js, AWS)",
+    "work_type": "Part Time",
+    "salary_detail": "Php 28,000 - 40,000",
+    "hours": "25",
+    "date_updated": "Jun 4, 2026",
+    "description": "AI-Enabled Web Developer (Replit, Cursor AI, Next.js, AWS) Specialization: (Replit, Cursor AI, Next.js, AWS) Website: IDEA VENTURE STUDIO Location: Remote Status: Project-based with the potential to transition into a full-time role Application form: ---------- Job Description: We are seeking a highly capable AI-enabled web Developer to lead the development of two innovative platforms: an insurance plan comparison tool and a clinical trial search platform. These projects are powered by AI and optimized with modern web frameworks. You will work across cutting-edge stacks including Next.js, Replit, Cursor AI, AWS, and Contentful, with responsibilities ranging from front-end performance to backend integrations and AI-driven functionality. The ideal candidate thrives in agile, project-based settings and can independently ship solutions that are fast, responsive, and intelligent. Key Responsibilities: Build scalable web components using Next.js, deployed via Vercel Develop and optimize features using Replit and Cursor AI (AI-assisted coding) Create and maintain integrations with Contentful CMS and Algolia for dynamic search Set up and manage backend services using AWS (Lambda, S3, API Gateway) Integrate and simulate real-time APIs (e.g., insurance providers, healthcare data) Develop basic AI logic (non-ML) for comparison and recommendation features Support chatbot integration for clinical trial discovery Collaborate cross-functionally to ensure features align with business goals Qualifications: 2+ years of experience with Next.js, React, or modern JS frameworks Hands-on experience with Replit and/or Cursor AI Strong command of Vercel, AWS, and API integration practices Familiar with Contentful, Algolia, and responsive design principles Proven experience with AI-powered or data-driven web applications Excellent debugging, optimization, and performance tuning skills Strong written communication for async collaboration",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-04T21:48:27.264701+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1662090",
+    "title": "CRM & Automation Specialist",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "1500 mo",
+    "posted": "2026-06-05 04:31:17",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1662090",
+    "tags": [],
+    "scraped_at": "2026-06-04T21:47:39.629312+00:00",
+    "job_title": "CRM & Automation Specialist",
+    "work_type": "Full Time",
+    "salary_detail": "1500 mo",
+    "hours": "40",
+    "date_updated": "Jun 4, 2026",
+    "description": "About Freyja IP Management Freyja IP Management operates three nationally serving companies under one roof, all running on a unified Zoho One platform. We're growing fast and building more brands — and we need someone who can keep the engine running while we scale. The Role We're hiring a CRM & Automation Specialist to support our technical operations team. You'll work hands-on inside our Zoho ecosystem and connected platforms every day — maintaining workflows, troubleshooting data issues, building new automations, and keeping our multi-company infrastructure clean and reliable. This is a mid-level execution role, not a leadership position. You'll report to senior technical staff who have already architected the system. Your job is to operate it, improve it, and grow with it. This is a good fit if you: Love logic puzzles and process optimization more than meetings and slide decks Can look at a broken automation and figure out why it broke, not just restart it Want to work across a deep, interconnected tech stack — not just one app in isolation Are looking for a stable role with room to grow into a senior technical position What You'll Do Manage day-to-day operations across our Zoho One suite for three separate business entities — including CRM, WorkDrive, Cliq, Inventory, Flow, Forms, Writer, and Sign Build, monitor, and troubleshoot automations that connect our internal Zoho apps to external platforms like RingCentral and ShipStation Maintain data accuracy across systems — run audits, catch sync errors, and fix data flow issues before they compound Write and update automation logic using Zoho workflows, Zoho Flow, and custom functions Help prepare our systems for the launch of additional business units as we expand What We're Looking For Required: 2–4 years of hands-on CRM and workflow automation experience. Zoho is strongly preferred, but we'll consider solid experience in Salesforce, HubSpot, or similar platforms if you demonstrate the ability to learn quickly Working knowledge of automation and integration tools — you've built multi-step workflows, not just single-trigger templates Comfort working across multiple connected applications, not just a single platform Strong troubleshooting instincts — when something breaks, you dig into the logic, not just the symptoms Ability to work full-time during standard US business hours. Experience with Zoho One apps beyond CRM — particularly WorkDrive, Inventory, Flow, Forms, Cliq, Writer, or Sign Knowledge of APIs, webhooks, and general system integrations Exposure to Deluge scripting or any scripting language (JavaScript, Python, etc.) Experience with RingCentral, ShipStation, or similar logistics and communications platforms Background in multi-state service operations or shipping/fulfillment",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-04T21:48:54.160528+00:00",
+    "category": "Development"
   }
 ]
