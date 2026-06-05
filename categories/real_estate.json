@@ -7897,5 +7897,28 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-05T21:22:30.388120+00:00",
     "category": "Real Estate"
+  },
+  {
+    "job_id": "1569721",
+    "title": "Google Ads Strategic Consultant",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "USD 300",
+    "posted": "2026-06-06 05:48:26",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1569721",
+    "tags": [
+      "Google Ads"
+    ],
+    "scraped_at": "2026-06-05T23:03:03.729277+00:00",
+    "job_title": "Google Ads Strategic Consultant",
+    "work_type": "Part Time",
+    "salary_detail": "USD 300",
+    "hours": "12",
+    "date_updated": "Jun 5, 2026",
+    "description": "I am looking for a high-level Google Ads expert for a part-time, advisory-heavy role. The goal is to move past basic execution and focus on advanced strategy, technical architecture, and ROI-driven optimization. I am looking for a partner to help build the account correctly and provide ongoing strategic insights. Required Experience & Strategic Knowledge The ideal candidate must demonstrate a deep understanding of: -Advanced Conversion Architecture: Expertise in $GTM$ (Google Tag Manager) and $GA4$ server-side tracking. You should know how to track the entire funnel, not just \"button clicks.\" -Mathematical Bidding Strategies: Experience managing the transition from Manual CPC to automated strategies ($tCPA$ / $tROAS$) and knowing exactly when the data \"signals\" are strong enough to make that switch. -Quality Score Engineering: A proven methodology for improving Ad Relevance and Landing Page Experience to drive down the actual $CPC$ (Cost Per Click). -Attribution Modeling: Knowledge of how Google Ads interacts with other channels and how to interpret \"Data-Driven Attribution\" to see the true path to conversion. -Competitive Intelligence: Ability to use Auction Insights and third-party tools to reverse-engineer competitor budgets and keyword gaps. -Landing Page Optimization (LPO): Ability to provide strategic feedback on UI/UX and copy to ensure traffic actually converts once it hits the site. Collaboration Style -Insight-Led: You are expected to explain the \"Why\" behind the data, not just report the \"What.\" -Flexible/Consultative: This is a part-time arrangement. I am looking for someone available for 2–5 hours per week for audits, strategic pivots, and high-level management. -Business-Centric: You understand that a \"successful\" campaign is measured by profit margins and $LTV$ (Lifetime Value), not just click-through rates.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-05T23:03:38.029918+00:00",
+    "category": "Real Estate"
   }
 ]
