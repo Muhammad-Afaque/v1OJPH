@@ -18985,5 +18985,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-05T19:49:54.423596+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1662783",
+    "title": "Front End Developer — Consumer Mobile App",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "$10",
+    "posted": "2026-06-06 04:29:57",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1662783",
+    "tags": [
+      "Figma",
+      "Node JS",
+      "React Native"
+    ],
+    "scraped_at": "2026-06-05T21:21:29.346090+00:00",
+    "job_title": "Front End Developer — Consumer Mobile App",
+    "work_type": "Any",
+    "salary_detail": "$10",
+    "hours": "20",
+    "date_updated": "Jun 5, 2026",
+    "description": "Full ---------- ---------- Mobile-first We're building a consumer app in the food and lifestyle space and are looking for a talented front end developer to bring our designs to life. You'll be working from detailed Figma mockups to implement polished, intuitive interfaces that feel great on mobile. Pay will vary based on experience. What you'll work on Onboarding flows and user profile screens Discovery and browsing experiences Social and connection features Check-in and interaction flows UI polish, animation, and micro-interactions What we're looking for Strong proficiency in React Native or equivalent mobile framework Proven ability to implement pixel-accurate designs from Figma Comfortable consuming REST APIs and working with basic state management A portfolio showing clean, well-crafted mobile UI Good communication and willingness to ask questions early Nice to have Experience with design-to-code workflows (e.g. ---------- , Cursor) Interest in food, hospitality, or lifestyle products Familiarity with social or community-driven apps Please respond with a personalized message, as copy and pasted messages will not be considered.  We're looking for someone passionate and creative, that is interested in shared our vision.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-05T21:22:23.213723+00:00",
+    "category": "Development"
   }
 ]
