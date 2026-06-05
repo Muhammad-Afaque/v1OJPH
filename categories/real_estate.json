@@ -7687,5 +7687,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-05T11:23:35.616634+00:00",
     "category": "Real Estate"
+  },
+  {
+    "job_id": "1625388",
+    "title": "AI Infrastructure Lead — E-Commerce (Remote, Full-Time)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "1500",
+    "posted": "2026-06-05 21:31:07",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1625388",
+    "tags": [
+      "Amazon",
+      "API Development",
+      "Artificial Intelligence"
+    ],
+    "scraped_at": "2026-06-05T14:38:39.856419+00:00",
+    "job_title": "AI Infrastructure Lead — E-Commerce (Remote, Full-Time)",
+    "work_type": "Full Time",
+    "salary_detail": "1500",
+    "hours": "TBD",
+    "date_updated": "Jun 5, 2026",
+    "description": "**About Us** We're Intent Brands — a US-based e-commerce company running two growing brands on Shopify and Amazon. We're building an AI-first operations layer and need someone to own it. This isn't a virtual assistant role. This is a technical leadership position where you'll design, build, and maintain the AI and automation systems that run our business — from customer workflows to marketing pipelines to internal tools. We already use Claude and a suite of AI agents. We need someone who can take what we've started and make it run like a machine. **What You'll Do** - Design and build automated workflows using Claude and PaperClip - Manage and improve our AI agent infrastructure (Claude-based agents, PaperClip AI hub) - Connect our tools — Shopify, Amazon, Klaviyo, Apollo, Google Workspace — into intelligent, automated pipelines - Write clear documentation and SOPs for every system you build - Identify manual processes across the business and propose automation solutions - Monitor, troubleshoot, and optimize existing automations - Stay current on AI developments and recommend tools/approaches that give us an edge **What We're Looking For** - Hands-on experience building automations with n8n, Make, or similar workflow tools - Real working knowledge of AI/LLMs — not just \"I've used ChatGPT,\" but understanding of prompting, agents, APIs, context management, and when to use what - Comfortable working with REST APIs, webhooks, OAuth, and integrating third-party services - Experience with e-commerce platforms (Shopify, Amazon, or similar) is a strong advantage - Basic scripting ability (Python or JavaScript) — enough to write a webhook handler or parse JSON, not full-stack development - Self-directed and organized — you'll have autonomy, and we expect you to use it well - Strong written English — you'll be writing documentation, prompts, and internal communications daily **Bonus Points For** - Experience with OpenClaw, Claude Code, or Codex - Familiarity with Shopify APIs, Liquid, or webhooks - Knowledge of Klaviyo, ---------- , Semrush, or marketing automation tools - Experience managing multi-agent AI systems - Understanding of prompt engineering and system prompt design **What We Offer** - $1,500/month, full-time (40 hrs/week) - 3-month probationary period, then permanent position - Work directly with the founders — small team, big impact - Access to cutting-edge AI tools (we invest in the best) - Room to grow as our AI infrastructure scales --- ## Application Questions: **IMPORTANT: Please answer ALL of the following questions in your application. Applications without answers will not be considered.** 1. **Describe a workflow or automation you built that you're proud of.** What was the business problem? What tools did you use? What was the result? (Be specific — \"I automated social media posting\" is not enough.) 2. **You need to connect a Shopify store to a ---------- channel so that every time a customer places an order over $100, the team gets notified with the customer's name, order total, and whether they're a first-time or returning buyer. Walk us through how you'd set this up.** (We want to see your thinking process, not just \"I'd use n8n.\") 3. **What is the difference between using an AI agent and using a simple API call to an LLM? When would you choose one over the other?** (This tells us if you actually understand AI infrastructure or just use chatbots.) 4. **What is your experience with n8n and Claude Code specifically? OpenClaw Experience is good as well.** If none, what workflow/automation tool have you used most, and what's the most complex thing you built with it? 5. **Include the phrase \"I build systems\" somewhere in your application.** (This helps us confirm you read the full listing.)",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-05T14:39:51.480103+00:00",
+    "category": "Real Estate"
   }
 ]
