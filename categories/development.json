@@ -19512,5 +19512,50 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-06T13:22:13.297637+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1663077",
+    "title": "Engineer  - Adobe - AI Retouching & Workflow Engineer (Portrait / Fashion-Level Studio)",
+    "company": "Le Studio NYC",
+    "type": "Full Time",
+    "salary": "$6 to 8$  or more per hour based on skills and experience",
+    "posted": "2026-06-06 22:53:06",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663077",
+    "tags": [],
+    "scraped_at": "2026-06-06T15:10:09.712826+00:00",
+    "job_title": "Engineer  - Adobe - AI Retouching & Workflow Engineer (Portrait / Fashion-Level Studio)",
+    "work_type": "Full Time",
+    "salary_detail": "$6 to 8$  or more per hour based on s...",
+    "hours": "TBD",
+    "date_updated": "Jun 6, 2026",
+    "description": "Job Overview We are a NYC-based premium portrait studio specializing in maternity, newborn, and beauty work. We are rebuilding our entire retouching pipeline using AI tools and are looking for a technically strong, detail-obsessed teammate to join us long-term. This role combines: High-end portrait retouching (Vogue-level quality) AI-assisted workflow design and optimization ( ---------- , Imagen, Photoshop, Lightroom) Process documentation so the system can be used and taught to others If you are an engineer / technical creative who loves problem-solving, software, and visual quality, this is for you. Responsibilities Retouching & Visual Quality Retouch high-resolution RAW images for maternity, newborn, and beauty portraiture Perform advanced skin work (dodge & burn, texture preservation, natural results – no plastic skin) Refine tones, contrast, and color grading suitable for large-format fine art prints Clean details: hair, background, wardrobe, and small distractions Maintain consistency of look across full sets and across multiple shoots Learn and match a Vogue-level editorial standard Reference quality: Lola Melanie, Annie Leibovitz AI & Workflow / Engineering Help design and refine an AI-assisted retouching pipeline using: ---------- plugins Imagen AI Photoshop (latest) Lightroom (latest) Map the current process from RAW to final print and identify bottlenecks Create and refine Photoshop actions, batch processes, and smart presets to standardize the flow Experiment with and evaluate new tools/features for speed and consistency Record your screen and document your steps to build internal training material and SOPs Proactively propose improvements to speed, quality, and reliability Ideal Background You do not have to be a traditional career retoucher, but you must bring a strong mix of technical ability + visual sensitivity. You might be a great fit if you: Have a background in engineering, computer science, 3D, or other technical fields Are very comfortable learning new software, figuring things out from tutorials and documentation Have solid Photoshop and Lightroom experience (retouching, layers, masks, color work) Enjoy building and optimizing systems, not just “doing tasks” Care deeply about detail and visual quality, even if you’re still growing toward top fashion-level retouching Bonus points if you: Have experience with 3D modeling, CAD, or technical graphics Have used AI or automation tools (plugins, scripts, actions, or no-code workflow tools) Have any portfolio in photography, retouching, 3D, or design Have worked on beauty, fashion, or portrait images before Requirements Strong technical mindset and problem-solving skills Experience with Photoshop and Lightroom (or strong evidence you can ramp up very quickly) Willingness to practice and accept critique to reach a Vogue-level, natural, refined look Stable internet and a reliable computer capable of handling high-resolution files Ability to work graveyard shift (first month), then flexible schedule with some overlap Good written English for communication and process documentation Looking for stable, long-term remote work (Philippines-based preferred) Trial Task Shortlisted candidates will be asked to complete a small paid test, which includes: Retouching a small set of images (around 3–5) using our tools Providing a screen recording of your retouching process with light explanation: How you structure your workflow and layers How and where you use AI vs manual work Any ideas you see for improving speed and consistency This test helps us evaluate both your eye for quality and your engineering mindset. How to Apply Please send PDF including: Cover letter Resume Portfolio (before/after examples strongly preferred) Links to any social profiles and website/portfolio Subject line: AI Retouching & Workflow Engineer – [Your Name]",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-06T15:10:21.939823+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1663067",
+    "title": "Mobile App Developer",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "$4 - $9 Depending on experience",
+    "posted": "2026-06-06 22:22:20",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663067",
+    "tags": [
+      "Software",
+      "Mobile Development"
+    ],
+    "scraped_at": "2026-06-06T15:10:09.717521+00:00",
+    "job_title": "Mobile App Developer",
+    "work_type": "Any",
+    "salary_detail": "$4 - $9 Depending on experience",
+    "hours": "20",
+    "date_updated": "Jun 6, 2026",
+    "description": "Mobile App Developer Needed (Capacitor Experience Required) We're looking for an experienced Mobile App Developer to help improve and stabilize our existing mobile application. If you enjoy troubleshooting complex issues, improving app performance, and working with cross-platform mobile technologies, we'd love to hear from you. What We're Looking For Strong hands-on experience with Capacitor Experience building, testing, and deploying apps for both iOS and Android Solid debugging and troubleshooting skills Experience integrating and working with APIs Ability to identify and resolve performance, stability, and reliability issues Initial Project Scope To get started, we'd like you to: Review our existing codebase Investigate and identify the root causes of current bugs and issues Fix a selection of high-priority bugs Provide recommendations for improving code quality, architecture, maintainability, and future development When Applying Please include: Examples of mobile apps you've worked on (App Store / Play Store links are a plus) Details of your experience with Capacitor and mobile app deployment A brief overview of your approach to debugging, troubleshooting, and resolving mobile app issues We're looking for someone who can quickly understand an existing codebase, solve problems efficiently, and help us create a more stable and scalable app. We look forward to hearing from you!",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-06T15:10:33.326091+00:00",
+    "category": "Development"
   }
 ]
