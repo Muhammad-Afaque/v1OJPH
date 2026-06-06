@@ -19557,5 +19557,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-06T15:10:33.326091+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1663093",
+    "title": "AI-Powered Full-Stack Developer (Next.js / React / Supabase) — Work Directly With Founder",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "5-9",
+    "posted": "2026-06-06 23:52:05",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663093",
+    "tags": [
+      "React JS",
+      "Next JS",
+      "Supabase"
+    ],
+    "scraped_at": "2026-06-06T17:06:39.448534+00:00",
+    "job_title": "AI-Powered Full-Stack Developer (Next.js / React / Supabase) — Work Directly With Founder",
+    "work_type": "Part Time",
+    "salary_detail": "5-9",
+    "hours": "TBD",
+    "date_updated": "Jun 6, 2026",
+    "description": "Project-Based to start ? Long-Term / Full-Time potential for the right person Compensation: Per project (fixed price or hourly, depending on scope) — fair rates, paid on time I'm a solo founder running multiple products and client projects: an iOS app, a SaaS platform, e-commerce stores, and custom web applications. I ship fast, I use AI tools heavily (Claude Code, Cursor), and I'm looking for a developer who works the same way. How this starts: We begin with small, clearly scoped projects. You deliver well, communicate well, and we keep going — bigger projects, more responsibility, and for the right person a stable long-term engagement. Think of the first projects as a paid trial that goes both ways. This is NOT a job where you sit in meetings and wait for tickets. You get a problem, you solve it, you ship it. What you'll work on: Building and maintaining full-stack web apps (Next.js, React, TypeScript, Tailwind) Backend work with Supabase and PostgreSQL (auth, RLS, edge functions, migrations) Integrating third-party APIs (payments, email , AI APIs) Shopify theme customizations and fixes for client stores Deployments via Docker/Dokploy on VPS (Hetzner) — I'll show you my setup Using AI agents (Claude Code) as part of the daily workflow — prompt-driven development is the standard here, not the exception How we'll work: Async-first via Slack/Telegram, short Loom videos instead of meetings You get clear specs and full context, then you own the task end-to-end Direct communication with me — no project managers, no bureaucracy I review code, but I don't micromanage Requirements 2+ years building production web apps with React/Next.js Solid with TypeScript, Tailwind, Node.js, PostgreSQL (Supabase a big plus) You already use AI tools (Claude, ChatGPT, Cursor, Copilot) daily in your workflow — and can tell me HOW Git workflow is second nature (branches, PRs, clean commits) You can read a vague requirement, ask the right questions ONCE, and then deliver English good enough for clear written communication Bonus points: Experience with Claude Code or other agentic coding tools in headless/CLI mode Shopify (Liquid) experience React Native / Expo experience DevOps basics: Docker, Nginx, CI/CD, VPS management What you get Paid, clearly scoped starter projects — no unpaid \"test tasks\" A founder who pays on time, every time Modern stack, no legacy PHP nightmares Real ownership: your features go live and get used A clear path to a stable long-term role with performance-based raises — if you make me faster, you earn more How to Apply Applications are filtered automatically. To prove you read this: Start your application with the word \"SHIPIT\" Send 1–2 links to projects you built (live URL or GitHub) Answer in 2–3 sentences: Describe one concrete way you used AI to ship something faster. What was the task, what tool, what was the result? Tell me your hourly rate (or how you prefer to price small projects) and your current availability Generic copy-paste applications without the keyword will be ignored. I don't need someone who needs hand-holding. I need someone who solves problems. If that's you, apply now.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-06T17:07:03.242275+00:00",
+    "category": "Development"
   }
 ]
