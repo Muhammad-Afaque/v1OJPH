@@ -19462,5 +19462,55 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-06T11:21:58.843000+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1663031",
+    "title": "Full-Stack Engineer (Node + React) - Long- Term, Full-Time, Real Estate Tech Startup",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$2,000/month - $2,500/month",
+    "posted": "2026-06-06 20:58:28",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663031",
+    "tags": [
+      "Node JS",
+      "React JS",
+      "Fullstack"
+    ],
+    "scraped_at": "2026-06-06T13:21:48.572311+00:00",
+    "job_title": "Full-Stack Engineer (Node + React) - Long- Term, Full-Time, Real Estate Tech Startup",
+    "work_type": "Full Time",
+    "salary_detail": "$2,000/month - $2,500/month",
+    "hours": "40",
+    "date_updated": "Jun 6, 2026",
+    "description": "ABOUT US We are building a new kind of real estate platform in the United States. It is called The Buyer Listing Service. Today, real estate websites only show homes that are for sale. We are building the buy side of the market for real estate agents. On our platform, real estate agents post buyer want-listings, not for sale listings. Our system then uses AI to match both buyer agents and seller agents together. We work directly with the official real estate databases (called MLSs) that agents use across the US. More of these databases are signing up with us every month and we're growing fast. We are a small and fast-moving team. When you write code here, it ships quickly and real people use it. This is a rare chance to help build a brand-new product from a growth stage, take real ownership, and grow with the company. THE KIND OF PERSON WE'RE LOOKING FOR We are looking for an experienced engineer who can work independently. Over time, you will own and run large parts of this platform. We are relying on your expertise. This is not a junior role and we are not looking for someone we train from the basics. If you need a senior developer checking all of your work, this is not the right fit. If you want real ownership and the chance to be the technical expert on a growing product, it is a great fit. WHAT YOU WILL DO • Build and improve features across our website and our backend API • Review and merge code changes (we use a clean pull request workflow on GitHub) • Connect and clean real estate data from different sources so it fits our system • Use AI tools (like Claude) to help map and clean messy data • Work closely with the founder and one other developer, and increasingly own your areas YOU MUST HAVE • 4+ years of professional full-stack experience, and the proven ability to work on your own • Strong fundamentals, not just frameworks. You can explain how JavaScript works (for example, the event loop), how the web works, and how to model and query a SQL database. • Strong skills in Node.js and Express • Strong skills in React • Comfortable writing raw SQL (we use MySQL, no ORM) • Real experience integrating and cleaning messy data and APIs from other systems • A habit of learning on your own. You have personal projects or things you built to teach yourself. • Clean Git habits and small, focused pull requests • Good written English (most of our work is async and in writing) • Able to follow written rules and instructions exactly HOW WE THINK ABOUT AI We use AI tools like Claude every day and we want people who use them well. But we are hiring an experienced engineer, not a person who copies and pastes from a chatbot. You should be able to explain why your code works, and fix it when the AI gives a wrong answer. In our process we will always ask you to explain your decisions, so deep experience matters more than fast answers. NICE TO HAVE • Experience with AWS • Experience using AI or LLMs (Claude, OpenAI, etc.) in real projects • Experience with data pipelines or ETL HOW WE WORK • We write small, focused changes. We do not refactor code that is not part of the task. • We follow a written set of rules for the codebase. Following instructions matters more here than working fast. • We welcome AI tools. We want people who use them well to do more. HOURS Full-time, 40 hours per week. We would like you to work US East Coast hours if you can. This helps you work at the same time as the rest of the team. HOW TO APPLY 1. Start your message with the word BLUEPRINT so we know you read this post. 2. Send a link to one project you built and are proud of. Tell us in 2 or 3 sentences what it does, what part you built, and why you built it that way. Be ready to explain your choices on a call. 3. Tell us your experience with Node, React, and SQL, and the largest project you have owned or led. 4. Tell us if you have used AI or LLM tools in your work, and how. Our process is a short call, then a deeper technical interview, then a small paid task using fake data, then a short call to walk through your code together. We will reply to strong applicants.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-06T13:22:00.255983+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1663025",
+    "title": "Game Developer",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "550",
+    "posted": "2026-06-06 20:17:18",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663025",
+    "tags": [
+      "Game Development",
+      "Unity",
+      "Unreal Engine"
+    ],
+    "scraped_at": "2026-06-06T13:21:48.580985+00:00",
+    "job_title": "Game Developer",
+    "work_type": "Any",
+    "salary_detail": "550",
+    "hours": "40",
+    "date_updated": "Jun 6, 2026",
+    "description": "IMPORTANT: If you apply to this with ai, you will not receive an answer. I can smell if your application is real ????… In a nutshell what you need for this job is at least a basic familiarity with Team Fortress 2 and a passion for game development. Optimally you have worked on Horror game(s) in the past. I‘m looking to hire someone to help me create indie video games. I‘m a YouTuber who makes videos on the game Team Fortress 2. My plan is to create small indie horror games with the tf2 mercs. That would be what You do. My plan long term is to have you be part of my venture into indie video game creation more generally- away from just tf2. If that interests you please apply :) I‘m willing to work with you full time or part time. Salery is monthly - at full time starting wage would be 550$.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-06T13:22:13.297637+00:00",
+    "category": "Development"
   }
 ]
