@@ -8043,5 +8043,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-06T09:24:56.139103+00:00",
     "category": "Real Estate"
+  },
+  {
+    "job_id": "1663003",
+    "title": "Web Infrastructure & Cloud Operations Specialist (Contract-to-Hire)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$8 - $15 per hour",
+    "posted": "2026-06-06 19:01:03",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663003",
+    "tags": [
+      "Wordpress",
+      "Compute - EC2",
+      "Systems Administration"
+    ],
+    "scraped_at": "2026-06-06T11:21:28.171076+00:00",
+    "job_title": "Web Infrastructure & Cloud Operations Specialist (Contract-to-Hire)",
+    "work_type": "Full Time",
+    "salary_detail": "$8 - $15 per hour",
+    "hours": "40",
+    "date_updated": "Jun 6, 2026",
+    "description": "# Web Infrastructure & Cloud Operations Specialist (Contract-to-Hire) We are seeking a reliable, detail-oriented Web Infrastructure & Cloud Operations Specialist to help manage and improve a large portfolio of websites. This is a full-time contract-to-hire role with a 60–90 day evaluation period and the opportunity for a long-term position. We are currently migrating websites from WordPress to static sites while improving infrastructure, backups, monitoring, documentation, and operational standards. We are looking for someone who can take ownership of infrastructure-related tasks, improve systems, document processes, and help build a scalable operation. **This role is best suited for someone who enjoys building systems, creating documentation, solving problems proactively, and improving operational efficiency.** ## Core Responsibilities * Manage Cloudflare configuration and maintenance * Manage DNS, SSL, and domain-related tasks * Execute website migrations, including WordPress-to-static-site migrations * Perform migration QA and validation testing * Validate backups and perform restore testing * Set up and maintain monitoring systems * Support WordPress hosting and infrastructure * Assist with AWS-related tasks * Troubleshoot website, hosting, DNS, SSL, and Cloudflare issues * Create and maintain SOPs and technical documentation * Help standardize infrastructure and reduce technical debt * Use AI tools to improve troubleshooting, documentation, research, and operational efficiency ## Required Skills * Cloudflare, DNS, and SSL experience * WordPress hosting and migration experience * Linux/server administration fundamentals * Backup and restore testing experience * Basic AWS knowledge * Strong troubleshooting ability * Strong documentation and SOP creation skills * Excellent attention to detail * Ability to work independently with minimal supervision * Strong written communication skills * Practical experience using ChatGPT, Claude, or similar AI tools ## What We're Looking For * Ownership mentality * Strong problem-solving skills * Ability to identify risks early and communicate them clearly * Ability to work without constant supervision * Ability to follow processes while improving them * Strong documentation habits * Someone who helps build systems rather than relying on tribal knowledge * Someone who takes accountability for outcomes, not just tasks ## Work Schedule * Full-time position * Must provide at least 4 hours of overlap with U.S. Central Time business hours * Must be available for meetings and collaboration during overlap hours ## To Apply Please begin your application with: **\"I build reliable systems and document my work.\"** Please include: 1. Examples of Cloudflare, DNS, SSL, or hosting work you have performed. 2. Examples of website migrations you have completed. 3. Examples of backup validation or restore testing you have performed. 4. Examples of AWS tasks you have handled. 5. Examples of SOPs or technical documentation you have created. 6. Three examples of how you use AI in your technical work. 7. Your timezone and working hours. 8. How many hours you can overlap with U.S. Central Time. 9. Your hourly rate. 10. A 5–10 minute Loom video introducing yourself and covering: * Your relevant infrastructure experience * Your Cloudflare experience * Your website migration experience * How you use AI tools in your work * Why you believe you are a strong fit for this role Applications that do not include the required opening phrase and Loom video may not be reviewed.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-06T11:21:45.277342+00:00",
+    "category": "Real Estate"
   }
 ]
