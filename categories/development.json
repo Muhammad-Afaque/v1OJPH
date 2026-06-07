@@ -19928,5 +19928,80 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-07T08:50:03.650675+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1547509",
+    "title": "Back End Developer (Rust / Python / TimescaleDB)",
+    "company": "Block Liquidity",
+    "type": "Full Time",
+    "salary": "PhP 60,000",
+    "posted": "2026-06-07 18:55:14",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1547509",
+    "tags": [
+      "Python",
+      "API Development",
+      "Database Management"
+    ],
+    "scraped_at": "2026-06-07T11:05:41.910858+00:00",
+    "job_title": "Back End Developer (Rust / Python / TimescaleDB)",
+    "work_type": "Full Time",
+    "salary_detail": "PhP 60,000",
+    "hours": "50",
+    "date_updated": "Jun 7, 2026",
+    "description": "COMPANY DESCRIPTION We are a fast-growing company building advanced analytics platforms and dashboards for traders, builders, analysts, quants and researchers. Our mission is to make complex data accessible through clean, intuitive, and high-performance interfaces. We combine technical expertise with beautiful design to empower trader decision-making. KEY RESPONSIBILITIES Architect, build, and maintain high-performance backend services in Rust and Python Optimize TimescaleDB hypertables and Continuous Aggregates for speed, scale, and reliability Design scalable data collection pipelines to capture real-time and historical trading data Tune database performance: indices, compression, partitioning, caching, query tuning Implement fault-tolerant data ingestion systems and monitoring pipelines Design and maintain high-performance TimescaleDB schemas optimized for time-series workloads. Implement materialized views, continuous aggregates, and UML-driven database design. Conduct normalization, indexing, and compression to optimize storage and performance. Profile and optimize slow queries, background jobs, and large joins. Ensure database integrity, consistency, and security across environments. Collaborate with developers to integrate database logic into backend services. Develop and maintain database documentation, UML diagrams, and performance monitoring dashboards. NICE TO HAVE: Experience with FastAPI (Python) Redis / RabbitMQ / WebSockets knowledge Experience with cloud infrastructure (AWS) Experience working in blockchain and cryptocurrency industries, or knowledge of Web3, Trading and Hyperliquid is a plus. Experience with Telegram ---------- WHO YOU ARE You take pride in building things fast and correct. You think in latency, throughput, and memory efficiency. You care about correctness, determinism, and data integrity. You understand how markets breathe, move, and occasionally panic. COMPENSATION AND PERKS Base Salary: Php 60,000 / month. Stock Options: We are a start-up and you will own a part of the company. We expect you to work hard to make Block Liquidity a global success. Impact: Massive ownership over the technical roadmap of a fast-growing platform. Environment: Work alongside a team of quants and designers who value technical excellence.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-07T11:05:46.940745+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1663344",
+    "title": "Senior WordPress Gutenberg Developer (Full-Time)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "700",
+    "posted": "2026-06-07 18:47:56",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663344",
+    "tags": [
+      "Wordpress",
+      "Gutenberg",
+      "HTML"
+    ],
+    "scraped_at": "2026-06-07T11:05:41.911743+00:00",
+    "job_title": "Senior WordPress Gutenberg Developer (Full-Time)",
+    "work_type": "Full Time",
+    "salary_detail": "700",
+    "hours": "40",
+    "date_updated": "Jun 7, 2026",
+    "description": "Position: Senior WordPress Gutenberg Developer / HTML Schedule: Full-Time, Monday–Friday, 7:00 AM – 4:00 PM EST Starting Salary: $700 USD per Month (Performance Reviews and Growth Opportunities Available) About the Role We are seeking a highly skilled and experienced WordPress Gutenberg Developer who can convert AI-generated website designs into fast, responsive, SEO-friendly WordPress websites using the Gutenberg block editor. This is not an entry-level position. We are looking for a true professional with extensive WordPress development experience who can build clean, scalable, and high-performing websites with minimal supervision. Requirements: Minimum 7+ years of WordPress development experience Expert-level knowledge of Gutenberg Editor and Full Site Editing (FSE) Strong HTML5, CSS3, and responsive design expertise Ability to convert AI-generated website designs into fully functional WordPress websites Experience building custom Gutenberg blocks Strong understanding of website performance optimization Knowledge of SEO best practices and Core Web Vitals Experience working with WordPress themes, templates, and custom post types Ability to work independently and meet deadlines Strong attention to detail and quality control Preferred Qualifications Experience with JavaScript and React for Gutenberg development Familiarity with Advanced Custom Fields (ACF) Experience with WordPress migrations Understanding of technical SEO and schema markup Experience working with healthcare, treatment center, or lead-generation websites Responsibilities Convert AI-generated website layouts into Gutenberg WordPress websites Build and customize WordPress templates and reusable blocks Ensure websites are mobile-friendly and responsive Optimize pages for speed, SEO, and user experience Troubleshoot and resolve WordPress development issues Maintain high coding standards and documentation Collaborate with marketing and SEO teams to implement best practices What We're Looking For We need a developer who can take ownership of projects, solve problems independently, and consistently deliver professional-quality work. You must be comfortable working in a fast-paced environment and be able to produce high-quality websites without constant oversight. We have several websites, directories, and landing pages. ---------- 6 months Resume Portfolio of WordPress/Gutenberg websites Examples of AI-generated designs converted into live websites Years of WordPress experience Availability to work 7:00 AM – 4:00 PM EST",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-07T11:05:49.724872+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1240126",
+    "title": "Web Developer Python/JS/PHP",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "DAYS/WEEK = 56 HOURS 23,041PHP/month",
+    "posted": "2026-06-07 17:36:30",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1240126",
+    "tags": [
+      "PHP",
+      "Node JS",
+      "Python"
+    ],
+    "scraped_at": "2026-06-07T11:05:41.918578+00:00",
+    "job_title": "Web Developer Python/JS/PHP",
+    "work_type": "Any",
+    "salary_detail": "DAYS/WEEK = 56 HOURS 23,041PHP/month",
+    "hours": "TBD",
+    "date_updated": "Jun 7, 2026",
+    "description": "Web Developer PHP/JS; python skills preferred, but not required. 7 DAYS/WEEK = 56 HOURS 23,041PHP/month Include in your application: 1. Typing Skill in WPM (words per minute) - take test on 10fastfingers website; just paste your score, no links please 2. The word \"teddy\" so we understand you have read the job ad/work hours/salary and your message is not spam 3. Are you open to learning new things and being trained in new skills? 4. Can you work night time hours in Philippine time zone?",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-07T11:06:05.030837+00:00",
+    "category": "Development"
   }
 ]
