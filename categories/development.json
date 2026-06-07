@@ -20049,5 +20049,26 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-07T15:21:43.469952+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1663478",
+    "title": "Software Developer",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "Php 190,000 / month",
+    "posted": "2026-06-08 01:05:36",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663478",
+    "tags": [],
+    "scraped_at": "2026-06-07T17:10:28.082144+00:00",
+    "job_title": "Software Developer",
+    "work_type": "Full Time",
+    "salary_detail": "Php 190,000 / month",
+    "hours": "40",
+    "date_updated": "Jun 7, 2026",
+    "description": "***PLEASE READ ON HOW TO APPLY*** Job Title: Software Developer Location: Remote | Philippines based ONLY Salary Range: Php 180,000 per month A MUST: Minimum of 5 years of solid experience We’re looking for talented Software Developers to join our remote-first team. In this role, you’ll be responsible for building and maintaining responsive, high-performing full- stack web applications using Next.js, Tailwind CSS, and Supabase. Our ideal candidate writes clean, maintainable code, takes ownership of their work, and thrives in a fast-paced startup environment where autonomy, communication, and craftsmanship are valued. Key Responsibilities - Design, develop, and maintain web applications using TypeScript, React, and Next.js. - Work with Supabase (PostgreSQL) to design, query, and optimise relational database schemas. - Integrate third-party APIs, including reading, understanding, and applying API documentation. - Implement responsive, accessible, and performant user interfaces with Tailwind CSS. - Utilise AI-powered tools (e.g. Cursor, Claude, and similar) to accelerate development while maintaining high code quality and exercising sound engineering judgment over AI-generated output. - Collaborate with other developers and/or stakeholders to refine requirements, propose technical solutions, and deliver features on agreed timelines. - Work with background jobs and scheduled tasks using Inngest (or similar services) for cron-like and event-driven workflows. - Troubleshoot, debug, and resolve issues across the stack, including in production environments. - Produce clear technical documentation for features, architectural decisions, and processes. - Communicate proactively and clearly within a remote team, including written updates and participation in online meetings across UK-Philippines time zones. Must-Have Skills: - Strong proficiency in TypeScript, React, and Next.js - Experience with Supabase or relational databases (PostgreSQL) - Ability to read and integrate third-party API documentation - Strong understanding of Tailwind CSS and responsive design principles - Familiarity with Git, CI/CD pipelines, and modern development workflows - Ability to work independently and manage time effectively in a remote environment - Strong problem-solving skills and attention to detail - Comfortable using AI-assisted development tools while maintaining engineering judgment and security best practices Nice-to-Have Skills - Experience with React Native and mobile development tools (Expo, Xcode, Android Studio) - Experience with Inngest or similar background job / cron orchestration tools - Familiarity with Vercel serverless and edge functions Tech Stack Primary: - TypeScript - React - Next.js - Tailwind CSS - Supabase (PostgreSQL) Secondary / Bonus: - React Native - Expo - Python Tools & Platforms: - Git / GitHub - Vercel - Supabase - Inngest - Standard remote collaboration tools (Slack/Teams, Jira/Linear or equivalent) ***PLEASE READ ON HOW TO APPLY*** How to Apply: To apply for this role, please submit a link to your resume and a brief Loom video (max 2 minutes) introducing yourself and highlighting your skills relevant to the role. In your video, please address the following: - A short introduction of yourself and why you're interested in this role. - Your previous experience as a Software Developer and specific experience with Next JS/Supabase - Key skills or qualifications that make you a strong fit for this position. Please note: Applications without a video will not be reviewed. We look forward to welcoming a passionate developer who prioritizes clean code, performance optimization, and delivering exceptional user experiences.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-07T17:10:38.926752+00:00",
+    "category": "Development"
   }
 ]
