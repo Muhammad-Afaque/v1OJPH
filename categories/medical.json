@@ -3676,5 +3676,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-07T13:43:27.242079+00:00",
     "category": "Medical"
+  },
+  {
+    "job_id": "1663490",
+    "title": "Insurance Verification and EMR specialist",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$8 / hour",
+    "posted": "2026-06-08 01:35:36",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663490",
+    "tags": [
+      "Microsoft Excel",
+      "Electronic Health Record",
+      "Insurance Verification"
+    ],
+    "scraped_at": "2026-06-07T19:15:01.787853+00:00",
+    "job_title": "Insurance Verification and EMR specialist",
+    "work_type": "Full Time",
+    "salary_detail": "$8 / hour",
+    "hours": "40",
+    "date_updated": "Jun 7, 2026",
+    "description": "About 1bios 1bios helps independent healthcare practices succeed with virtual care. We deliver fully managed Remote Patient Monitoring (RPM), Chronic Care Management (CCM), and related care programs — combining our technology platform with expert care teams to handle enrollment, care delivery, compliance, and billing. Our programs generate new revenue for practices and better outcomes for their patients. About the role We're looking for an Insurance Verification & EMR Data Specialist to join our operations team. In this role, you'll verify patients' insurance coverage and benefits, and you'll pull patient data from our customers' EMR systems to support patient enrollment into our care programs. The work combines software-based verification, direct phone calls with US insurance payers, and hands-on work in multiple EMR platforms. Responsibilities Verify patient insurance eligibility and benefits, including coverage status, plan type, member details, coordination of benefits, and cost-share details (copay, coinsurance, deductible) Call US insurance payers directly to complete verifications that can't be done electronically Review and quality-check verifications completed through our eligibility software Access customer EMR systems to export patient data and deliver clean CSV files to the team Document all verifications and data pulls in a standard output format used by our enrollment and care teams Requirements Hands-on experience with US insurance verification — eligibility and benefits checks across Medicare Advantage and commercial plans Hands-on experience working in at least one major EMR (e.g., Epic, Athena, eClinicalWorks, Tebra), with the confidence to navigate an unfamiliar system — experience across multiple EMRs is a strong plus Clear spoken and written English with a professional phone manner Strong attention to detail and accurate documentation Availability to work US business hours Reliable internet connection Nice to have Experience at a healthcare BPO, RCM, or medical billing company Experience with electronic eligibility/clearinghouse tools",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-07T19:15:43.512463+00:00",
+    "category": "Medical"
   }
 ]
