@@ -20028,5 +20028,26 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-07T13:42:53.097529+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1663397",
+    "title": "AI Agent For Email Managemt in Microsoft Outlook",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "$500 to 750",
+    "posted": "2026-06-07 21:47:01",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663397",
+    "tags": [],
+    "scraped_at": "2026-06-07T15:21:07.374734+00:00",
+    "job_title": "AI Agent For Email Managemt in Microsoft Outlook",
+    "work_type": "Part Time",
+    "salary_detail": "$500 to 750",
+    "hours": "20",
+    "date_updated": "Jun 7, 2026",
+    "description": "Im needing to develope Automation that can use my Outlook Emal Program manage my email s, assure all email s are being filerted to my inbox, prioritize, sned welcome responce, send appropiate replys based on sending request, This could be a request for quotation, literature , white paper or no request at all, they just viewed our web site. In addition build automated email drip system to engage the new contact with monthly news letter, etc.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-07T15:21:43.469952+00:00",
+    "category": "Development"
   }
 ]
