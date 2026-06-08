@@ -3747,5 +3747,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-08T05:29:50.261416+00:00",
     "category": "Medical"
+  },
+  {
+    "job_id": "1663848",
+    "title": "Patient Care Coordinator (Medical VA)",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "Up to $7",
+    "posted": "2026-06-08 16:38:59",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663848",
+    "tags": [
+      "Operation Management",
+      "Electronic Health Record",
+      "Medical Virtual Assistant"
+    ],
+    "scraped_at": "2026-06-08T10:28:05.584045+00:00",
+    "job_title": "Patient Care Coordinator (Medical VA)",
+    "work_type": "Any",
+    "salary_detail": "Up to $7",
+    "hours": "22",
+    "date_updated": "Jun 8, 2026",
+    "description": "About us OptiME Health is a women's telehealth practice focused on metabolic health, hormones, and longevity (GLP-1 therapy, lab-based protocols, coaching, and nutrition). We are small, mission-driven, and growing. This is a founding-team role with room to grow as we scale. The role We're hiring talent that can do two things: build out our Practice Better platform from the ground up, then run the day-to-day patient experience on top of it. You are the operational backbone:  first the architect, then the engine. This is a care coordination and systems role, not a sales role. You're not closing deals or giving medical advice, you're building and running the infrastructure that keeps the practice organized and patients feeling taken care of. Phase 1  Build out Practice Better (first 14 days) Configure our Practice Better instance end to end: patient portal, programs, packages, and provider calendar Build intake forms, questionnaires, and consent forms inside the platform (we provide the clinical and legal content, you build them and wire them into the patient flow) Set up automated workflows: onboarding sequences, appointment reminders, follow-up triggers, and program milestones Configure analytics and reporting: patient progress tracking, program completion, retention, and the dashboards we need to run the business Build document and message templates and a clean, repeatable patient journey Ongoing: Run patient operations Manage day-to-day in Practice Better: onboarding, scheduling, reminders, and message triage Set up and manage patient accounts in Fullscript (supplement dispensary) and process/track orders Coordinate lab logistics in Rupa Health: prep and route orders for provider sign-off, track results, flag completed panels (you do not order labs or prescribe, that stays with the provider) Respond to non-clinical patient messages with warmth and professionalism; escalate anything clinical to the provider Run care-side follow-up: post-visit check-ins, no-show and reschedule outreach, and milestone nudges Keep patient records accurate and up to date; maintain the analytics and reporting you built Light documentation and reporting Who you are Has built out and configured Practice Better, not just used it: forms, programs, automated workflows, and reporting. This is the single most important qualification. (Deep experience configuring a comparable platform, Healthie, SimplePractice, Jane plus willingness to master Practice Better can substitute.) Experience with Fullscript and/or Rupa Health is a strong plus. Experience as a healthcare/medical VA or in a medical admin/patient coordination role Excellent written English with a warm, calm, professional patient-facing tone Comfortable with patient privacy: familiar with HIPAA, and willing to complete HIPAA training and sign a Business Associate Agreement (BAA) before accessing any patient data Extremely organized, detail-oriented, and proactive. You catch things before they fall through the cracks Reliable high-speed internet and a quiet, private workspace Able to maintain strict confidentiality Need: Background in weight management / GLP-1, women's health or functional/longevity medicine Experience supporting a solo provider or small telehealth practice Why this role: You'll be the first dedicated operations hire in a practice that's scaling. The right person grows with us into a lead patient-experience role.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-08T10:29:31.338774+00:00",
+    "category": "Medical"
   }
 ]
