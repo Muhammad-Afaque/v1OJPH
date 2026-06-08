@@ -18116,5 +18116,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-07T19:15:30.614104+00:00",
     "category": "Finance"
+  },
+  {
+    "job_id": "1663623",
+    "title": "Financial Analysis/Proforma/Scenario Planning for a US-based Healthcare Business",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "$5/hr",
+    "posted": "2026-06-08 07:39:30",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663623",
+    "tags": [
+      "Microsoft Excel",
+      "Financial Analysis",
+      "Financial Forcasting"
+    ],
+    "scraped_at": "2026-06-08T00:18:33.582982+00:00",
+    "job_title": "Financial Analysis/Proforma/Scenario Planning for a US-based Healthcare Business",
+    "work_type": "Gig",
+    "salary_detail": "$5/hr",
+    "hours": "TBD",
+    "date_updated": "Jun 7, 2026",
+    "description": "We are looking for someone to help build a robust financial proforma model for our healthcare business with a focus on profitability. This model needs to be flexible enough to offer insight into the profitability of each of (currently 20) clinicians where each has a slightly different compensation structure. That needs to include a breakeven analysis and the ability to change parameters such as hourly pay rate, weekly number of recorded sessions, Payer average reimbursement, employers health insurance and 401k contributions, estimated tax set aside, PTO pay modeling, etc, so we can see the effect on profitability of such changes The model needs to roll up to a dashboard that is simple enough for clinical leadership to model various scenarios to see the impact of proposed pay structures We have developed a model that could be used as a starting point if helpful",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-08T00:18:56.658344+00:00",
+    "category": "Finance"
   }
 ]
