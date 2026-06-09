@@ -21953,5 +21953,55 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-09T12:34:32.125041+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1664881",
+    "title": "Vibe Code AI Developer + VA",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "$7 USD per hour",
+    "posted": "2026-06-09 22:25:16",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1664881",
+    "tags": [
+      "Listing Management",
+      "Business Management",
+      "React JS"
+    ],
+    "scraped_at": "2026-06-09T15:51:09.303828+00:00",
+    "job_title": "Vibe Code AI Developer + VA",
+    "work_type": "Gig",
+    "salary_detail": "$7 USD per hour",
+    "hours": "40",
+    "date_updated": "Jun 9, 2026",
+    "description": "We are creating 4 ecommerce stores. Your job is to set up each store: -Google Merchant Center -Google Ads -eBay -Bing Ads -Connect to APIs for all above apps -Add any needed website updates (privacy policy updates, any other requirements for above accounts) -Use AI Vibe Code Tools (Claude Code or Codex) to create data feeds and connect to eBay API Please do not send an AI written response, it will be ignored. Instead send a real message explaining your experience and how you can help us. The goal is to get 4 ecommerce sites off the ground - each has their own LLC and domain.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-09T15:52:50.516623+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1587511",
+    "title": "PHP Developer - Remote Position",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$10.00/hr",
+    "posted": "2026-06-09 21:30:08",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1587511",
+    "tags": [
+      "PHP",
+      "Wordpress",
+      "SQL"
+    ],
+    "scraped_at": "2026-06-09T15:51:14.312916+00:00",
+    "job_title": "PHP Developer - Remote Position",
+    "work_type": "Full Time",
+    "salary_detail": "$10.00/hr",
+    "hours": "40",
+    "date_updated": "Jun 9, 2026",
+    "description": "You became a technologist because you love solving problems, keeping technology running smoothly, and making sure teams have the tools they need to succeed. You thrive on bringing order to complex systems, troubleshooting issues before they become problems, and ensuring both hardware and software are optimized for peak performance. You’re the person people rely on when things go wrong—and you love making sure they don’t. Position Overview We’re seeking a skilled PHP Developer to join our remote team and support critical business automation projects, custom portal development, and AI-powered tools. This role is essential for advancing our digital transformation initiatives and supporting our distributed workforce. Key Responsibilities - Develop and maintain custom WordPress-based intranet portals and business applications - Build and maintain API integrations with business systems (Salesforce, Google Workspace, QuickBooks, Clockify, Zapier, Expensify) - Provide internal IT support and troubleshooting for remote employees - Ensure website security, performance, and uptime - Design and implement business process automation solutions - Support AI development projects including chat functionality and automated evaluation tools - Database management and optimization - Support internal teams with tech solutions, including automations and integrations of existing tools and platforms - Participate in daily team huddles and provide regular project updates (15-30 minutes) Required Technical Skills - PHP Development: 5+ years experience with modern PHP (7.4+) - LAMP Stack: Linux, Apache/Nginx, MySQL, PHP - WordPress: Custom plugin/theme development, REST API integration - Database Management: MySQL optimization, complex queries, data modeling - API Development: RESTful services, third-party integrations - Version Control: Git workflows and collaborative development - Frontend Integration: JavaScript, HTML5, CSS3 for full-stack projects - Web & Server Security: Deep knowledge of security protocols and troubleshooting technical issues - Communication Skills: Ability to communicate clearly and confidently with US-based teams, particularly over phone and video calls - Versatility: Comfort with diverse tasks, from managing support tickets to optimizing databases or troubleshooting server issues Preferred Experience - Business System Integration: QuickBooks API, accounting software connections - Manufacturing/Industrial Software: ERP systems, project management tools - Process Automation: Workflow automation, data import/export systems - AI/ML Tools: Experience with AI APIs, chatbot development - Cloud Platforms: AWS, Google Cloud, or similar hosting environments - Security: Authentication systems, data protection protocols Company Culture & Values (PERFORM) - Performance Under Pressure: We excel under high-pressure situations 24/7, prioritizing respectful communication while delivering the right product at the right place at the right time. - Eternal Perspective: With an eye to the long-term, we choose the right path over the quick fix, ensuring our actions can always stand up to scrutiny. - Rigor: We stand out through our meticulous attention to detail, catching what others miss to provide peace of mind to all stakeholders. - Foresight: We shrewdly share information with external entities, preserving our internal advantages while maintaining absolute honesty in our dealings. - Ownership: We cultivate a culture of Extreme Ownership, encouraging transparency, honesty, humility, and vulnerability within our team. - Responsiveness: Always organized and ahead of the curve, we’re prepared to respond swiftly and proactively to needs, always prioritizing communication and fast response times. - Make Money Together: We uphold a belief in collective success, understanding that when one wins, we all win, and reflect this in our compensation structure. Work Environment - 100% Remote Position with flexible scheduling - Ability to work 09:00-17:00 MDT UTC-6 -A quiet, dedicated home office setup - Fast-paced environment supporting critical business functions - Collaborative project work with operations and sales teams - Daily team huddle participation - Single employment expectation (no competing commitments) We value dedication and focus in our tea ---------- mbers. As a condition of employment, we expect our employees to commit fully to their role with us and not engage in other employment or freelance work. This policy is in place to ensure that our employees are able to perform at their best and contribute fully to the success of our team. If you are currently holding another job or considering additional work, please be aware that we require a commitment to this position as your sole employment. Compensation & Benefits - Competitive salary based on experience - Flexible time off - Equipment and home office setup support Ready to join our team? Apply now, it literally takes 6 minutes. No weird questions. ---------- /p/VhjJ4259zcP",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-09T15:53:44.407903+00:00",
+    "category": "Development"
   }
 ]
