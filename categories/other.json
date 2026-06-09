@@ -35222,5 +35222,29 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-08T22:24:39.177554+00:00",
     "category": "Other"
+  },
+  {
+    "job_id": "1664375",
+    "title": "DevOps engagement",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "TBD",
+    "posted": "2026-06-09 06:30:51",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1664375",
+    "tags": [
+      "Devops",
+      "Azure"
+    ],
+    "scraped_at": "2026-06-09T00:01:35.506064+00:00",
+    "job_title": "DevOps engagement",
+    "work_type": "Gig",
+    "salary_detail": "TBD",
+    "hours": "TBD",
+    "date_updated": "Jun 8, 2026",
+    "description": "Summary **Job Description:** We are looking for an experienced DevOps consultant to review our current development, deployment, and infrastructure practices and provide recommendations for improvement. **Scope:** - Review our development workflow - Assess CI/CD pipelines and deployment processes - Evaluate environment strategy and infrastructure - Review security, monitoring, and operational practices - Identify bottlenecks, risks, and improvement opportunities **Deliverable:** A detailed assessment document that includes: - Current-state analysis - Key findings and risks - Recommended improvements - Prioritized roadmap (quick wins and long-term initiatives) - Estimated effort and impact for each recommendation **Environment:** - ASP.NET / .NET - Vue.js - Azure - GitHub **Requirements:** - Proven DevOps and cloud architecture experience - Strong Azure expertise - Experience reviewing and optimizing CI/CD workflows Please include your assessment approach, relevant experience, estimated timeline, and fixed-price quote for the engagement.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-09T00:02:31.900163+00:00",
+    "category": "Other"
   }
 ]
