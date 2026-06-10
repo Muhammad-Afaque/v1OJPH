@@ -22471,5 +22471,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-09T22:22:22.844307+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1663887",
+    "title": "AI Developer",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "600-1000",
+    "posted": "2026-06-10 07:04:27",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1663887",
+    "tags": [
+      "Marketing Automation",
+      "AI Tools",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-10T00:08:18.278996+00:00",
+    "job_title": "AI Developer",
+    "work_type": "Full Time",
+    "salary_detail": "600-1000",
+    "hours": "40",
+    "date_updated": "Jun 9, 2026",
+    "description": "AI & Automation Specialist (Full-Time Remote) Salary $600-$1,000 USD per month (depending on experience) Location Remote (Philippines Preferred) About Us We are a fast-growing eCommerce business operating across Amazon, TikTok Shop, wholesale, private label, and international marketplaces. We're looking for a full-time AI & Automation Specialist whose primary responsibility is simple: Make the business more efficient every single week. You will work directly with the founder, identify repetitive tasks, build automations, improve workflows, and leverage AI tools to save time across the company. Your Mission Your goal is to help the founder and team achieve more in less time. You should constantly be asking: What can be automated? What can be delegated to AI? What tasks are wasting time? How can we improve existing workflows? What processes can be simplified? You will be expected to actively suggest improvements rather than simply waiting for instructions. Responsibilities AI & Automation Build workflows using AI tools Create automations using platforms such as Make, N8N, Zapier and similar tools Connect software using APIs where possible Research and test new AI tools AI Assistants Create custom GPTs and AI assistants Improve prompts and workflows Build internal knowledge bases Create AI systems for customer service, operations, and administration Business Operations Review existing processes Document SOPs Identify inefficiencies Suggest improvements Help implement new systems Research & Development Stay updated on the latest AI developments Test new tools and software Present ideas that could save time or money Required Skills Essential Strong experience using Claude Strong experience using ChatGPT Experience with AI prompting Excellent English communication Strong analytical skills Ability to learn quickly Attention to detail Preferred Make.com N8N Zapier Airtable Notion Google Workspace Python API integrations E-commerce experience What We're Looking For We want someone who: ? Loves AI ? Is constantly learning new tools ? Thinks independently ? Enjoys solving problems ? Looks for ways to improve processes ? Can communicate ideas clearly ? Is excited about building systems KPIs Success in this role will be measured by: Number of automations implemented Hours saved per month Process improvements delivered Quality of ideas suggested Speed of implementation Overall impact on business efficiency To Apply Please send: CV/Resume A short Loom video (3-5 minutes) Examples of AI workflows or automations you have built List of AI tools you use regularly Your internet speed Your expected salary Bonus Question If you joined our company tomorrow, what are the first 3 areas of a growing eCommerce business you would try to automate and why?",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-10T00:09:12.776030+00:00",
+    "category": "Development"
   }
 ]
