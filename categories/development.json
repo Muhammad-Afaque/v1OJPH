@@ -26372,5 +26372,26 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-12T21:29:03.902335+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1478629",
+    "title": "Ecommerce Web Developer",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "TBD",
+    "posted": "2026-06-13 07:01:29",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1478629",
+    "tags": [],
+    "scraped_at": "2026-06-12T23:13:06.996724+00:00",
+    "job_title": "Ecommerce Web Developer",
+    "work_type": "Any",
+    "salary_detail": "TBD",
+    "hours": "TBD",
+    "date_updated": "Jun 12, 2026",
+    "description": "This isn’t your typical copy-paste job post. We’re not just looking for someone to “set up a store.” We’re building something bigger — a full online platform that blends wholesale and retail, with smart search, flexible filters, shipping integrations, and room to scale. We need someone who’s excited about taking the first step (building the core site) and then guiding us on what comes next. If you enjoy both hands-on development and shaping the direction of a project, this could be the right fit. What You’ll Do *Build and launch a custom e-commerce website (Laravel or similar). *Create product catalog + smart search + filter system. *Implement checkout, payments, and shipping integrations (freight + small parcels). *Develop a simple but solid inventory and reporting system. *Make the site SEO-ready and ADA-compliant from the start. *Share your ideas on how we can take it further (future features, team needs). What We’re Looking For *You’ve actually built custom e-commerce websites before without using templates. *You know your way around APIs (payments, shipping, etc.). *You’re comfortable working solo or with a team and can clearly explain your approach and communicate along the way. *You enjoy problem-solving and thinking ahead, not just coding what’s asked. *You must show a portfolio of your work and references. Formal education in web development preferred. *Someone who manages timeline and workflow effectively and can meet deadlines. Bonus Points *Experience in B2B or wholesale e-commerce. *AI/chatbot integrations. *You care about making websites that are smooth, scalable, SEO optimized and easy to use. The Details *Remote role. *Compensation: To be determined (based on experience). *Project scope and roadmap will be discussed in more detail during the interview. ???? To apply, please send your CV/portfolio and a brief introduction to ---------- ???? Interview Schedule: We are only available for interviews Tuesday to Friday, 6:00 AM – 12:00 PM (Philippine Time). Please indicate your preferred schedule along with your resume. ?? Note: Filipino applicants are preferred.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-12T23:13:19.422670+00:00",
+    "category": "Development"
   }
 ]
