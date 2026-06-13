@@ -26866,5 +26866,51 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-13T09:55:54.730728+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1667967",
+    "title": "AI Systems Developer (Claude Code Specialist)",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "Experience dependant (competitive)",
+    "posted": "2026-06-13 20:53:04",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1667967",
+    "tags": [
+      "AI Tools",
+      "API Integration",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-13T13:49:37.924105+00:00",
+    "job_title": "AI Systems Developer (Claude Code Specialist)",
+    "work_type": "Part Time",
+    "salary_detail": "Experience dependant (competitive)",
+    "hours": "10",
+    "date_updated": "Jun 13, 2026",
+    "description": "My company is one of the fastest growing personal development brands in the world, and we're looking for a long term AI Developer to help us build custom internal tools through Claude. The main project is creating an AI powered business dashboard that connects multiple platforms including Shopify, Meta Ads, Klaviyo, Triple Whale, Amazon, Slack, Google Drive and Gmail. The goal is simple: • Pull data from multiple platforms • Analyse performance • Spot trends and opportunities • Provide recommendations • Generate daily reports and updates We are not looking for someone to simply build one project and leave. We want a long term partner who can continuously improve the system, implement new AI tools, and help us stay at the forefront of AI as technology evolves. Requirements: • Experience with Claude Code • Strong AI and automation knowledge • API integration experience • Experience building dashboards and internal tools • Python knowledge preferred • Strong problem solving skills - Strong English Speaking To apply, please send: • Examples of projects you have built • Your experience with Claude Code • Your experience with AI development This is a long term opportunity with ongoing work for the right person.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-13T13:50:05.839687+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1667956",
+    "title": "Healthcare & Legal Cybersecurity / Compliance Engineer (HIPAA + Law Firms)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$2,500 - $3,200",
+    "posted": "2026-06-13 20:15:01",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1667956",
+    "tags": [],
+    "scraped_at": "2026-06-13T13:49:40.405748+00:00",
+    "job_title": "Healthcare & Legal Cybersecurity / Compliance Engineer (HIPAA + Law Firms)",
+    "work_type": "Full Time",
+    "salary_detail": "$2,500 - $3,200",
+    "hours": "40",
+    "date_updated": "Jun 13, 2026",
+    "description": "Are you a cybersecurity pro who wants to work on cutting-edge AI systems — and be the person who makes sure they're locked down and fully compliant? We're a U.S.-based technology company building local AI and RAG (Retrieval-Augmented Generation) systems for medical clinics and law firms. As we deploy AI systems that access sensitive patient records and confidential legal files, we need a sharp, self-driven Cybersecurity & Compliance Engineer to own security and compliance across our client environments. This is a high-trust, senior role where your work directly enables AI systems to operate safely and legally inside some of the most sensitive data environments that exist. WHAT YOU'LL BE DOING - Assess and harden the IT environments of our medical clinic and law firm clients (endpoints, networks, file systems, cloud storage) - Design and implement secure remote access (VPN, MFA, IAM, network segmentation) so our AI engineers can safely work with client data - Ensure medical clinic clients are fully HIPAA-compliant — risk assessments, Security Rule safeguards, policies, i ---------- response, and BAAs with AI vendors - Build practical security policies and SOPs for law firm clients around client confidentiality, secure file handling, and least-privilege access - Set up monitoring, logging, and alerting so that access to sensitive data — especially by AI systems — is always traceable and auditable - Work closely with our AI engineering team to make sure new deployments don't introduce compliance or security gaps YOU'RE A GREAT FIT IF YOU HAVE - 3+ years in cybersecurity, IT security, or systems engineering - Real-world experience with HIPAA or U.S. healthcare / healthcare BPO environments - Experience securing environments where medical, legal, or financial data must be tightly controlled - Strong hands-on skills: VPNs, firewalls, MFA, endpoint encryption, IAM, and logging/monitoring - Ability to translate compliance frameworks into practical technical controls - Great written English — you'll be writing policies and SOPs for doctors and lawyers, not just engineers - Self-directed and comfortable working remotely with a U.S. tech team BONUS POINTS FOR - Experience with law firm environments or legal case-management systems - Experience securing AI/ML systems or data pipelines that touch sensitive data - Certifications such as Security+, CISSP, HCISPP, or formal HIPAA compliance training WHY THIS ROLE IS WORTH YOUR TIME - 100% remote, long-term, stable position with a growing U.S. AI technology company - You will be THE security and compliance person — high visibility, real ownership, real impact - Direct collaboration with AI engineers and company leadership - Genuinely interesting work — AI, medical records, legal tech, and compliance all intersecting in one role - Salary: $2,500 to $3,200 USD per month depending on experience and certifications — paid in USD HOW TO APPLY Please include all three of the following or your application will not be reviewed: 1. Describe one HIPAA or healthcare security project you worked on — what was your role and what did you personally implement? 2. Describe one project where you secured sensitive data for a professional services environment (legal, medical, finance, etc.) 3. In 5 to 10 bullet points, outline how you would securely allow remote AI engineers to access patient files at a medical clinic while maintaining HIPAA compliance.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-13T13:50:20.624235+00:00",
+    "category": "Development"
   }
 ]
