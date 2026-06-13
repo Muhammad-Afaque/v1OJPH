@@ -26820,5 +26820,51 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-13T06:59:16.149716+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1667914",
+    "title": "Freelance Engineering Subject Matter Experts (Multiple Disciplines)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$10 per task",
+    "posted": "2026-06-13 17:22:20",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1667914",
+    "tags": [],
+    "scraped_at": "2026-06-13T09:55:28.068926+00:00",
+    "job_title": "Freelance Engineering Subject Matter Experts (Multiple Disciplines)",
+    "work_type": "Full Time",
+    "salary_detail": "$10 per task",
+    "hours": "40",
+    "date_updated": "Jun 13, 2026",
+    "description": "We are hiring experienced engineers and technical professionals to create expert-level visual reasoning tasks based on authentic engineering artifacts. Domains Mechanical Engineering Electrical Engineering Semiconductor Engineering Process Engineering Civil Engineering & Architecture Manufacturing Engineering Robotics & Automation Utilities & Power Systems Aerospace Engineering Telecommunications Responsibilities For each task, you will: Source an authentic engineering artifact (e.g., schematics, drawings, process flows, layouts, plans, network diagrams, CAD exports, technical maps, workflows, etc.) Write a realistic problem statement that requires analyzing the artifact Provide a concise final answer Create a step-by-step worked solution demonstrating expert reasoning Requirements Professional experience in one or more of the listed engineering domains Ability to interpret technical diagrams, drawings, schematics, and documentation Strong written communication skills Engineering degree or equivalent industry experience preferred Important This is not data annotation or image labeling work. We are seeking domain experts who can create problems that require genuine engineering reasoning and cannot be solved without understanding the technical artifact. To Apply Please include: Engineering discipline(s) Years of experience Relevant industry background Examples of technical artifacts you regularly work with Ongoing work available for qualified candidates.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-13T09:55:49.506131+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1667908",
+    "title": "Hiring: AI Prompt Engineer – Adult Fiction & Erotic Storytelling | One-Time Project",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "200",
+    "posted": "2026-06-13 16:52:42",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1667908",
+    "tags": [
+      "AI Tools",
+      "Prompt Engineering",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-13T09:55:28.070456+00:00",
+    "job_title": "Hiring: AI Prompt Engineer – Adult Fiction & Erotic Storytelling | One-Time Project",
+    "work_type": "Gig",
+    "salary_detail": "200",
+    "hours": "TBD",
+    "date_updated": "Jun 13, 2026",
+    "description": "We are looking for an experienced AI prompt engineer who specializes in creative fiction writing, specifically in the adult and erotic genre. This is a one-time project where we are looking to purchase a complete system of master prompts that we can use independently going forward. What We Need: A complete master prompt system designed to generate spicy, complex, and compelling erotic fiction using AI Prompts must produce high quality, engaging narratives with strong character development, tension, and storytelling The system should be reusable, scalable, and easy for our team to use independently Final deliverable is a fully documented prompt library we own outright Requirements: Proven experience in AI prompt engineering for creative fiction Deep understanding of storytelling structure, pacing, tension, and character development Experience specifically with adult and erotic fiction writing Proficient with AI writing tools such as Claude, Grok, ChatGPT, or similar Able to deliver a complete, organized, and well documented prompt system Previous work or portfolio in this niche is a strong plus Project Scope: This is a one time purchase — we buy the system outright Full ownership of all prompts transfers to us upon delivery How to Apply Please send us your portfolio or examples of AI generated fiction you have produced using your prompt systems (links). Include a detailed quote for your services and an estimated timeline for delivery.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-13T09:55:54.730728+00:00",
+    "category": "Development"
   }
 ]
