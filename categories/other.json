@@ -43192,5 +43192,29 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-13T15:30:55.660728+00:00",
     "category": "Other"
+  },
+  {
+    "job_id": "1668014",
+    "title": "Website- Wordpress- Adding WP Hotel Booking to condo site",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "$10/hour",
+    "posted": "2026-06-13 23:54:51",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1668014",
+    "tags": [
+      "Wordpress",
+      "Elementor"
+    ],
+    "scraped_at": "2026-06-13T17:18:15.117993+00:00",
+    "job_title": "Website- Wordpress- Adding WP Hotel Booking to condo site",
+    "work_type": "Gig",
+    "salary_detail": "$10/hour",
+    "hours": "TBD",
+    "date_updated": "Jun 13, 2026",
+    "description": "Looking for an expert at wordpress/website building to finish my condo website that is built on wordpress with a template, elementor, and using WP hotel booking plug in for dynamic booking and payment via stripe on site to finish and launch it asap.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-13T17:18:45.416816+00:00",
+    "category": "Other"
   }
 ]

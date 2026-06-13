@@ -26936,5 +26936,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-13T15:30:15.952000+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1668025",
+    "title": "WordPress developer",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "$8-12",
+    "posted": "2026-06-14 00:16:36",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1668025",
+    "tags": [
+      "Wordpress",
+      "Woocommerce",
+      "Elementor"
+    ],
+    "scraped_at": "2026-06-13T17:18:15.110235+00:00",
+    "job_title": "WordPress developer",
+    "work_type": "Part Time",
+    "salary_detail": "$8-12",
+    "hours": "2",
+    "date_updated": "Jun 13, 2026",
+    "description": "60 Seconds to FIRE · Remote · ~5 hrs/month to start ABOUT US 60 Seconds to FIRE is a personal finance and lifestyle brand built around one idea: that with the right systems, you can retire early, live anywhere, and work as little as you choose. The brand is run by Andy — an early retiree, options trader, and geo-arbitrage advocate who has lived and worked across New Zealand, Panama, and Spain. The website serves a global audience of people pursuing financial independence, and covers options trading education, expat tax guides, cost-of-living comparisons, and geo-arbitrage strategies. The site supports a paid ---------- community, an online course, a Substack newsletter with 90+ articles, and a suite of digital products sold directly through the website. It's a real business with real traffic and real customers — not a side project. This starts at around 5 hours per month but has strong potential to grow as we expand our digital product suite and content library. We're looking for someone to grow with us, not just fill a slot. WHAT YOU'LL BE DOING Keeping WordPress core, themes, and plugins updated and secure Building new pages and product pages for digital product sales Building interactive calculator pages for our readers Migrating Substack articles to our blog, correctly categorised and formatted Optimising site speed (Core Web Vitals, caching, image compression) General site improvements — design, UX, and SEO where needed Ad-hoc support and assistance as issues and situations arise — we're a small operation and need someone reliable who can jump in when needed WHAT WE NEED FROM YOU Strong WordPress experience — you know the platform inside and out Proficiency with Elementor Pro (this is our primary page builder — if you don't know it well, please don't apply) Solid CSS, HTML, and JavaScript skills PHP knowledge for any custom modifications Experience with WooCommerce or similar digital product sales plugins Familiarity with performance tools (WP Rocket, Cloudflare, image optimisation) Basic SEO understanding (on-page, schema, page speed) Clean, professional eye for design — you should be able to match and extend an existing style without a designer holding your hand THE SELECTION PROCESS There is a first filter built into this job ad — read carefully and you'll find it. Candidates who pass will be invited to complete two short unpaid tasks. I won't go into detail here on what those are — if you make it through the first filter, you'll find out. Both tasks are designed to be fair, relevant to the actual work, and a reasonable use of your time. They are a chance for you to show what you can do, and for both of us to see if this is a good fit before committing. If you pass both tasks, we move forward. IN YOUR APPLICATION, PLEASE INCLUDE A brief introduction — who you are and your experience with WordPress Your self-rated skill level for each of the following (1–10 scale): WordPress · Elementor · PHP · CSS · JavaScript · Site speed optimisation · Design · Attention to detail At least 3 example sites you've built or currently maintain (live URLs only — if you don't have at least three, this role is probably not the right fit) Your current availability and timezone THE DETAILS Hours: ~5 hrs/month to start Location: Philippines only Rate: $8–$12 USD/hour (based on experience and application quality) Payment: Via Wise, twice monthly Work style: Remote, async Growth: Hours will increase with performance Rate within the range depends on your experience and the quality of your application. This is a long-term opportunity — the right person will see hours and responsibilities grow over time. HOW TO APPLY Email ---------- directly. Please do not apply through the OnlineJobs.ph messaging system — those messages will not be read and it costs you credits. Email only. One small thing — if you've read this far, please title your email \"Mac N Cheese.\" It's not a typo. It just helps us know you're the kind of person who reads things properly.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-13T17:18:35.523301+00:00",
+    "category": "Development"
   }
 ]

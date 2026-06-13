@@ -10609,5 +10609,54 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-13T11:52:27.498776+00:00",
     "category": "Real Estate"
+  },
+  {
+    "job_id": "1668043",
+    "title": "Go High Level",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "200-1000",
+    "posted": "2026-06-14 01:12:14",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1668043",
+    "tags": [
+      "Gohighlevel Real Estate",
+      "AI Tools",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-13T17:18:15.102405+00:00",
+    "job_title": "Go High Level",
+    "work_type": "Gig",
+    "salary_detail": "200-1000",
+    "hours": "30",
+    "date_updated": "Jun 13, 2026",
+    "description": "GoHighLevel CRM Builder + AI Agent Developer Needed (Painting Company) Smooth Finish Painting is a growing residential/commercial painting company in Northwest Indiana, and we’re building out a full CRM + automation system inside GoHighLevel. We need someone who can take our vision and turn it into a working, polished system. What we’re building: • A sales pipeline (better than DripJobs) with automated follow-ups, reminders, and proposal tracking • A separate lead nurture pipeline for cold leads, with drip campaigns that re-engage them into the active pipeline • A per-job internal communication hub — notes, tasks, team tagging, and full customer interaction timelines • A production calendar tied to won jobs, color-coded by status, with crew and customer automations • A paint product catalog with coverage rates, costs, and our production rate data built in for fast estimating • AI agents handling lead qualification, follow-ups, and basic customer Q&A before a human steps in IMPORTANT — Please Read Before Applying: This project requires real AI agent development experience inside GoHighLevel (or connected via API/Zapier/Make). If you do not have direct experience building AI agents/chatbots for lead qualification or customer communication, please do not apply — we will not be able to respond to applications without this. To Apply: Text examples of CRM/GHL buildouts AND AI agent builds you’ve done (current or past, service-based businesses preferred) to WhatsApp: ---------- Applications without AI agent examples will not receive a response.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-13T17:18:24.797564+00:00",
+    "category": "Real Estate"
+  },
+  {
+    "job_id": "1668035",
+    "title": "Go High Level",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "200-700",
+    "posted": "2026-06-14 00:52:00",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1668035",
+    "tags": [
+      "Gohighlevel Real Estate",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-13T17:18:15.102967+00:00",
+    "job_title": "Go High Level",
+    "work_type": "Gig",
+    "salary_detail": "200-700",
+    "hours": "10",
+    "date_updated": "Jun 13, 2026",
+    "description": "Go High Level Build Out for residential painting company",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-13T17:18:25.978806+00:00",
+    "category": "Real Estate"
   }
 ]
