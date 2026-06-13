@@ -26912,5 +26912,29 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-13T13:50:20.624235+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1668008",
+    "title": "AI Workflow Automation Specialist (Activepieces / AI Integrations Developer)",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "$5 hour to $20 hour",
+    "posted": "2026-06-13 23:25:29",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1668008",
+    "tags": [
+      "Marketing Automation",
+      "User Experience Design"
+    ],
+    "scraped_at": "2026-06-13T15:30:08.547564+00:00",
+    "job_title": "AI Workflow Automation Specialist (Activepieces / AI Integrations Developer)",
+    "work_type": "Any",
+    "salary_detail": "$5 hour to $20 hour",
+    "hours": "TBD",
+    "date_updated": "Jun 13, 2026",
+    "description": "We are seeking an experienced AI Workflow Automation Specialist to join our growing team. This is not a basic virtual assistant position. We are looking for someone with hands-on experience designing, building, and maintaining advanced workflow automations using Activepieces, AI platforms, APIs, webhooks, and custom integrations. The ideal candidate understands how to connect business systems, AI services, databases, and third-party applications into automated workflows that reduce manual work and improve operational efficiency. You will work directly with our development and AI teams to create intelligent automation solutions for multiple SaaS platforms, marketplaces, publishing systems, CRM systems, and AI-powered applications.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-13T15:30:15.952000+00:00",
+    "category": "Development"
   }
 ]
