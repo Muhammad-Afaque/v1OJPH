@@ -27244,5 +27244,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-14T09:27:23.683806+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1668361",
+    "title": "Flutter Developer",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$800-1000/month",
+    "posted": "2026-06-15 00:53:36",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1668361",
+    "tags": [
+      "React JS",
+      "Flutter",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-14T17:16:04.467037+00:00",
+    "job_title": "Flutter Developer",
+    "work_type": "Full Time",
+    "salary_detail": "$800-1000/month",
+    "hours": "40",
+    "date_updated": "Jun 14, 2026",
+    "description": "We are looking for a skilled Flutter Developer to join our team and help build modern mobile applications for iOS and Android. The ideal candidate has strong Flutter experience, is comfortable working with AI-powered solutions, and enjoys exploring new technologies. Experience with React/Next.js is highly valued, while experience with AI voice applications is a strong advantage. Must Have -Proven experience developing mobile applications using Flutter for both iOS and Android -Strong understanding of Flutter architecture, state management, and app deployment -Experience integrating and working with APIs and third-party services -Experience with React and/or Next.js development -Familiarity with Firebase services -Interest in AI technologies and practical experience using AI tools in development workflows -Experience working with Claude Code and understanding its advanced capabilities, including workflows, skills, and subagents -Strong problem-solving skills and attention to detail -Good written and verbal English communication skills -Ability to work independently and manage tasks effectively Responsibilities -Develop, maintain, and improve Flutter applications for iOS and Android -Collaborate with stakeholders to translate requirements into functional applications -Build and integrate AI-powered features and workflows into mobile applications -Work with APIs, databases, and third-party platforms to support application functionality -Troubleshoot issues, optimize performance, and improve user experience -Participate in code reviews and contribute to technical discussions -Maintain clean, scalable, and well-documented code -Stay informed about emerging technologies and recommend improvements where appropriate Plus to Have -Experience with Codemagic for mobile app CI/CD -Experience with RevenueCat subscription management -Advanced Firebase experience -Experience building AI-powered applications and automation systems -Experience creating AI voice agents using Vapi -Experience working with large language models (LLMs) and AI integrations -Experience with prompt engineering and AI workflow design -Previous work on SaaS, productivity, or AI-focused products",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-14T17:16:14.634261+00:00",
+    "category": "Development"
   }
 ]
