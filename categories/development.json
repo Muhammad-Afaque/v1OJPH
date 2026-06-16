@@ -28267,5 +28267,51 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-15T22:21:02.084827+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1669207",
+    "title": "WordPress Designer/Developer with AI, API, Plugin & SEO Expertise",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "1000 per month",
+    "posted": "2026-06-16 07:00:03",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1669207",
+    "tags": [],
+    "scraped_at": "2026-06-16T00:26:52.624780+00:00",
+    "job_title": "WordPress Designer/Developer with AI, API, Plugin & SEO Expertise",
+    "work_type": "Any",
+    "salary_detail": "1000 per month",
+    "hours": "40",
+    "date_updated": "Jun 15, 2026",
+    "description": "We are looking for a highly skilled WordPress Designer/Developer who can leverage AI tools such as Claude to rapidly create initial website concepts, wireframes, content structures, and design mockups, then efficiently translate those concepts into high-quality WordPress websites. This is a hybrid design and development role. You should be comfortable moving from strategy and design into implementation, customization, integrations, optimization, and ongoing improvements. Responsibilities Use Claude and other AI tools to generate website concepts, page layouts, content structures, and design recommendations. Convert approved concepts into responsive WordPress websites. Build custom WordPress themes and page templates when needed. Configure, customize, and troubleshoot WordPress plugins. Develop and maintain API integrations with third-party platforms and services. Implement on-page SEO best practices throughout the site. Optimize website performance, Core Web Vitals, and user experience. Create mobile-friendly, conversion-focused designs. Ensure websites are secure, scalable, and easy to maintain. Work independently and proactively recommend improvements. Required Skills WordPress Development Advanced WordPress experience Elementor, Gutenberg, or similar page builders Theme customization and development Plugin installation, customization, and troubleshooting WordPress performance optimization AI-Assisted Design Experience using Claude, ChatGPT, or similar AI tools for: Site architecture Content generation Wireframing Design ideation Workflow acceleration API & Integration Experience REST APIs Webhooks CRM integrations Marketing automation platforms Payment gateways Custom third-party integrations SEO On-page SEO implementation Technical SEO fundamentals Schema markup Metadata optimization Internal linking strategies Site speed optimization SEO plugin configuration (Rank Math, Yoast, etc.) Front-End Skills HTML CSS JavaScript Responsive design UX/UI best practices Nice-to-Have Skills WooCommerce Membership sites Conversion rate optimization (CRO) Google Analytics and Google Tag Manager Marketing funnel implementation Figma experience Hosting and server management What We're Looking For Strong portfolio of WordPress sites you've personally designed and built Ability to move quickly from concept to launch Strong communication skills Attention to detail Problem-solving mindset Ability to recommend the best technical and SEO solutions rather than simply following instructions To Apply Please include a loom reviewing: Links to 3–5 WordPress websites you designed and built. Examples of API integrations you've implemented. Examples of custom plugin work or plugin customizations. A brief description of how you use Claude or AI tools in your workflow. Your hourly rate and availability. We're looking for someone who can become a long-term partner and help us build, optimize, and grow multiple WordPress-based projects.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-16T00:27:55.022913+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1669196",
+    "title": "Developer Part Time For AI Automation (Claude, Airtable)",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "$350-$600",
+    "posted": "2026-06-16 06:46:32",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1669196",
+    "tags": [
+      "Python",
+      "API Development",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-16T00:26:52.626686+00:00",
+    "job_title": "Developer Part Time For AI Automation (Claude, Airtable)",
+    "work_type": "Part Time",
+    "salary_detail": "$350-$600",
+    "hours": "25",
+    "date_updated": "Jun 15, 2026",
+    "description": "We're looking for a part-time, fully remote Python Developer to join our team and build automations. You'll work closely with me (the founder) and use Claude AI as your daily coding companion to ship faster. Your main tasks will be writing Python scripts, Airtable automations, Cloudflare Workers, and integrating APIs (Higgsfield, Google Drive, Telegram , and more). You'll also debug and improve existing automations over time. If you're independent and motivated to join in a growing team you can apply below APPLY HERE: ----------",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-16T00:28:01.455896+00:00",
+    "category": "Development"
   }
 ]
