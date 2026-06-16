@@ -28576,5 +28576,78 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-16T06:35:19.760449+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1669656",
+    "title": "Full-Time Educational AI & Automation Specialist — Google Classroom, Seneca & Apps Script",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$600/month full-time fixed salary",
+    "posted": "2026-06-16 19:38:59",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1669656",
+    "tags": [
+      "Javascript",
+      "Google Workspace",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-16T12:09:07.409712+00:00",
+    "job_title": "Full-Time Educational AI & Automation Specialist — Google Classroom, Seneca & Apps Script",
+    "work_type": "Full Time",
+    "salary_detail": "$600/month full-time fixed salary",
+    "hours": "40",
+    "date_updated": "Jun 16, 2026",
+    "description": "Otio Academy is looking for a tech-savvy Educational AI & Automation Specialist to help manage and automate our education operations. This role is focused on Google Classroom, Seneca Learning, Google Workspace, ChatGPT, NotebookLM, Google Apps Script and structured education workflows. You will help us set up tasks, assignments, classroom posts, homework schedules, lesson resources and automation systems that make our academy run more smoothly. Key Responsibilities: - Set tasks and assignments in Google Classroom. - Set homework and study tasks inside Seneca Learning. - Organise assignment dates, class groups, student cohorts and deadlines. - Use ChatGPT to help draft assignment instructions, homework briefs and structured learning tasks. - Use Google Apps Script to automate repetitive Google Classroom and Google Sheets workflows. - Help build trackers for assignments, task completion, weekly schedules and education operations. - Use NotebookLM to turn lesson notes, documents and resources into summaries, study material or video-style learning assets where appropriate. - Help test and improve repeatable systems for lesson and task deployment. - Maintain accurate records in Google Sheets. - Communicate clearly about what has been completed, what needs checking and what is blocked. - Help document repeatable processes as simple SOPs. Requirements: - Strong experience with Google Workspace, especially Google Sheets, Drive, Docs and Classroom. - Experience with Google Apps Script, JavaScript, automation, macros or API-based workflows. - Confident using ChatGPT or similar AI tools for structured content creation and workflow support. - Comfortable learning tools such as NotebookLM, Seneca Learning and other education platforms. - Extremely strong attention to detail. - Strong written English. - Able to follow safeguarding-aware education workflows carefully. - Reliable internet connection and good communication. - Experience working with schools, tutors, online academies, education platforms or training businesses is a major advantage. - Must be willing to complete an OnlineJobs.ph background check before final hiring. - NBI Clearance preferred. Important: This is not primarily a social media content role. This is an education systems, automation and operations role. How to Apply: Start your application with the phrase “Academy Automation Architect” so I know you read the full post. Please include: 1. Your experience with Google Classroom, Google Sheets, Google Apps Script, automation or APIs. 2. An example of a script, automation, macro, workflow or system you have built. 3. Your experience using ChatGPT or AI tools for structured work. 4. Whether you have worked with education platforms, schools, tutors, training businesses or online courses before. 5. Your expected monthly salary for a full-time role.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-16T12:09:41.583031+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1669568",
+    "title": "Full-Stack Developer (TypeScript / React / AWS) — Long-Term, Full-Time",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "1200-2000 USD a month",
+    "posted": "2026-06-16 16:56:37",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1669568",
+    "tags": [
+      "Fullstack",
+      "AWS",
+      "AI Tools"
+    ],
+    "scraped_at": "2026-06-16T12:09:14.890846+00:00",
+    "job_title": "Full-Stack Developer (TypeScript / React / AWS) — Long-Term, Full-Time",
+    "work_type": "Any",
+    "salary_detail": "1200-2000 USD a month",
+    "hours": "40",
+    "date_updated": "Jun 16, 2026",
+    "description": "About the role We're a UK-based ecommerce company building a SaaS web platform that helps online retailers understand and improve their business performance. The product is live and growing, and we're looking for one skilled developer to join us full-time and help take it forward — building new features, improving what's there, and keeping everything running smoothly. This is a long-term position for someone who wants stability, ownership of their work, and the chance to grow with a product over years, not weeks. You'll work directly with the founder, so clear communication and the ability to work independently matter as much as your code. What you'll be doing - Building and maintaining features across the full stack (frontend and backend) - Working with our API integrations to third-party services and pulling/processing data reliably - Writing clean, tested, maintainable TypeScript - Helping diagnose and fix bugs, and improving performance - Collaborating on what to build next — your ideas are welcome You must have solid experience with - TypeScript & Node.js (this is non-negotiable — most of our code is TypeScript) - React (modern hooks, component-driven UIs) - AWS serverless — Lambda, API Gateway, and ideally infrastructure-as-code (CDK or CloudFormation) - PostgreSQL / relational databases — schema design, writing efficient queries, migrations - REST APIs — both consuming third-party APIs and building your own - Git and a disciplined, test-as-you-go working style Nice to have (not required) - Experience integrating with large external APIs (marketplaces, payment providers, etc.) - AWS Step Functions, EventBridge, or other event-driven patterns - Stripe integration - An eye for clean, usable UI What we offer - Full-time, long-term, stable role (40 hrs/week) - Competitive monthly salary based on your experience - Real ownership — you'll see your work used by real customers Working hours: Mostly flexible, but you'll need 2–3 hours of overlap with UK business hours (GMT/BST) for calls and collaboration. --- HOW TO APPLY — please read carefully I get a lot of applications, so I screen hard. To show me you actually read this: 1. Start your message with the word EVERGREEN (applications without this are deleted unread). 2. Briefly tell me about one project where you used TypeScript on AWS — what it did and what your specific role was. 3. Answer this: \"You need to fetch data from a third-party API that's slow and sometimes rate-limits you. How would you make that reliable?\" (2–3 sentences is fine.) 4. Send a link to your GitHub, portfolio, or any code sample you're proud of. I'll reply within a few days to anyone who follows all four steps. Looking forward to meeting you.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-16T12:11:16.121404+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1669532",
+    "title": "Creative AI Integration Specialist – Tools, APIs & Automation",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "Starting 1000$ per month",
+    "posted": "2026-06-16 15:33:23",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1669532",
+    "tags": [
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-16T12:09:19.713947+00:00",
+    "job_title": "Creative AI Integration Specialist – Tools, APIs & Automation",
+    "work_type": "Any",
+    "salary_detail": "Starting 1000$ per month",
+    "hours": "40",
+    "date_updated": "Jun 16, 2026",
+    "description": "We're a fast-moving venture studio running multiple D2C brands across health, wellness, and content — and we need someone who lives and breathes AI tools. If you're the type who spends your evenings watching YouTube tutorials on the latest n8n workflows, testing new LLM APIs before anyone else has heard of them, and genuinely gets excited when a new tool drops — this role is for you. What you'll be doing: You'll be our in-house AI tinkerer. That means connecting APIs, building and testing automation workflows, integrating tools like Make, n8n, Zapier, ElevenLabs, Higgsfield, and whatever drops next week. You'll research and evaluate new AI tools for content creation, video production, and marketing automation — then build working proofs of concept we can plug into our existing stack. You're a great fit if you: Can set up and troubleshoot API integrations without hand-holding Stay ahead of the curve on AI tools (image gen, video gen, voice, LLMs, automation) Have experience with tools like Make, n8n, Zapier, Airtable, or similar Can write basic scripts (Python or JS) when no-code won't cut it Communicate clearly in English and document what you build Nice to have: Experience with Meta ad tech, CRM integrations, or content production pipelines. This is a part-time remote role to start, with room to grow. We move fast and we'll keep you busy with interesting problems. Apply with a short note on the last AI tool you got obsessed with and what you built with it.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-16T12:11:53.156963+00:00",
+    "category": "Development"
   }
 ]
