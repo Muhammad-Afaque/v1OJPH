@@ -30452,5 +30452,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-17T21:59:11.937733+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1543035",
+    "title": "Senior Laravel Developer (GPT/Reward) - MVP to Full-Time",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "1000$ - 2000$ / month",
+    "posted": "2026-06-18 06:01:48",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1543035",
+    "tags": [
+      "Laravel",
+      "TailwindCSS",
+      "UI UX Design"
+    ],
+    "scraped_at": "2026-06-17T23:22:27.300293+00:00",
+    "job_title": "Senior Laravel Developer (GPT/Reward) - MVP to Full-Time",
+    "work_type": "Full Time",
+    "salary_detail": "1000$ - 2000$ / month",
+    "hours": "45",
+    "date_updated": "Jun 17, 2026",
+    "description": "Job Description: We are building a secure high-scale Reward Platform. We need a Senior Laravel Developer with strong focus on Security and Visual Hierarchy (UI/UX). THE DEAL: Phase 1: $2,000 Fixed Price (MVP Launch / Milestone based). Phase 2: $1,000 - $2,000 / Month (Full-Time Contract after launch). REQUIREMENTS: This is a complex financial application (Ledger, Postbacks, Anti-Fraud). We do not look for beginners. We verify every claim. TO APPLY: We strictly ignore direct messages. To prove your skills and see the technical details, fill out this form: ----------",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-17T23:23:22.420824+00:00",
+    "category": "Development"
   }
 ]
