@@ -52613,5 +52613,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-20T19:18:48.924867+00:00",
     "category": "Other"
+  },
+  {
+    "job_id": "1672954",
+    "title": "Technical WordPress Dev–Editor (Code, Tracking, Tools)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$1,000-$5,000 USD",
+    "posted": "2026-06-21 05:02:24",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1672954",
+    "tags": [
+      "Wordpress",
+      "HTML",
+      "Wordpress"
+    ],
+    "scraped_at": "2026-06-20T21:11:46.352704+00:00",
+    "job_title": "Technical WordPress Dev–Editor (Code, Tracking, Tools)",
+    "work_type": "Full Time",
+    "salary_detail": "$1,000-$5,000 USD",
+    "hours": "TBD",
+    "date_updated": "Jun 20, 2026",
+    "description": "Role Overview: I’m looking for a technical WordPress Dev–Editor who is very comfortable with: Writing and editing HTML/CSS and basic JavaScript Working inside WordPress on Hostinger Implementing and verifying tracking / pixels / scripts Using supporting software tools (page builders, tracking tools, Google stack) You’re not just a page “designer” – you’re someone who can open the code, understand what’s going on, and make precise, clean changes. Required Skills & Experience You should be able to prove you can do all of the following: WordPress (advanced user + light dev): Comfortable working with themes, child themes, and page builders. Confident editing pages in code / HTML view, not just drag-and-drop. Code: Solid HTML/CSS – can read, modify, and clean up existing markup. Basic JavaScript – enough to place scripts correctly, handle simple events, and troubleshoot. Tracking & scripts: Experience placing and testing pixels (TikTok, Facebook , Google, etc.). Understanding of where scripts should go (header, body, specific page) and how to avoid breaking pages. Tooling: Comfortable inside Hostinger (or similar shared hosts). Daily use of Google Docs/Sheets/Drive. Mindset: Detail?oriented, cares about clean code and fast pages. Can follow specific technical instructions and replicate flows from video or examples. Communicates clearly in written English. Nice-to-Haves Experience with affiliate funnels or TikTok ad flows. Familiarity with Google Tag Manager. Ability to run basic speed optimization (minify, image optimization, etc.). Experience with A/B testing tools or split-testing setups. Compensation & Growth Competitive starting salary in PHP (depending on skill level and proof of work). Performance-based bonuses tied to funnel performance and quality of implementation. Long-term, stable work if we’re a good fit. Potential path to become my technical funnel lead as trust is built. How to Apply (Must Follow Exactly) Subject line: Tech WP Dev–Editor – [Your First Name] In your message, answer these questions, numbered 1–5: Share 3 WordPress projects where you wrote or edited code (HTML/CSS/JS). Include URLs and explain exactly what code changes you made. Describe your experience with tracking scripts / pixels (TikTok, FB, Google). What did you set up, and how did you test it? Explain how you would implement a two-tab flow (Tab 1 “Continue” ? Tab 2 lander) on the same domain in WordPress. High-level steps only. List the main software tools you’re comfortable with (hosting panels, page builders, tracking tools, Google tools, etc.). What is your desired starting monthly salary (PHP) for 20–30 hrs/week, and are you open to performance-based bonuses? Include a screen recording (3–5 minutes) where you: Show a WordPress site you worked on. Open the editor and show code you modified (HTML/CSS/JS). Show where you placed any tracking codes or scripts and explain what they do.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-20T21:11:58.692777+00:00",
+    "category": "Other"
   }
 ]
