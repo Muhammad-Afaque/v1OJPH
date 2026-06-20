@@ -32689,5 +32689,51 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-20T11:13:06.785722+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1672805",
+    "title": "Senior Full Stack AI-Augmented Developer (Remote)",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "AUD$25ph-$35ph",
+    "posted": "2026-06-20 21:20:44",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1672805",
+    "tags": [],
+    "scraped_at": "2026-06-20T13:51:08.272080+00:00",
+    "job_title": "Senior Full Stack AI-Augmented Developer (Remote)",
+    "work_type": "Part Time",
+    "salary_detail": "AUD$25ph-$35ph",
+    "hours": "20",
+    "date_updated": "Jun 20, 2026",
+    "description": "Australian company We are building a custom business platform that is already partially developed and now needs to be taken to production level. We are looking for a highly capable developer who can take ownership of the application, improve existing functionality, build new features, and help transform it into the core operating system for our business. This is not a junior role. We want someone who thinks like a product engineer, not just a coder. What You'll Do: 1) Take over and understand an existing application or build it from scratch 2) Build new features and improve existing functionality 3) Work closely with the founder to rapidly turn ideas into working software 4) Use AI-assisted development tools such as Claude, Cursor, ChatGPT, GitHub Copilot and similar platforms to accelerate delivery 5) Design scalable, maintainable architecture 6) Identify bugs, performance issues and technical debt 7) Implement integrations with third-party systems and APIs 8) Help define product direction and technical strategy 9) Deploy, test and maintain production environments Required Experience * 5+ years professional software development experience * Strong full-stack development skills * Experience building and maintaining production applications * Excellent English communication skills * Experience working directly with business owners or startup founders * Strong problem-solving ability * Ability to work independently with minimal supervision Technical Skills * We are open to different technology stacks, but experience in several of the following is preferred: * React * Next.js * Node.js * TypeScript * PostgreSQL * Supabase * Firebase * REST APIs * GraphQL * Docker * AWS * Vercel * GitHub AI Development Experience (Highly Important) You must have practical experience using: ** Claude ** Cursor ** ChatGPT ** GitHub Copilot ** AI-assisted software development workflows Please include examples of how AI tools have improved your development speed, quality, or productivity. Ideal Candidate You are: - Fast - Resourceful - Commercially minded - Comfortable taking ownership - Able to suggest better solutions rather than simply follow instructions - Interested in building a long-term product We value outcomes and problem-solving more than formal qualifications. - Remote position - Long-term opportunity - Competitive hourly rate based on experience To Apply Please include: - Your CV - GitHub profile - Portfolio of applications you have built - A short description of your experience using Claude, Cursor and AI coding tools - The most technically challenging project you have completed and your role in it - Applications without examples of AI-assisted development experience will not be considered.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-20T13:51:18.494493+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1591976",
+    "title": "Part-Time Programming Tutor (JavaScript, React, Django) – 5–10 hrs/week",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "Negotiable",
+    "posted": "2026-06-20 19:31:26",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1591976",
+    "tags": [
+      "Javascript",
+      "React JS",
+      "Python"
+    ],
+    "scraped_at": "2026-06-20T13:51:10.617423+00:00",
+    "job_title": "Part-Time Programming Tutor (JavaScript, React, Django) – 5–10 hrs/week",
+    "work_type": "Any",
+    "salary_detail": "Negotiable",
+    "hours": "10",
+    "date_updated": "Jun 20, 2026",
+    "description": "I am currently enrolled in an online Computer Science program and am looking for a part-time virtual programming tutor to supplement my coursework. This role is focused on structured learning and hands-on guidance while working through real projects. I am not looking for someone to complete assignments for me. My goal is to strengthen my understanding of core programming concepts while applying them directly to coursework. Technologies & Topics: •    JavaScript (ES6+) •    React (Vite setup) •    JSX •    HTML5 / CSS3 •    Bootstrap •    Python •    Django (models, views, routing, templates, authentication) •    Git & GitHub workflow •    JSON / AJAX •    Core concepts: objects, arrays, functions, classes, destructuring, state & props What I’m Looking For: •    Strong fundamentals in JavaScript and Python •    Ability to clearly explain concepts step-by-step •    Comfortable reviewing code live and debugging together •    Experience with React and Django preferred •    Good English communication skills •    Reliable internet connection and availability for video sessions Hours: •    5–10 hours per week •    Flexible scheduling (US time zones preferred overlap) Important: This is a tutoring role. You will guide, teach, and explain concepts while we work through problems together. I want to improve problem-solving skills and deepen conceptual understanding. If interested, please include: 1.    Your experience with React and Django 2.    A brief explanation of how you structure tutoring sessions 3.    Your hourly rate 4.    Your availability (including time zone) Looking forward to connecting.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-20T13:51:41.094186+00:00",
+    "category": "Development"
   }
 ]
