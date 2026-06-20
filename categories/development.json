@@ -32781,5 +32781,55 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-20T17:22:23.794815+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1672909",
+    "title": "SENIOR IT ENGINEER (MSP) - Projects, Networking, and Escalations - True North IT (Remote - Philippines)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$2320/mo",
+    "posted": "2026-06-21 02:42:50",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1672909",
+    "tags": [
+      "Systems Administration",
+      "Network Administration",
+      "Microsoft 365"
+    ],
+    "scraped_at": "2026-06-20T19:17:58.542817+00:00",
+    "job_title": "SENIOR IT ENGINEER (MSP) - Projects, Networking, and Escalations - True North IT (Remote - Philippines)",
+    "work_type": "Full Time",
+    "salary_detail": "$2320/mo",
+    "hours": "40",
+    "date_updated": "Jun 20, 2026",
+    "description": "SENIOR IT ENGINEER (MSP) Projects, Networking, and Escalations We are a small MSP. Our clients are mostly in healthcare, manufacturing, and compliance focused industries, and they rely on us as their full IT department. Five people on the team. We are growing, and we are looking for a senior engineer who can own high level project work end to end and be the experienced hand the team brings the tougher problems to. This is a senior role. Most of your week is project work, and a real part of it is being the person the team escalates to when something tricky comes in. We are looking for someone who can take a scope of work, think through the best approach, propose a solution, and run with it. Onboard a new client into our full service stack. Configure a Fortinet firewall remotely while a local tech racks the hardware. Harden a Microsoft 365 tenant for a client pursuing SOC 2 compliance. Document everything thoroughly so the next person does not have to start from scratch. We value first principles thinking and expert troubleshooting. When you encounter a situation you have not seen before, we expect you to research it, reason through it, suggest your approach, and execute once we align. You will be solving real problems across a diverse client base, and no two weeks look the same. You will work primarily on project deliverables, onboarding execution, and the escalations that need a senior set of hands. You like the ownership of running a project from scope to delivery, and you are also the person others can lean on when something hard comes in. As we get to know your work and your communication, there will be room to take on more responsibility over time. What you will be doing Full client onboardings: RMM deployment, M365 tenant baselining, security hardening, service stack tooling, documentation buildout. Microsoft 365 security and identity work: conditional access policies, Entra ID configuration, compliance policies, DLP, MFA. Remote network and firewall configuration: IP schema design, VLANs, security policies, VPN setup. Fortinet experience is ideal. UniFi familiarity is a plus. Migration projects: tenant to tenant, Google to M365, IMAP, SharePoint, and on premises Active Directory to Entra ID. Intune and endpoint management: enrollment, compliance policies, app deployment, Autopilot. Migrating endpoints from RMM only management to Intune managed. Apple Business Manager and MDM for macOS environments. Automation and scripting. Building and maintaining scripts to streamline internal processes and client environments. You will also work with AI development tools on internal systems projects. Escalations. Picking up the harder service board issues that need an experienced hand, during your overlap hours. Documentation of everything you touch in our internal knowledge base. What we are looking for 3 to 5 years or more in an MSP environment. You have managed multiple client tenants at once, worked within a PSA and ticketing system, and you understand the pace and context switching that comes with supporting a diverse client base. Deep Microsoft 365 administration and security experience. Not just mailbox management. We mean conditional access, Entra ID, identity governance, compliance policies. Real Intune proficiency: enrollment, compliance baselines, app deployment, Autopilot. Comfortable migrating endpoints from RMM only management into Intune managed environments. Cybersecurity proficiency. You understand conditional access policy design, security baselines, MFA enforcement, and identity protection. Experience with HIPAA, SOC 2, or other compliance frameworks is important. We serve regulated industries and our clients depend on us to get this right. Solid networking fundamentals with hands on firewall configuration experience. Fortinet preferred, others considered. Migration experience across different scenarios: tenant to tenant, Google Workspace, IMAP, on premises Active Directory to Entra ID. Automation and scripting experience. PowerShell, bash, or similar. You look for ways to automate repetitive work in tools like your RMM, PSA, or other platform APIs. Experience with AI coding tools or workflow automation platforms is a strong plus. Excellent written and spoken English. You will be communicating with tea ---------- mbers in the US in Teams throughout the day and occasionally joining client calls. Strong documentation habits. If you did not document it, it did not happen. First principles thinker. When something breaks or a project takes an unexpected turn, you research, reason through it, and come back with a recommended path forward. Self directed. You receive a scope of work and we trust you to execute it, flag blockers, and submit milestones for review without being managed step by step. Certifications Microsoft SC-300 (Identity and Access Administrator) and MD-102 (Endpoint Administrator) within ninety days of hire, or a genuine willingness to earn them. We cover the exam fees and study materials. Holding either already puts you ahead. Nice to have Experience with any of our toolstack: NinjaRMM, HaloPSA, Huntress, ImmyBot, CIPP, Hudu. Apple Business Manager and MDM experience for macOS endpoint management. Fortinet NSE certification or equivalent. Experience with AI coding tools, workflow automation, or building internal tooling. We are an AI forward team and actively building in this space. What we offer Full time remote work. $2,320 per month, with permanent pay increases tied to certifications earned. Exam fees and study materials covered. Interesting project work across a diverse client base. A team that communicates well and trusts you to own your work. At least four hours of daily overlap with US Mountain Time, with flexibility for more during the onboarding period. This role starts with a sixty day trial period so we can both make sure it is a good fit. How to apply To be considered, your application must include BOTH of these: 1. YOUR RESUME 2. A VIDEO, FIVE TO EIGHT MINUTES, ANSWERING ONE OF THE QUESTIONS BELOW Both parts are required. The applications we move forward are the ones that include both your resume and your video, so please send them together in the same application. The video is the first thing we watch, so make sure it is there. For the video, pick the ONE question below that fits you best and walk us through your approach. Use real examples from your own experience wherever you can. We care most about HOW you think, so talk us through it the way you would in a tea ---------- eting with your peers. We are looking for candidates that can speak naturally about their experience, rather than just reading an AI script. Answer ONE of these: 1. You are onboarding a 50 person company onto Microsoft 365. They are currently on Google Workspace. Walk us through your first two weeks: what you do, in what order, and the gotchas you would watch for. 2. A client needs a Fortinet firewall configured remotely. A local tech will rack it and give you console access. Walk us through how you would plan the deployment: IP schema, VLANs, security policies, and what you would document when you are done. 3. You are hardening a Microsoft 365 tenant for a client pursuing SOC 2 compliance. Which conditional access policies do you implement first, and why in that order?",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-20T19:18:16.501280+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1672900",
+    "title": "(__>'-'_)> ________VIDEO HELP______",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "$5-$10+",
+    "posted": "2026-06-21 02:21:21",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1672900",
+    "tags": [
+      "Accounting",
+      "Marketing",
+      "Web Programming"
+    ],
+    "scraped_at": "2026-06-20T19:17:58.545966+00:00",
+    "job_title": "(__>'-'_)> ________VIDEO HELP______",
+    "work_type": "Any",
+    "salary_detail": "$5-$10+",
+    "hours": "TBD",
+    "date_updated": "Jun 20, 2026",
+    "description": "[Link to apply is at bottom] - We are a growing creative agency looking for video editors and digital creatives to help produce engaging content for YouTube, Instagram, TikTok, and online media projects. This role is ideal for: beginner editors with strong potential intermediate editors looking to improve creatives interested in internet culture, storytelling, and social media content What You’ll Work On: Short-form social media videos YouTube content Interview edits Motion graphics ---------- /internet-style edits Content repurposing AI-assisted creative workflows We also use modern AI tools to help speed up workflow and content production, including: AI image/video generation AI-assisted editing tools AI research/workflow tools automation tools for content production You do NOT need to already be an AI expert, but you should be open to learning and adapting to new tools and workflows. Software/Skills (any experience helps): Premiere Pro After Effects DaVinci Resolve Photoshop CapCut Blender AI creative tools We’re Looking For People Who: communicate clearly are coachable and willing to learn pay attention to detail have good internet/social media awareness can meet deadlines want long-term growth Remote position. Part-time and full-time positions available. Compensation depends on skill level, experience, reliability, and creative ability. Secret Answer: GLASS Training opportunities available for promising applicants with good attitude and potential. Apply here: ----------",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-20T19:18:23.941942+00:00",
+    "category": "Development"
   }
 ]
