@@ -30514,5 +30514,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-21T15:57:37.795549+00:00",
     "category": "Finance"
+  },
+  {
+    "job_id": "1673241",
+    "title": "CPA Tax Accountant",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "$8",
+    "posted": "2026-06-22 03:26:22",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1673241",
+    "tags": [
+      "Quickbooks",
+      "Financial Accounting",
+      "Microsoft Excel"
+    ],
+    "scraped_at": "2026-06-21T21:09:43.790249+00:00",
+    "job_title": "CPA Tax Accountant",
+    "work_type": "Any",
+    "salary_detail": "$8",
+    "hours": "10",
+    "date_updated": "Jun 21, 2026",
+    "description": "I'm looking for a CPA that is knowledgeable about USA corporate taxes.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-21T21:10:22.455491+00:00",
+    "category": "Finance"
   }
 ]
