@@ -32901,5 +32901,79 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-20T23:03:37.319962+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1673053",
+    "title": "Technical Operations Lead — Remote | Full Time | US Day Shift | $1,200 to $2,000 per month",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "1200",
+    "posted": "2026-06-21 10:50:31",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1673053",
+    "tags": [
+      "Scrivito",
+      "API Development",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-21T03:37:16.489722+00:00",
+    "job_title": "Technical Operations Lead — Remote | Full Time | US Day Shift | $1,200 to $2,000 per month",
+    "work_type": "Full Time",
+    "salary_detail": "1200",
+    "hours": "40",
+    "date_updated": "Jun 21, 2026",
+    "description": "Technical Operations Lead — Remote | Full Time | US Day Shift | $1,200 to $2,000 per month We are a fast-growing US-based home services company hiring a technical generalist in the Philippines to own the tech side of our job claiming and remote operations department. This is a hands-on role. You will configure and troubleshoot devices, build automations and bots, and keep our systems running so our team can move fast. If you like figuring things out, building things that actually get used, and working with a team that moves quickly, this role is for you. What You Will Own: Device setup and support. You will onboard new tea ---------- mbers onto their mobile devices including factory resets, US region configuration, APK installs, and troubleshooting US app access from non-US devices. You are the go-to person when a device is not working or an app will not load. Automation and bots. You will build and maintain scripts and automations that help our team claim jobs faster. This includes auto-refresh tools, browser automations, and simple internal tools. You will deploy and maintain these on Railway or similar platforms. General technical support. Troubleshoot issues in real time. Write documentation so the team knows how things work. Flag risks before they become outages. Requirements Strong hands-on experience with Android device management including factory resets, region changes, APK sideloading, and accessing US apps on non-US devices. Proficiency in Python or JavaScript for scripting. Experience building browser or mobile automations using Puppeteer, Playwright, Selenium, Appium, or similar tools. Comfortable deploying and managing on Railway, Render, Vercel, or similar platforms. Basic to intermediate React. Fast and stable internet. Available during US Eastern Time daytime hours. Strong written English. Self-directed -- you manage your own work without needing to be walked through every step. Nice to Have Appium or mobile automation framework experience. Familiarity with no-code or low-code tools. GitHub or version control experience. Prior experience supporting a remote team technically. Pay $1,200 to $2,000 per month depending on experience. Paid weekly. Fully remote. If you are exceptional we pay at the top of the range. If you are earlier in your career but clearly capable we will start lower and increase quickly as you prove yourself. How to Apply Visit ---------- /careers and select Technical Operations Lead. In the cover letter section describe your specific experience with mobile device management and automation tools. Generic applications are not reviewed. Specific experience gets responses. You can also send your resume directly to ---------- with the subject line Technical Operations Lead Philippines.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-21T03:37:28.067113+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1673033",
+    "title": "Full-Stack Developer / DevOps Engineer / Software Engineer",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "5.00",
+    "posted": "2026-06-21 09:44:28",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1673033",
+    "tags": [
+      "Fullstack",
+      "Devops"
+    ],
+    "scraped_at": "2026-06-21T03:37:19.038936+00:00",
+    "job_title": "Full-Stack Developer / DevOps Engineer / Software Engineer",
+    "work_type": "Part Time",
+    "salary_detail": "5.00",
+    "hours": "60",
+    "date_updated": "Jun 21, 2026",
+    "description": "We are currently seeking a developer to build an MVP marketplace connecting clients with braiders. Required: • Marketplace experience • Booking systems • Authentication • Database design • Admin dashboards Project Scope: • Client accounts • Braider profiles • Service listings • Booking requests • Booking management • Admin dashboard Estimated Effort: 38-68 hours Please provide: • Portfolio • Similar projects • Timeline • Fixed-price proposal We will discuss additional project's details if selected.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-21T03:37:51.014557+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1672995",
+    "title": "Founding Technical Partner to Architect a Self-Healing, Al-Operated Company on AWS (Revenue Share + Exit Stake)",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "500/month + revenue/exit",
+    "posted": "2026-06-21 07:25:39",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1672995",
+    "tags": [
+      "Fullstack",
+      "Devops",
+      "Software Development Project Manager"
+    ],
+    "scraped_at": "2026-06-21T03:37:21.457357+00:00",
+    "job_title": "Founding Technical Partner to Architect a Self-Healing, Al-Operated Company on AWS (Revenue Share + Exit Stake)",
+    "work_type": "Gig",
+    "salary_detail": "500/month + revenue/exit",
+    "hours": "TBD",
+    "date_updated": "Jun 20, 2026",
+    "description": "This is not a task on a list. This is the engine. I am building TalkTuit, an AI communications platform for the trades, plumbing and HVAC first. The product is the entry point. The real company is something rarer: a business that largely runs itself, where AI agents find leads, build and deliver each client's system, onboard them, watch the numbers, and repair their own failures before anyone notices. I need one person, or one tight team, to architect and build that engine on AWS. Not a piece of it. The whole thing. A bit about why this matters to me, because it tells you what kind of partner I am. I came up in the trades. About ten years ago a spinal cord injury left me quadriplegic, and I run this entire company by voice. I know exactly what it feels like to miss the phone while you are buried in a job, because I have lived both sides of it. I am not looking for hands to rent. I am looking for a great engineer who wants to keep doing what they are great at, on something that actually means something, and own a real piece of the outcome. What you would build The depth here is real, so I will be straight about it: The voice layer: production grade AI voice agents (Retell, Vapi, ElevenLabs, Twilio) that answer, book, route, and summarize calls and sound genuinely human. The integration layer: connect those agents to ANY CRM a client already runs, through APIs and webhooks, never locked to one platform. The automation layer: end to end workflows (n8n and similar) that onboard clients, sync data, and run the business with as little human touch as possible. The growth engine: an automated demo system where a prospect replies to an email and, within minutes, the system provisions a number, builds a personalized voice demo from their website, and sends it to them to try. The self-healing layer: monitoring and recovery so each client system and each internal system diagnoses and repairs itself, plus a recurring automated audit that catches problems before the client ever sees them. All of it on AWS, data rich, cost efficient at scale, documented, and clean enough to transfer at an exit. Who you are You have built and shipped real production systems on AWS, not just demos. You live in AI agents and automation, and you can reason about architecture, not just wire up tools. Voice AI experience is a strong plus. CRM and API integration experience is a strong plus. You can work mostly independently and own outcomes, with some overlap with US Eastern time for working sessions. A person or a small team is both fine. If you bring a bench, even better. This is a partnership, not a job So we do not waste each other's time: this is structured as a partnership for the right fit. Revenue share that begins when revenue does, plus participation in the company's exit. Real upside, tied to what you help build, with the heavy lifting front loaded and the rewards compounding behind it. I keep majority ownership and control. You get a stake worth caring about. We talk specifics once we both know it is a fit. If you want a steady hourly ticket with daily tasks handed to you, this honestly is not it, and that is okay. The honest bar I have interviewed a lot of people. This is one final round to find the rare fit I have not met yet. If the scope excited you instead of scaring you, I want to hear from you. How to apply Start your message with the word BUILT so I know you read this all the way through. Then tell me, in your own words: The most complex system you have built on AWS, and your specific role in it. Whether you work solo or bring a team, and who does what. One thing in the scope above you would architect differently, and why. Show me something real you have built if you can. I read every serious message myself. Let us build something that should not be possible.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-21T03:38:34.288573+00:00",
+    "category": "Development"
   }
 ]
