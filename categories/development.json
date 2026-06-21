@@ -33050,5 +33050,54 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-21T11:42:28.475274+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1673164",
+    "title": "AMAZING BACKEND MANAGER WANTED FOR 7-FIGURE BUSINESS",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "500-700",
+    "posted": "2026-06-21 21:20:02",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1673164",
+    "tags": [
+      "Shopify",
+      "Funnelish",
+      "Virtual Assistant"
+    ],
+    "scraped_at": "2026-06-21T13:58:53.759250+00:00",
+    "job_title": "AMAZING BACKEND MANAGER WANTED FOR 7-FIGURE BUSINESS",
+    "work_type": "Any",
+    "salary_detail": "500-700",
+    "hours": "35",
+    "date_updated": "Jun 21, 2026",
+    "description": "7-figure eCommerce business looking for an experienced Backend Manager (Shopify, product linking, upsells, Wetracked) to keep our store and funnel ecosystem running smoothly. You'll work closely with the CEO. RESPONSIBILITIES - Product linking between Shopify and Funnelish - Full Shopify product management: creating products, variants, SKU's - Setting up upsells - Linking and configuring Wetracked for accurate tracking - Making sure the checkout is tested and working - Making sure product descriptions and images are compliant for payment processing - Spotting and reporting backend issues immediately RESULTS - Fully setting up the backend of 4-6 new products/funnels per day - All backend tasks finished within deadline - Improving yourself and the results every day REQUIREMENTS - Fluent English - Proven Shopify product management experience - Experience with Wetracked or similar tracking platforms - Comfortable with systems & SOP's - Excellent eye for detail (one wrong link can break a full funnel) - Stable internet connection - Funnelish experience is a plus",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-21T13:59:15.036322+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1673148",
+    "title": "AI Automation Specialist (n8n + AI Agents) — Long-Term, Work From Home",
+    "company": "We Fix IT",
+    "type": "Full Time",
+    "salary": "75,000+php per month depending on skills",
+    "posted": "2026-06-21 20:20:44",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1673148",
+    "tags": [
+      "ChatGPT",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-21T13:58:56.255189+00:00",
+    "job_title": "AI Automation Specialist (n8n + AI Agents) — Long-Term, Work From Home",
+    "work_type": "Full Time",
+    "salary_detail": "75,000+php per month depending on skills",
+    "hours": "40",
+    "date_updated": "Jun 21, 2026",
+    "description": "We're an Australian MSP building serious AI automation into how we (and our clients) run. We already run a self-hosted n8n instance, an AI gateway (OpenClaw), LibreChat, and local LLMs on a Mac Studio. We're looking for someone who genuinely loves this stuff and wants to build real automations end-to-end — not just follow a tutorial once. If you spend your weekends wiring up agents, breaking APIs, and getting AI to do boring work for you, keep reading. What you'll be doing Designing and building automations in n8n (multi-step workflows, error handling, webhooks, custom logic) Connecting LLMs (Claude, OpenAI, OpenRouter) into real workflows via our AI gateway Building and refining AI agents to handle support, admin, reconciliation and reporting tasks Integrating apps and APIs — Xero, Microsoft 365, NinjaOne, HaloPSA and others Writing clean prompts and agent instructions that actually work reliably Documenting what you build so the rest of the team can use it What we're looking for Strong hands-on experience with n8n (or Make/Zapier, but n8n is what we use) Comfortable with LLM APIs and prompt engineering Some scripting ability (Python or JavaScript) — enough to write custom functions and parse JSON Understands webhooks, REST APIs and authentication Excellent written English and clear spoken English Reliable, self-managing, and genuinely curious about AI HOW TO APPLY — please read carefully (this is part of the test) Applications that skip any of these steps will not be considered. We're looking for people who follow instructions and pay attention to detail. 1. Resume / CV — attach it or link it. 2. A short voice recording (1–2 minutes). Record yourself (phone is fine — use a free tool like ---------- ) answering: Your name and where you're based The most impressive automation or AI agent you've personally built — what it did and what tools you used Why this role interests you 3. Answer the 5 questions below. For each one, rate yourself 1–10 and add one sentence explaining your rating. Be honest — a confident \"6 with good reasoning\" beats an inflated \"10\". Q1. Building automations in n8n (multi-step workflows, error handling, custom nodes, self-hosted setups). Rating: __/10 — why? Q2. Working with LLM APIs (Claude / Anthropic, OpenAI, OpenRouter) — calling them, handling responses, managing tokens/cost. Rating: __/10 — why? Q3. AI gateways & LLM orchestration — self-hosted tools that route between models or host AI agents (e.g. OpenClaw, LibreChat, Hermes, LiteLLM, or similar). Rating: __/10 — why? Q4. Building AI agents / agentic workflows — using tools like Claude Code, Claude Cowork, MCP, or other autonomous agent frameworks to get AI doing multi-step tasks. Rating: __/10 — why? Q5. Scripting & API integration — Python or JavaScript, webhooks, REST APIs, parsing JSON. Rating: __/10 — why? 4. Start your application with the word \"AUTOMATE\" so we know you read this far. We reply to every serious applicant. Looking forward to seeing what you've built!",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-21T13:59:34.023919+00:00",
+    "category": "Development"
   }
 ]
