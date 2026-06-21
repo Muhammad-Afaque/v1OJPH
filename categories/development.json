@@ -32975,5 +32975,55 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-21T03:38:34.288573+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1673067",
+    "title": "Google Apps Script Engineer + Sheets Systems Builder",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "PHP 50,000–90,000/month (~$900–$1,600 US",
+    "posted": "2026-06-21 12:25:22",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1673067",
+    "tags": [
+      "Google Sheets",
+      "Google Workspace",
+      "Apps Script"
+    ],
+    "scraped_at": "2026-06-21T08:25:17.414525+00:00",
+    "job_title": "Google Apps Script Engineer + Sheets Systems Builder",
+    "work_type": "Full Time",
+    "salary_detail": "PHP 50,000–90,000/month (~$900–$1,600 US",
+    "hours": "30",
+    "date_updated": "Jun 21, 2026",
+    "description": "SALARY:  PHP 50,000–90,000/month (~$900–$1,600 USD) HOURS: Project-based to start, with a path to an ongoing seat I'm hiring one person to automate and connect a multi-tab Google Sheets system that runs a live operation. The architecture is already well-built — tracking tasks, launches, shifts, payroll, and testing across a large structure. I don't need it rebuilt. I need it automated, connected, and rolled up — surgically, without breaking what works. If you stop at VLOOKUP, this isn't your seat. If you build scripted automation AND clean multi-sheet data systems that feed dashboards and run themselves — keep reading. --- The work — two sides, both matter: 1) Apps Script automation (`.gs`) - Write and maintain Apps Script across a multi-tab system - Build **triggers** — onEdit, time-based, onChange — for live workflow automation - Diagnose and fix broken logic (a contained payroll-calculation bug is the first real task) - Add validation, flagging, alerting, scheduled summary email s - Connect Sheets to **external APIs** with auth + error handling where needed 2) Advanced formulas + sheet-to-dashboard data systems - Build **multi-sheet data connections** — worker sheets rolling up into a **master dashboard** - Fluent with **QUERY, IMPORTRANGE, INDEX/MATCH, ARRAYFORMULA, FILTER, pivot logic** — the formula stack that moves and aggregates data cleanly across tabs - Design **data-collection flows**: individual input sheets ? consolidated master view, live and accurate - Build dashboard views that summarize operational data (performance, labor, output) in real time Always: build on a copy, test, then deploy. Non-negotiable.** Document everything so it stays maintainable. --- **Non-negotiables —** - **Real Apps Script experience** — actual `.gs` code, not just formulas - **Advanced formula fluency** — QUERY, IMPORTRANGE, ARRAYFORMULA, INDEX/MATCH at a systems level, not single-cell - Can build **sheet-to-sheet and sheet-to-dashboard data pipelines** that stay accurate at scale - Can read an existing system and **extend it without breaking it** — surgical, not destructive - Clean, documented, maintainable work - Sharp communication, reliable availability, stable setup **You stand out if —** - You use **clasp** for local Apps Script development - You've done **Apps Script + external API** integration (REST, OAuth) - You've built **master-dashboard rollups** from multiple input sheets - You've automated **real operational systems** — payroll, tracking, reporting — not toy demos --- **How to apply (follow exactly — skip a step and you're deleted) —** The instructions are the first test. I read every application that follows them. I ignore every one that doesn't. 1. Put **SCRIPT** at the very top, so I know you read this in full. 2. Share **2–3 projects you personally built** — must show **both** real `.gs` work **and** a multi-sheet/dashboard data system. Link code (GitHub/Gist), a Loom walkthrough, or a working sheet copy. 3. In 2–3 sentences: **describe one thing you automated with Apps Script that a formula couldn't do** — name the trigger and the logic. 4. In 2–3 sentences: **describe a time you connected multiple sheets into one master dashboard** — what formulas/method you used and how you kept the data accurate. 5. In one line: **how do you test before touching a live system?** Nail this and you move to a paid test task — a small, real automation or data-connection job on a copy of my sheet. Nail that and we scope the full build. I'm hiring one person. Show me you can both script and build clean data systems.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-21T08:25:57.310202+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1673056",
+    "title": "Full-Stack Developer — Meta API + AI Integration (Long-Term, Start ASAP)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$2,500 – $3,500 USD/month",
+    "posted": "2026-06-21 11:16:46",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1673056",
+    "tags": [
+      "Web Programming",
+      "API Development",
+      "Web Development"
+    ],
+    "scraped_at": "2026-06-21T08:25:17.419986+00:00",
+    "job_title": "Full-Stack Developer — Meta API + AI Integration (Long-Term, Start ASAP)",
+    "work_type": "Full Time",
+    "salary_detail": "$2,500 – $3,500 USD/month",
+    "hours": "40",
+    "date_updated": "Jun 21, 2026",
+    "description": "Full-Stack Developer — Meta API + AI Integration (Long-Term, Start ASAP) TYPE OF WORK: Full Time WAGE / SALARY: $2,500 – $3,500 USD/month HOURS PER WEEK: 40 JOB OVERVIEW We are building a multi-tenant SaaS product in the social-media and ecommerce space and are hiring a full-stack developer for a long-term engagement, starting immediately. Initial scope is a 12-week MVP build, with strong preference for the right person to continue as the ongoing technical owner for maintenance, Phase 2 features, and Meta partnership work. I'm a non-technical founder hiring my first technical lead. I value clear communication, working software, honest answers about what you do and don't know, and someone who will push back when I'm wrong. I evaluate on skill and what you've actually shipped — not years of experience or age. If you have real, hands-on Meta API experience, that matters far more to me than someone who's spent years building mid-tier software elsewhere. Prove the skill and the Meta experience and you're in the running — full stop. Agencies, please don't apply; I'm hiring one person who owns the work. ?? HIGHEST PRIORITY — READ AND ANSWER FIRST Before anything else, your application must clearly explain your current Meta API access and approval status. Applications that don't directly answer every question below will not be reviewed. \"I have API keys\" is not sufficient — I need to know whether you already have the Meta infrastructure, approvals, and production experience to begin development immediately. Answer each of these specifically: Do you currently have a Meta Developer account and an active Meta App? Do you already have production approval for Instagra ---------- ssaging API permissions, or would we need to go through Meta App Review? Have you previously built Instagram DM automations or AI-powered Instagra ---------- ssaging systems using Meta's official APIs? If hired today, what exact steps would be required before you could make a live API call from our Instagram account? What is your realistic timeline from project start to a working production integration? Have you successfully deployed a similar system before? If so, briefly describe the architecture and the results. Be specific. Vague or generic answers here will end the review. Required skills (show me the work, not the years): Demonstrated ability to ship production SaaS — portfolio, live products, or code samples Direct production experience with the Meta Graph API and/or Instagram Graph API — non-negotiable, proof required Have personally been through Meta App Review and Business Verification at least once Real-time webhook architectures (idempotency, redelivery, retries) OAuth 2.0 token lifecycle (encrypted storage, refresh, expiry, reconnect flows) Multi-tenant SaaS architecture with strict tenant isolation Durable background job queues (Inngest, BullMQ, or equivalent) LLM API integration in production (Claude, OpenAI, or similar) — including structured outputs, RAG, and cost control at scale Postgres at production scale TypeScript / Next.js Stripe billing with usage-based metering Excellent written and spoken English Bonus: Meta Tech Provider / Business Partner experience Shopify or ecommerce platform integrations Prior work on moderation, content intelligence, or social analytics products Engagement terms: Long-term contract, full-time hours You work during your local business hours, available consistently — no US overlap required Aggressive MVP timeline, so steady weekly output matters more than which timezone you sit in Milestone-based payments tied to written acceptance criteria NDA signed at engagement start (required before any product details are shared) Full IP assignment of all code and work product to the client Client owns the GitHub repository and all third-party API credentials Weekly written status updates and a working demo at the end of each two-week sprint A short trial task (4–8 hours) before the full engagement begins, so we both confirm fit. This is paid at your normal rate, agreed in writing before you start — you are never asked to work for free. Pay: We pay competitively for real skill, not for a résumé. Submit your weekly rate in USD with your application — strong candidates will not be filtered on rate alone. To apply, send the following in writing: Brief introduction and your weekly rate in USD Specific Meta API products you have shipped against (Graph API, Instagram Graph, Messenger, Marketing API) with a one-line description of each project One example of a webhook-driven, multi-tenant SaaS you have built, with brief architecture notes How you would approach handling Meta's per-account API rate limits during a viral traffic burst (a few sentences — this is a sanity check) Two references from prior SaaS clients (we will contact them) Portfolio or GitHub link with relevant code samples Your earliest start date and weekly availability Applications that do not address the Highest Priority section above, plus items 2, 3, and 4 in this list, will not be reviewed. We are evaluating multiple candidates this week and will respond to qualifying applicants within 3 business days. Generic copy-paste applications will be ignored.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-21T08:26:09.081179+00:00",
+    "category": "Development"
   }
 ]
