@@ -13363,5 +13363,51 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-22T22:02:01.621105+00:00",
     "category": "Real Estate"
+  },
+  {
+    "job_id": "1571675",
+    "title": "Dispositions Manager for Wholesale Real Estate",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$1,200 / m",
+    "posted": "2026-06-23 06:51:50",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1571675",
+    "tags": [],
+    "scraped_at": "2026-06-22T23:24:54.049905+00:00",
+    "job_title": "N/A",
+    "work_type": "N/A",
+    "salary_detail": "N/A",
+    "hours": "N/A",
+    "date_updated": "N/A",
+    "description": "Failed to scrape",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-22T23:25:16.287612+00:00",
+    "category": "Real Estate"
+  },
+  {
+    "job_id": "1625102",
+    "title": "Tekla Structures BIM Customization Specialist",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "P200-300/hour",
+    "posted": "2026-06-23 06:20:20",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1625102",
+    "tags": [
+      "C#",
+      "Tekla Structures",
+      "Building Information Modeling (BIM)"
+    ],
+    "scraped_at": "2026-06-22T23:24:58.683439+00:00",
+    "job_title": "Tekla Structures BIM Customization Specialist",
+    "work_type": "Full Time",
+    "salary_detail": "P200-300/hour",
+    "hours": "40",
+    "date_updated": "Jun 22, 2026",
+    "description": "HIRING: Tekla Structures BIM Customization Specialist Full-Time | Work From Home | U.S. Steel Detailing Firm Magandang araw! We are Kruew, a well-established steel detailing firm based in the U.S., and we are looking for a highly technical Tekla Structures specialist from the Philippines to join our team permanently. This is a rare, specialized opportunity — not a modeling role. We need someone who builds the tools, components, and environments that the entire detailing team depends on. WHAT YOU'LL BE DOING: - Developing custom plugins, macros, and automation tools using Tekla Open API (C# / .NET) - Building parametric custom components (connections, seams, details, parts) - Creating and maintaining drawing templates, report templates, and title blocks - Managing the firm's Tekla environment folder structure across all active client projects - Deploying and updating environment files, catalogs, and configurations consistently - Onboarding new projects with properly configured Tekla setups from day one YOU ARE THE RIGHT FIT IF YOU HAVE: - At least 3 years of hands-on Tekla Structures experience (detailing or BIM) - At least 3 years of Tekla Open API development using C# / .NET - At least 3 years of Trimble Connect experience - Strong experience building and editing parametric custom components - Experience with drawing templates and XSR/XSL-based reports - Deep understanding of Tekla's environment folder architecture (firm, project, model) BONUS POINTS FOR: - Experience with Tekla Warehouse - Knowledge of AISC/AWS steel fabrication standards - Python or PowerShell scripting for automation BENEFITS: - 100% work from home - Paid training and onboarding - Pay raise opportunities - Additional leave - Company Christmas gift and events COMPENSATION: PHP 200–300 per hour | Full-time | Permanent TO APPLY: Send your updated resume to: ---------- Tell us about your most complex Tekla customization project. PLEASE ANSWER THESE QUESTIONS IN YOUR APPLICATION: 1. Have you built or customized parametric components (connections, details, parts) in Tekla? 2. Are you comfortable working remotely on the night shift or U.S. business hours? 3. Are you amenable to the following:  COMPENSATION: PHP 200–300 per hour | Full-time 40hours/week| Permanent Only shortlisted applicants will be contacted. Serious applicants only—we will verify your experience during the interview process. Thank you!",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-22T23:26:13.853663+00:00",
+    "category": "Real Estate"
   }
 ]
