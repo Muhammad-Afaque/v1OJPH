@@ -35027,5 +35027,55 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-23T21:30:54.994272+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1675169",
+    "title": "Claude Code & Ai Specialist",
+    "company": "Triforce Digital Marketing",
+    "type": "Any",
+    "salary": "$6-9/hour",
+    "posted": "2026-06-24 05:48:39",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1675169",
+    "tags": [
+      "AI Tools",
+      "GitHub",
+      "AI Automation"
+    ],
+    "scraped_at": "2026-06-23T23:04:49.608275+00:00",
+    "job_title": "Claude Code & Ai Specialist",
+    "work_type": "Any",
+    "salary_detail": "$6-9/hour",
+    "hours": "TBD",
+    "date_updated": "Jun 23, 2026",
+    "description": "We are looking for a skilled Claude AI Code & Automation Specialist to help build, optimize, and automate workflows using Claude AI, coding tools, and automation platforms. The ideal candidate should be comfortable working with AI-assisted coding, prompt engineering, workflow automation, and process optimization. This role is perfect for someone who understands how to use AI tools to improve productivity, create automations, and support business operations through smart technical solutions. Responsibilities: Use Claude AI to assist with coding, workflow creation, automation, documentation, and process improvement Build and optimize automations for business tasks, marketing operations, customer support, reporting, and internal workflows Create prompts and AI workflows that produce accurate, efficient, and reusable outputs Work with automation tools such as Zapier, Make, GoHighLevel, Airtable, Google Workspace, Notion, Slack, or similar platforms Assist in developing scripts, tools, and integrations to streamline repetitive tasks Troubleshoot automation errors and improve existing workflows Document processes, workflows, prompts, and automation setups clearly Collaborate with tea ---------- mbers to identify opportunities where AI and automation can save time and improve efficiency Test and refine AI-generated code, prompts, and workflows for accuracy and reliability Stay updated on AI tools, automation trends, and best practices Qualifications: Experience using Claude AI for coding, automation, research, workflow creation, or business operations Basic to intermediate coding knowledge in languages such as Python, JavaScript, HTML/CSS, or similar Experience with automation platforms such as Zapier, Make, GoHighLevel, Airtable, or similar tools Strong understanding of prompt engineering and AI-assisted productivity workflows Ability to troubleshoot technical issues and improve automation processes Strong attention to detail and ability to test workflows before deployment Good communication skills and ability to explain technical concepts clearly Ability to manage multiple tasks and work independently Experience with APIs, webhooks, CRM systems, or marketing automation tools is a plus Preferred Skills: Experience building AI agents, chatbots, or automated business workflows Familiarity with Claude Projects, Artifacts, or AI coding workflows Experience with GoHighLevel, Klaviyo, HubSpot, Shopify, Google Sheets, or Airtable Knowledge of API integrations, JSON, webhooks, and no-code/low-code platforms Experience creating SOPs, technical documentation, or workflow guides If you are excited about the opportunity to contribute to a forward-thinking digital marketing agency, we would love to hear from you! To be considered, use this link to send your application: ---------- / ---------- /f/a ---------- /VRLFUF5TDAZNPI1QXJ",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-23T23:05:51.450493+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1481057",
+    "title": "Web Designer and Developer",
+    "company": "Get Sendy Media",
+    "type": "Part Time",
+    "salary": "$100/mo",
+    "posted": "2026-06-24 05:34:45",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1481057",
+    "tags": [
+      "Web Design & Page Layout",
+      "Wordpress",
+      "HTML"
+    ],
+    "scraped_at": "2026-06-23T23:04:52.020694+00:00",
+    "job_title": "N/A",
+    "work_type": "N/A",
+    "salary_detail": "N/A",
+    "hours": "N/A",
+    "date_updated": "N/A",
+    "description": "Failed to scrape",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-23T23:06:04.494820+00:00",
+    "category": "Development"
   }
 ]
