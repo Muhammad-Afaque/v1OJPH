@@ -35790,5 +35790,78 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-24T16:16:49.538116+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1675899",
+    "title": "WordPress & Elementor Developer",
+    "company": "",
+    "type": "Part Time",
+    "salary": "7",
+    "posted": "2026-06-25 02:31:57",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1675899",
+    "tags": [
+      "Figma",
+      "Wordpress",
+      "Elementor"
+    ],
+    "scraped_at": "2026-06-24T18:48:06.454850+00:00",
+    "job_title": "WordPress & Elementor Developer",
+    "work_type": "Part Time",
+    "salary_detail": "7",
+    "hours": "20",
+    "date_updated": "Jun 24, 2026",
+    "description": "We're looking to add another developer to our team. We're a digital marketing agency and over the past few months our website workload has continued to grow. We currently have active projects in development and more coming down the pipeline, so we're looking for someone who can jump in, contribute quickly, and help us continue delivering quality work for our clients. All of our projects already have the strategy, content, branding, and designs completed. We're not looking for a designer. We're looking for someone who can take approved Figma designs and turn them into clean, responsive WordPress websites using Elementor. What you'll be doing: • Building WordPress pages in Elementor • Translating approved Figma designs into responsive websites • Optimizing layouts for desktop, tablet, and mobile • Working with our design and development team to launch client projects • Helping us maintain quality and consistency across multiple websites What we're looking for: • Strong WordPress experience • Strong Elementor experience • Experience working from Figma designs • Basic CSS knowledge • Attention to detail • Someone who communicates well and takes pride in their work Hours: 20-25 hours per week to start, with opportunities for additional hours as project volume increases. Compensation: $6-$7 USD per hour depending on experience and portfolio. To apply, please send your portfolio to ---------- and include the following: 1. Which project in your portfolio best represents your work and why? 2. What's one thing you would improve on that project today? 3. What's something you think separates a good WordPress developer from a great one? Applications that don't answer all three questions won't be reviewed. We're looking to bring someone on quickly. If you're reliable, communicate well, and take pride in building quality websites, we'd love to hear from you.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-24T18:48:33.647478+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1675892",
+    "title": "SOFTWARE ENGINEER",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$4-$18/HOUR",
+    "posted": "2026-06-25 02:19:16",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1675892",
+    "tags": [
+      "Python",
+      "Playwright"
+    ],
+    "scraped_at": "2026-06-24T18:48:06.457989+00:00",
+    "job_title": "SOFTWARE ENGINEER",
+    "work_type": "Full Time",
+    "salary_detail": "$4-$18/HOUR",
+    "hours": "40",
+    "date_updated": "Jun 24, 2026",
+    "description": "In this role, you will • Design and build automation systems using Python, APIs, AI, and cloud infrastructure • Automate workflows across email , PDFs, web portals, and internal operations • Build multi step pipelines and orchestrated systems, not one off scripts • Work directly with teams to redesign processes for automation • Develop a centralized automation system with logging, monitoring, and error handling • Make thoughtful decisions around tooling, balancing performance, cost, and scalability • Build systems around real insurance workflows including submissions, quoting, binding, renewals, and policy servicing ________________________________________ You should be strong in • Python and backend system design • API integrations and system connectivity • Web automation such as Playwright or Selenium • PDF parsing, OCR, and email parsing • AI and LLM integrations with practical application • Workflow orchestration and pipeline design • AWS and or Google Cloud • Insurance agency workflows and carrier portal processes ________________________________________",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-24T18:48:43.920153+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1556329",
+    "title": "Implementation Developer – JavaScript",
+    "company": "Feathery",
+    "type": "Any",
+    "salary": "$1000-1800",
+    "posted": "2026-06-25 00:21:35",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1556329",
+    "tags": [
+      "Javascript",
+      "Attention to Detail"
+    ],
+    "scraped_at": "2026-06-24T18:48:16.622366+00:00",
+    "job_title": "Implementation Developer – JavaScript",
+    "work_type": "Any",
+    "salary_detail": "$1000-1800",
+    "hours": "50",
+    "date_updated": "Jun 24, 2026",
+    "description": "JavaScript is an absolute must for this role and will be tested during the interview process. ---------- automates data intake workflows for financial services companies in the United States. We’re looking for a JavaScript-focused developer to build, customize, and implement complex workflows on the Feathery platform for enterprise customers. In this role, you’ll design and implement end-to-end workflows using our logic and rules engine, integrate with internal and third-party systems via APIs, and build solutions that move data reliably between platforms. You’ll work hands-on with JavaScript to customize behavior, manipulate data, and implement business logic beyond what standard configuration allows. You’ll be working closely with customers and internal teams to build scalable solutions, troubleshoot issues in real-world implementations, and help design best practices for advanced use cases on the Feathery platform. This is a developer-first role focused on building and integration—not traditional technical support.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-24T18:50:31.603630+00:00",
+    "category": "Development"
   }
 ]
