@@ -36004,5 +36004,79 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-24T22:13:30.261531+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1571285",
+    "title": "Azure Security Content Engineer",
+    "company": "N/A",
+    "type": "Part Time",
+    "salary": "$5-13/hr depending on skill level",
+    "posted": "2026-06-25 07:52:30",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1571285",
+    "tags": [
+      "Azure",
+      "Security - Microsoft Sentinel",
+      "Cybersecurity"
+    ],
+    "scraped_at": "2026-06-25T00:05:27.967432+00:00",
+    "job_title": "Azure Security Content Engineer",
+    "work_type": "Part Time",
+    "salary_detail": "$5-13/hr depending on skill level",
+    "hours": "20",
+    "date_updated": "Jun 24, 2026",
+    "description": "CyberJab is building a hands-on cybersecurity training platform with realistic Azure-based cyber range labs. We’re looking for a Content Engineer who can help design and build blue team / purple team labs that feel like real SOC work—log investigation, threat hunting, detection engineering, and i ---------- response. This is a part-time role to start (1–3 months). If we work well together, this can extend longer-term and potentially grow into a full-time role. You will not be doing everything from scratch or solo. You will be working with the owner who is the principal security engineer for the company. What you’ll do You will help us create training labs from idea ? working environment ? tested lesson: • Design cyber range labs (scenarios, objectives, expected outputs, and “student success criteria”) • Build Azure lab environments using repeatable setups (Terraform/ARM/Bicep or documented console steps) • Create or improve VM images and lab assets (scripts, log generators, vulnerable apps where appropriate) • Produce clear, structured documentation: lab guides, walkthroughs, troubleshooting, and reset instructions • QA and iteration: run your labs end-to-end, fix issues, and adjust based on feedback Example lab topics (what we’re building) • Azure Activity + resource logs: “What happened?” investigations • Microsoft Sentinel basics: KQL hunting + analytic rules + alerts • I ---------- response workflows: triage ? scope ? containment ? post-i ---------- notes • Purple team validation: simulate attacker behavior and confirm detections fire • Detection-as-code basics (nice to have): version control of detections and lab configs Required skills (must have) • Solid experience with Azure (networking basics, VMs, IAM/RBAC, resource groups, logging) • Strong security fundamentals (IR, SOC operations, threat hunting mindset) • Ability to write step-by-step technical documentation that beginners can follow • Comfortable with scripting for automation/log generation (PowerShell or Bash) Nice-to-haves (not required, but a plus) • Microsoft Sentinel (KQL, analytic rules, workbooks) • Infrastructure-as-code: Terraform (preferred), ARM/Bicep acceptable • Familiarity with Windows Event Logs / Sysmon, Linux audit logs • Experience building labs for platforms like TryHackMe / LetsDefend (or similar) Work style / expectations • Part-time: 10–20 hours/week (flexible) • Mostly async, but must overlap at least 2 hours/week with Pacific Time for review/check-ins • You’ll work from a task board with clearly defined deliverables • The work must be repeatable and documented—we’re building a product, not one-off demos Deliverables (what success looks like) By the end of the first month, you should deliver: • 3–6 complete labs, each with: • Lab plan (objectives, prerequisites, success criteria) • Azure build steps or IaC • Student guide + troubleshooting • QA checklist and known issues • Optional: scripts/assets for repeatable log generation and scenario validation Screening questions (include in your application) 1. Share 1–2 examples of content you’ve written (lab guide, runbook, docs, etc.). 2. What Azure services have you used hands-on? (List them.) 3. Have you worked with Microsoft Sentinel and KQL? If yes, describe what you built. 4. What’s your preferred IaC tool (Terraform/ARM/Bicep) and why? 5. Describe a lab scenario you would build for blue team students (short outline).",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-25T00:05:37.844935+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1676089",
+    "title": "AI Automation Business Operator — Build & Run a Company With AI as Your Co-Pilot",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "",
+    "posted": "2026-06-25 07:23:19",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1676089",
+    "tags": [
+      "Operation Management",
+      "AI Tools"
+    ],
+    "scraped_at": "2026-06-25T00:05:27.973995+00:00",
+    "job_title": "AI Automation Business Operator — Build & Run a Company With AI as Your Co-Pilot",
+    "work_type": "Full Time",
+    "salary_detail": "N/A",
+    "hours": "40",
+    "date_updated": "Jun 24, 2026",
+    "description": "**Who we're looking for** We're building an AI automation company that helps small and mid-size businesses replace manual work with intelligent systems — phone answering, lead follow-up, client onboarding, reporting, and more. We need one person to own this operation end to end. You'll be the human center of gravity. The person who makes things happen, hires when needed, talks to clients when needed, and keeps the machine running and growing. You won't be doing this alone. You'll work directly with an AI system that handles strategy, frameworks, SOPs, and problem-solving. Your job is to take that thinking and make it real — then come back with what's working and what isn't. This is not a VA role. This is not a project manager role. This is an operator role. You own the outcomes. --- **What you'll actually do** - Set up and manage our core tools (GoHighLevel, ---------- , AI voice tools, CRM) - Hire and manage a small team as we grow (starting with a salesperson) - Own client onboarding and early retention - Run weekly reporting to the founder - Work inside an AI-guided operating system — you'll get clear direction, but you'll be expected to think, push back, and make judgment calls - Identify what's breaking before it becomes a problem --- **You are** - Someone who has run or helped run a small business, agency, or remote team before - Comfortable with AI tools — you're already using them, not just curious about them - A strong communicator in English, written and verbal - Someone who takes ownership personally — if something falls through the cracks, you feel it - Able to work US business hours (or significant overlap) - Hungry. This role grows with the company. We're building toward $5M in revenue and the person who builds it with us wins too. --- **Compensation** Base: $1,500–$2,000/month to start Performance bonus tied to revenue milestones This is a long-term role with real upside as the company scales --- **To apply** Don't send a generic cover letter. Tell us about one thing you built or ran — what it was, what broke, and how you fixed it. That's the whole application.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-25T00:05:55.597234+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1676047",
+    "title": "Make.com automation or workflow automation for Mintsoft API and Shopify",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "",
+    "posted": "2026-06-25 06:17:55",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1676047",
+    "tags": [
+      "Zapier",
+      "Make.com",
+      "API Integration"
+    ],
+    "scraped_at": "2026-06-25T00:05:32.831068+00:00",
+    "job_title": "Make.com automation or workflow automation for Mintsoft API and Shopify",
+    "work_type": "Gig",
+    "salary_detail": "N/A",
+    "hours": "TBD",
+    "date_updated": "Jun 24, 2026",
+    "description": "We use Mintsoft for order fulfilment and are looking for someone to automate SKU substitutions. Example: • An order enters Mintsoft. • The order contains a specific SKU. • Based on some  rules/conditions,  Mintsoft should automatically replace that SKU with another SKU before fulfilment. For example, if the order contains SKU A & SKU B then we need to delete SKU B and add SKU C. Experience with Mintsoft APIs, warehouse management systems, ---------- , Zapier or similar automation tools is preferred. Please explain how you would approach this project. Based on this job’s performance, there will be more similar work available to start immediately.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-25T00:06:48.046455+00:00",
+    "category": "Development"
   }
 ]
