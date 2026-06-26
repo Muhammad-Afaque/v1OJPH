@@ -37686,5 +37686,26 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-26T06:55:20.910915+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1676570",
+    "title": "Software Engineer / Data Scientist (Sports Betting + AI)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "TBD",
+    "posted": "2026-06-26 16:13:09",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1676570",
+    "tags": [],
+    "scraped_at": "2026-06-26T10:20:18.000118+00:00",
+    "job_title": "Software Engineer / Data Scientist (Sports Betting + AI)",
+    "work_type": "Full Time",
+    "salary_detail": "TBD",
+    "hours": "40",
+    "date_updated": "Jun 26, 2026",
+    "description": "About Us We're an arbitrage sports-betting company building the systems that find edges, place bets, and manage operations automatically. We use AI throughout the business and are investing heavily in models and automation. You'd be helping build the engine. The Role You'll develop the software and models behind our betting. That means building predictive sports-betting models, automating bet placement, and extending the AI systems that run our day-to-day operations. We want someone who can both crunch the data and ship the code. What You'll Do Build and improve models that find profitable betting opportunities Develop automated/autonomous systems that place and manage bets across sportsbooks Help build AI-driven management tools (agents that draft messages, monitor accounts, and flag issues) Pull, clean, and analyze sports and odds data from APIs and websites Test ideas with real data and turn the ones that work into reliable, running systems What We're Looking For Strong Python (data analysis, automation, APIs) Experience with data science / machine learning, or a solid statistics foundation Comfortable working with messy real-world data (scraping, APIs, cleaning) Experience using and integrating AI/LLMs — the Claude API or similar is a strong plus Genuine interest in sports and sports betting Self-starter who can take an idea from data to a working system Comfortable with a flexible schedule Nice to Have Sports-betting, trading, or quantitative modeling experience Experience building bots or automation that interacts with websites Cloud / databases / building reliable long-running systems How to Apply Send us: A short intro about yourself and the most relevant project you've built (link to code/GitHub if you have it) Your highest educational qualification Your expected monthly salary (USD) subject must have the word \"LEBROWN CHEYMS\" on it A 1–3 minute video answering: Why should we hire you? If you were building a model to bet on one sport, which sport would you pick and what data would you look at first? Send your application here: ---------- We look forward to hearing from you!",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-26T10:21:14.191696+00:00",
+    "category": "Development"
   }
 ]
