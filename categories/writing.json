@@ -10422,5 +10422,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-26T18:28:53.784326+00:00",
     "category": "Writing"
+  },
+  {
+    "job_id": "1677374",
+    "title": "Technical Legal Writer — Patent Application Drafting (Project-Based)",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "$250-$500",
+    "posted": "2026-06-27 03:59:56",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1677374",
+    "tags": [
+      "Technical Writing",
+      "Legal Services",
+      "Patent Drafting"
+    ],
+    "scraped_at": "2026-06-26T20:43:28.741560+00:00",
+    "job_title": "Technical Legal Writer — Patent Application Drafting (Project-Based)",
+    "work_type": "Gig",
+    "salary_detail": "$250-$500",
+    "hours": "20",
+    "date_updated": "Jun 26, 2026",
+    "description": "I am the inventor of a cryptographic key distribution architecture. I have two provisional patent applications filed with the USPTO (US 64/075,248 and US 64/094,316) that need to be consolidated into one non-provisional utility patent application. I am looking for a technical legal writer to draft the full application. A U.S. patent agent will review your work before filing — your job is to produce a high-quality first draft that minimizes the agent's revision time. The Work: Draft the full specification (background, summary, detailed description, embodiments) Draft initial claims (independent and dependent) Create drawing/figure descriptions Consolidate two provisional applications into one cohesive non-provisional Ensure consistency with USPTO formatting requirements Reference the existing provisional applications for priority claims Materials Provided (after NDA is signed): Both provisional applications (full text) Technical whitepaper explaining the architecture Working demo code (Python) Live interactive demo Direct access to me for questions and clarifications Requirements: Experience drafting patent applications (specifications and claims) Strong technical writing skills — precise, detailed, unambiguous language Familiarity with USPTO utility patent format and requirements Ability to understand and describe cryptographic/computer science concepts Attention to detail — patents require exactness Available to start immediately and complete within 2-3 weeks Payment Structure: Fixed-price project: $250–$500 depending on experience and qualifications. Payment in milestones — no upfront payment: 25?ter outline + first section delivery 25?ter full specification draft delivery 25?ter claims + drawings delivery 25?ter U.S. patent agent review Milestone Policy: Each milestone is a quality checkpoint. If the work doesn't meet expectations at any milestone, we'll discuss revisions first (up to 2 rounds included per milestone). If the work still doesn't meet standards after revisions, either party can end the project. You'll be paid for all completed and approved milestones up to that point. Quality Bonus: After my U.S. patent agent reviews your draft, you will receive a bonus based on how much revision the agent needs to make: Minimal changes (under 10% rewritten): 50% bonus on total project price Moderate changes (10-25% rewritten): 25% bonus on total project price Major rewrite needed (over 25% rewritten): No bonus Example: If your project price is $400 and the agent says the draft is clean with minimal changes, you receive a $200 bonus — total $600. Important Terms: This is a work-for-hire arrangement. All work product is owned by me (Olmec Technologies LLC). NDA required before any materials are shared. 20 hours per week availability expected. About the Invention: The invention is a cryptographic key distribution architecture that eliminates stored keys by deriving at least one key component from the physical environment of the authorized device. Even if an attacker steals every stored component, the key cannot be reconstructed without physical access to the authorized device's environment. The architecture is algorithm-agnostic and works with any symmetric cipher. To Apply: Please include: Your experience with patent application drafting (specific examples if possible) Your familiarity with software, cryptography, or computer science patents Your availability and estimated timeline for this project Your expected project price within the $250–$500 range A brief writing sample (technical or legal writing preferred) Skills Required: Legal Technical Writing Intellectual Property",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-26T20:44:08.222087+00:00",
+    "category": "Writing"
   }
 ]
