@@ -38409,5 +38409,28 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-27T04:52:09.592907+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1677558",
+    "title": "UGC Software Engineer (Full | Remote | PH-based VA)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "800",
+    "posted": "2026-06-27 15:25:38",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1677558",
+    "tags": [
+      "Software"
+    ],
+    "scraped_at": "2026-06-27T07:45:22.796395+00:00",
+    "job_title": "UGC Software Engineer (Full | Remote | PH-based VA)",
+    "work_type": "Full Time",
+    "salary_detail": "800",
+    "hours": "40",
+    "date_updated": "Jun 27, 2026",
+    "description": "UGC Software Engineer (Full | Remote | PH-based VA) $800 Job Description We are looking for an experienced Software Engineer with at least 3+ years of experience to join our team. They will maintain software including but not limited to a UGC (User-Generated Content) tool deployed on Firebase, working across both frontend and backend. What you’ll do: —Develop and maintain frontend and backend features for the UGC tool —Build and manage backend services on Google Cloud Run, integrated with Firebase —Integrate and maintain AI-powered features using Claude (Anthropic API) —Write clean, scalable code and participate in code reviews with the team —Quickly learn new tools, frameworks, and systems as the product evolves We’re looking for someone who: — Has 3+ years of experience in software development. — Has backend development with REST APIs, Firebase, Google Cloud Run / containerized backend deployments experience — Understands software development principles, debugging, and testing practices. — Can work independently as well as collaboratively in a team environment. — Has strong analytical and problem-solving skills. — Communicates clearly and is eager to learn and adapt to new technologies. Why this is a good role: — You’ll see your work ship fast — No micromanagement — we trust you to do your job — Flexible hours (as long as you’re consistent) — Small team = your work actually matters — Long-term role if you perform well Work setup: — Full-time — Remote (PH-based) How to apply: Please apply ONLY through this Google Form. Do not send messages on onlinejobs.ph. We won't be entertaining message applications on this platform. Application form link: ----------",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-27T07:45:33.650500+00:00",
+    "category": "Development"
   }
 ]
