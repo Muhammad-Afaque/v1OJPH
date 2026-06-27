@@ -38432,5 +38432,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-27T07:45:33.650500+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1577175",
+    "title": "Senior Laravel + Vue 3 Engineer – ERP Migration & Accounting Validation (Full-Time Remote)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$1,200/month",
+    "posted": "2026-06-27 19:37:55",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1577175",
+    "tags": [
+      "Laravel",
+      "Vue 3",
+      "MySQL"
+    ],
+    "scraped_at": "2026-06-27T12:06:08.157661+00:00",
+    "job_title": "Senior Laravel + Vue 3 Engineer – ERP Migration & Accounting Validation (Full-Time Remote)",
+    "work_type": "Full Time",
+    "salary_detail": "$1,200/month",
+    "hours": "40",
+    "date_updated": "Jun 27, 2026",
+    "description": "About the Project We are rebuilding our mature legacy ERP system (PowerBuilder client-server) as a modern SaaS application using Laravel and Vue 3. The system includes: • Real Estate Management • Full Accounting Module (Chart of Accounts, Cost Centers, Subledger, General Ledger) • Financial Reports (Trial Balance, Income Statement, Balance Sheet) • Contract Management • Lease & Payment Transactions • Multi-branch handling • Role-based permissions The legacy system is fully operational and will serve as the reference system for validation and reconciliation. This is not a startup MVP. This is a modernization and stabilization role for a mature ERP system. Role Overview We are looking for a strong full-stack engineer who can: • Audit and understand an existing Laravel + Vue 3 codebase • Validate SaaS outputs against a legacy ERP system • Ensure accounting logic and financial reports reconcile correctly • Identify mismatches and root causes • Improve transaction posting integrity • Review and optimize database structure • Enhance UI consistency and professional polish • Implement structured regression testing • Deliver stable, production-grade releases This role requires strong analytical thinking and discipline — not just feature development. Required Experience • 5+ years Laravel experience • 3+ years Vue.js experience (Vue 3 preferred) • Experience working on production SaaS systems • Strong REST API knowledge • Strong MySQL database design knowledge • Experience taking over and improving existing codebases • Experience with Git workflows Strongly Preferred • Experience working on ERP, accounting, financial, or transaction-based systems • Understanding of double-entry accounting concepts • Experience validating financial reports • Experience optimizing legacy or mature codebases Compensation • $1,200 USD per month • Full-time (40 hours per week) • Long-term, stable product role Application Requirement Our SaaS system is a rebuild of an existing legacy ERP that includes a full accounting module. To proceed with your application, please answer the following: If you were assigned to validate that our SaaS system produces identical financial outputs (Trial Balance, Income Statement, Balance Sheet) as the legacy system, how would you structure your validation approach? Please briefly describe: • How you would prepare test data • How you would compare reports between systems • How you would detect and log mismatches • How you would handle rounding or posting differences • How you would prevent regression issues after fixes Structured answers are preferred.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-27T12:06:20.412102+00:00",
+    "category": "Development"
   }
 ]
