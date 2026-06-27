@@ -38553,5 +38553,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-27T16:01:29.202439+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1677789",
+    "title": "Tech / IT / Software Developer",
+    "company": "AiDus",
+    "type": "Any",
+    "salary": "TBD",
+    "posted": "2026-06-28 02:29:07",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1677789",
+    "tags": [
+      "IT",
+      "Software",
+      "Developer tools"
+    ],
+    "scraped_at": "2026-06-27T19:23:02.537003+00:00",
+    "job_title": "Tech / IT / Software Developer",
+    "work_type": "Any",
+    "salary_detail": "TBD",
+    "hours": "TBD",
+    "date_updated": "Jun 27, 2026",
+    "description": "We're Hiring: Tech / IT / Software Developer Remote  •  Full-Time  •  Filipino Professionals  •  International Clients ABOUT AIDUS AiDus places top Filipino tech talent with growth-stage companies in the US, UK, Canada, and Australia. Our clients need developers and IT professionals who can build, ship, and support real products — not just look good on paper. THE ROLE We are sourcing candidates across the full tech spectrum. Tell us your specialty and we will match you with the right client. SUB-ROLES WE'RE HIRING FOR Frontend Developer — React, Next.js, Vue, Angular, Svelte Backend Developer — Node.js, Python, PHP/Laravel, Java, Go, Ruby Full Stack Developer QA / Test Engineer — Manual or Automation (Cypress, Selenium, Playwright, Jest) IT Support / Helpdesk — Tier 1, 2, or 3 DevOps / Cloud Engineer — AWS, Azure, GCP, Docker, Kubernetes, CI/CD Data Analyst / Engineer — SQL, Python, Power BI, Tableau, Looker, dbt AI / ML Engineer — TensorFlow, PyTorch, LangChain, Hugging Face WHAT WE'RE LOOKING FOR 2+ years of professional experience in your specific discipline Strong English — you will collaborate directly with international teams and clients Portfolio, GitHub profile, or samples of your actual work (required) Experience with remote work tools: Slack, Jira, Linear, Notion, GitHub Reliable internet, own equipment, flexibility for US or AU hours BONUS POINTS FOR Enterprise systems experience: Oracle, SAP, Salesforce, ServiceNow, NetSuite, Workday Cloud certifications (AWS, Azure, GCP) AI-assisted development workflow (GitHub Copilot, ChatGPT) Startup or agency background — you know how to move fast and own your work WHY AIDUS? No middlemen — placed directly with a vetted client company Long-term, stable remote positions — not short freelance contracts Competitive USD compensation based on your stack and seniority level Work with modern teams that ship real products and respect their engineers HOW TO APPLY Fill out our application form here: join.aidus.ai IMPORTANT: We will NOT entertain applications sent via DM, email , or any channel other than the official form above. No exceptions. Only form submissions will be reviewed.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-27T19:23:30.730240+00:00",
+    "category": "Development"
   }
 ]
