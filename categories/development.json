@@ -38503,5 +38503,55 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-27T14:25:52.293073+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1610834",
+    "title": "URGENT! Full-Stack Web Developer (Webflow + WordPress + GoHighLevel)",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "$8–$10/hr",
+    "posted": "2026-06-27 23:42:07",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1610834",
+    "tags": [
+      "Webflow",
+      "Fullstack",
+      "Web Development"
+    ],
+    "scraped_at": "2026-06-27T16:01:10.075063+00:00",
+    "job_title": "URGENT! Full-Stack Web Developer (Webflow + WordPress + GoHighLevel)",
+    "work_type": "Any",
+    "salary_detail": "$8–$10/hr",
+    "hours": "40",
+    "date_updated": "Jun 27, 2026",
+    "description": "A little about us first. I'm Draye Redfern, and I run Redfern Media — a digital marketing agency based out of Dallas, Texas that's been doing this for nearly two decades. We've had the privilege of working with some incredible people — names from Shark Tank, bestselling authors like Dr. Benjamin Hardy (Personality Isn't Permanent, Who Not How) and Robin Sharma (The Monk Who Sold His Ferrari), and a whole lot of founders building things that actually matter. We're a lean, fast-moving team that takes the work seriously — and we're growing. Right now, we need a web developer who can come in, get up to speed quickly, and help us build something great for a client that's gearing up for a major market launch. What’s the Project? You’ll be working with a growing digital marketing company on upcoming web projects across a variety of clients and campaigns. The focus is on building high-quality websites that are clean, fast, and conversion-focused — designed to support different audiences and business goals. Projects will involve creating and optimizing web experiences that are scalable, user-friendly, and aligned with modern marketing strategies. This is a 3-month project-based engagement to start. If things go well — and we expect they will — there's a real path to something longer term.\" What You'll Be Building > A fully overhauled Webflow website — homepage, core pages, and audience-specific sections built for clarity and conversion > Audience-specific landing pages — for consumer onboarding, partner recruitment, producer applications, and investor outreach > Clean user flows and journey architecture — from first visit to the right next step, with as little friction as possible > Strong CTA structure and conversion logic baked into every key page > Mobile-first, fast-loading builds — no bloated code, no sluggish experiences > Tracking and analytics integration — GA4, pixel setup, and the foundational infrastructure needed to actually measure what's working > SEO and AEO foundation — proper structure, metadata, and technical SEO built in from the start, not bolted on after (a plus, not required) A Note on Tech Stack This project is primarily Webflow — so that needs to be your strong suit. But we want to be upfront: most of our other client work lives in WordPress (Elementor and Divi), and our funnel and landing page work runs through GoHighLevel. You don't need to be an expert in all three on day one, but familiarity matters. As this engagement grows — and as you potentially grow with us — you'll likely be touching all of them. What We're Looking For > 5–8+ years of web development experience, with Webflow as a genuine strength — not just something you've dabbled in > Solid understanding of conversion-focused design and UX principles — you build pages that do something, not just look pretty > Comfortable working across WordPress (Elementor & Divi) and ideally familiar with GoHighLevel > You understand how a website fits into a broader marketing and sales funnel — not just how to build pages > You can take a creative brief or a rough wireframe and move forward without needing constant check-ins > Detail-oriented — broken links, inconsistent spacing, and slow load times bother you on a personal level > You communicate clearly and can flag blockers early rather than going quiet The Details > Type: Project-based (3 months) with strong potential to transition to full-time > Rate: $8–$10/hr > Start: We're moving on this quickly, so ideally you're available soon To Apply Go to ---------- /careers and fill out the form. Include links to Webflow projects you've built — live sites preferred. We look at everything that comes in. Draye Redfern CEO / Founder of Redfern Media & Fractional CMO",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-27T16:01:26.791249+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1677727",
+    "title": "Remote MSP Systems Engineer — Microsoft 365 & Windows Server (L2/L3)",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$2000 USD  Per Month",
+    "posted": "2026-06-27 23:38:19",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1677727",
+    "tags": [
+      "Systems Administration",
+      "Cybersecurity",
+      "Microsoft 365"
+    ],
+    "scraped_at": "2026-06-27T16:01:10.075897+00:00",
+    "job_title": "Remote MSP Systems Engineer — Microsoft 365 & Windows Server (L2/L3)",
+    "work_type": "Full Time",
+    "salary_detail": "$2000 USD  Per Month",
+    "hours": "40",
+    "date_updated": "Jun 27, 2026",
+    "description": "We're a US-based managed services provider (MSP) supporting small and mid-sized businesses. We're hiring an experienced systems engineer to handle escalated support and project execution remotely — Microsoft 365, Windows Server, identity/security, and automation. You'll work from documented runbooks and our ticketing system, and you'll have senior US staff to escalate genuinely complex design questions to. This is a hands-on execution role for someone who is reliable, self-directed, and communicates clearly in English with clients. What you'll do - Administer Microsoft 365 / Exchange Online — mailboxes, distribution lists, quarantine/spam policy, shared mailboxes, licensing - Manage Entra ID / Conditional Access / MFA / SSPR rollouts following our runbooks (test group ? verify ? deploy) - Support Windows Server, Active Directory, Group Policy, and RDS — troubleshooting, performance, user management - Write and maintain PowerShell scripts and RMM automations (custom scripts, monitoring conditions, remediation) - Execute client onboarding from our documented checklists (EDR, SIEM, patching, backups, security baselines) - Handle identity security i ---------- at the triage level (review sign-ins, reset credentials/MFA, remove malicious rules) following our playbook - Configure and troubleshoot networking — site-to-site VPN tunnels, firewalls, UniFi - Document your work thoroughly and keep client documentation current Required - 4+ years in MSP or IT support (L2/L3) - Strong Microsoft 365 / Exchange Online administration - Solid Windows Server — AD, GPO, DNS/DHCP, RDS - PowerShell scripting — you write and modify scripts, not just run them - Networking fundamentals — VPN, firewall rules, VLANs, DNS - Excellent written and spoken English — you'll communicate directly with US clients - Reliable internet, a quiet work environment, and the discipline to work independently from documentation Nice to have - Experience with NinjaOne (RMM), ConnectWise (PSA), Veeam - Entra Conditional Access design experience - Microsoft certifications (MS-102, AZ-104, or similar) How we work You'll connect through a company-provided secure environment to access our systems — we'll set you up and train you on our tools and runbooks. We value people who flag what they don't know and ask before guessing. To apply Start your message with the word \"BACKUP\" so we know you read this far. Then tell us: (1) your years of MSP experience, (2) a short example of a PowerShell script or automation you built and what problem it solved, and (3) your available hours in US Eastern time. Applications without the code word won't be reviewed.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-27T16:01:29.202439+00:00",
+    "category": "Development"
   }
 ]
