@@ -38457,5 +38457,51 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-27T12:06:20.412102+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1677686",
+    "title": "Shopify Developer for High-Volume Ecommerce Brand",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "5/hour",
+    "posted": "2026-06-27 22:02:50",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1677686",
+    "tags": [
+      "Shopify",
+      "HTML",
+      "Web Development"
+    ],
+    "scraped_at": "2026-06-27T14:25:25.283694+00:00",
+    "job_title": "Shopify Developer for High-Volume Ecommerce Brand",
+    "work_type": "Full Time",
+    "salary_detail": "5/hour",
+    "hours": "40",
+    "date_updated": "Jun 27, 2026",
+    "description": "We are Electro, a fast-growing ecommerce brand doing real volume across Shopify, Amazon, and TikTok Shop. We are looking for a skilled Shopify Developer to be the technical backbone of our web operation. This role is for someone who lives and breathes Shopify development. Not a generalist who dabbles in stores, but someone whose core skill is the Shopify backend, Liquid, and making everything wire together cleanly. You will work closely with our marketing team, taking landing pages, listicles, and advertorials we hand you and getting them live and fully functional on Shopify. Add the words GREEN APPLE in the subject line of your response, so we know you read this thoroughly. Applications without this will not be reviewed. Main Responsibilities: Upload and wire up landing pages, listicles, and advertorials on Shopify Many of these pages will be built outside of Shopify as HTML files and handed to you to upload and make sure everything is connected properly in the backend Set up and manage subscription platforms like Stay AI, including different selling plans Build and configure A/B tests for landing pages and offers Double-check and QA pages before they go live so nothing breaks Manage the technical side of a high-volume store so the team can move fast Workflow & Delivery: Follow clear briefs and design references Deliver consistently and on time Organize files and exports efficiently for team review Communicate through Slack Comfortable using Claude / AI tools as part of your workflow to move faster Requirements: 3 to 10 years of hands-on Shopify development experience (non-negotiable, show us the work) Deep expertise in the Shopify backend Strong with Liquid code, HTML, and JSON Experience with Shopify subscription apps (Stay AI, Recharge, or similar) and selling plans Comfortable taking external HTML landing pages and uploading/wiring them correctly into Shopify Experience setting up landing page and offer tests Familiar with Claude or other AI tools to work efficiently Proficient in English (written and spoken) Ability to follow instructions and iterate quickly High quality internet Speed and efficiency",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-27T14:25:38.192124+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1677674",
+    "title": "Looking for customer service, supply chain, dispute managers, Backend managers.",
+    "company": "",
+    "type": "Full Time",
+    "salary": "Based on Experience",
+    "posted": "2026-06-27 21:18:29",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1677674",
+    "tags": [],
+    "scraped_at": "2026-06-27T14:25:27.776844+00:00",
+    "job_title": "Looking for customer service, supply chain, dispute managers, Backend managers.",
+    "work_type": "Full Time",
+    "salary_detail": "Based on Experience",
+    "hours": "40",
+    "date_updated": "Jun 27, 2026",
+    "description": "We're Hiring: E-commerce Backend Specialists (Remote, EU + US) Lynq Agency runs backend operations for 200+ e-commerce stores, and we're growing. We're looking for: - Customer Service Specialists** - Supply Chain Specialists** - Dispute Management Specialists** - Overall Operations Managers** We train you for free, you pass our certification exam, and we place you with a real paying client — with coaching from us. No upfront cost, no monthly fees, ever. Self-paced. Any timezone. EU + US placement. Apply here: ----------",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-27T14:25:52.293073+00:00",
+    "category": "Development"
   }
 ]
