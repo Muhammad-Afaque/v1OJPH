@@ -38578,5 +38578,53 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-27T19:23:30.730240+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1677874",
+    "title": "Funnel Builder (Full-Stack) — Advertorial Funnels for Dutch eCommerce",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "$7",
+    "posted": "2026-06-28 07:19:11",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1677874",
+    "tags": [
+      "Clickfunnels",
+      "Website Copywriting",
+      "Funnelish"
+    ],
+    "scraped_at": "2026-06-27T23:57:25.683041+00:00",
+    "job_title": "Funnel Builder (Full-Stack) — Advertorial Funnels for Dutch eCommerce",
+    "work_type": "Full Time",
+    "salary_detail": "$7",
+    "hours": "40",
+    "date_updated": "Jun 27, 2026",
+    "description": "We run a 7-figure health & wellness eCommerce brand selling to the Netherlands. We're looking for an experienced, autonomous funnel builder who can take a product and ship a complete, high-converting advertorial funnel — build, copy, and tracking — without hand-holding. This is not a junior \"drag-and-drop the template\" role. We want someone who owns the funnel end to end and can spot why one converts and another doesn't. What you'll do: Build advertorial funnels in Funnelish (V2), write or adapt the advertorial and product-page copy for the Dutch market in care/comfort language (no medical claims), and set up clean conversion tracking. You'll make sure every funnel is QA'd, mobile-perfect, and firing Purchase events correctly before it goes live. You're a fit if you: Have built advertorial / direct-response funnels that actually scaled (not just landing pages) Know Funnelish (or ClickFunnels/similar and can move to Funnelish fast) Can set up and debug server-side tracking — Meta CAPI, pixel, Thank You page events (we use WeTracked) Have experience with Dutch checkout flows, especially iDEAL — and understand the tracking gap when customers pay via bank redirect and don't return to the Thank You page Understand Shopify product/checkout flow and how it connects to a funnel Write clean, persuasive copy and can localise tone for a Dutch audience Work independently, follow SOPs precisely, and document your work You're not a fit if you: Only know how to fill in a pre-made template Have never touched conversion tracking or can't tell when a pixel isn't firing Need constant supervision In your message, please include a link to ONE advertorial funnel you built (live URL or screenshots), and tell me in one or two lines how you set up the tracking on it. Tell me which funnel and tracking tools you use. Full-time, remote. We'll discuss rate after a short paid test task.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-27T23:57:44.467208+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1677852",
+    "title": "Vision Software Engineer",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "$895.00 - $1,095.00 per month",
+    "posted": "2026-06-28 06:09:02",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1677852",
+    "tags": [
+      "Python"
+    ],
+    "scraped_at": "2026-06-27T23:57:28.170966+00:00",
+    "job_title": "Vision Software Engineer",
+    "work_type": "Any",
+    "salary_detail": "$895.00 - $1,095.00 per month",
+    "hours": "40",
+    "date_updated": "Jun 27, 2026",
+    "description": "Various projects that need the following experience: 1. Python Proficiency Solid intermediate Python — structured, maintainable code, not just scripts: • Virtual environments and pip dependency management • numpy arrays and parsing tensor/metadata outputs • File I/O and JSON/YAML config handling • OpenCV knowledge 2.  YOLO Must understand the full lifecycle, not just running inference on existing models: • Custom dataset training — preparing YOLO-format datasets, splitting train/val/test sets, tuning epochs and image size • Training, validation, and export modes i • Has worked with Label Studio or a comparable annotation tool (Roboflow, CVAT) to build and verify labeled datasets from scratch 3. PyTorch Fundamentals (Working Knowledge) Model loading, forward inference, and checkpoint management Reading and interpreting model outputs (tensors, confidence scores, bounding box formats)",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-27T23:58:08.401983+00:00",
+    "category": "Development"
   }
 ]
