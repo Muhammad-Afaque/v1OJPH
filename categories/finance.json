@@ -36179,5 +36179,30 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-28T18:02:49.135272+00:00",
     "category": "Finance"
+  },
+  {
+    "job_id": "1677847",
+    "title": "Management Accountant for Management Accounts Project - AI Integration Exp. MUST",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "$8-15 per hour D.O.E",
+    "posted": "2026-06-29 04:37:13",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1677847",
+    "tags": [
+      "Financial Accounting",
+      "Financial Forcasting",
+      "Zapier"
+    ],
+    "scraped_at": "2026-06-28T21:59:10.896725+00:00",
+    "job_title": "Management Accountant for Management Accounts Project - AI Integration Exp. MUST",
+    "work_type": "Gig",
+    "salary_detail": "$8-15 per hour D.O.E",
+    "hours": "20",
+    "date_updated": "Jun 28, 2026",
+    "description": "Management Accountant, Financial Dashboard Build (Short-term Project) About the role: We are looking for an experienced management accountant to join us on a short-term project (4-6 weeks) to build a live financial dashboard and supporting management accounts for a DTC ecommerce client. This is a hands-on build role. You will be designing and delivering a daily financial dashboard that pulls data from multiple sources via APIs (Zapier, Airtable, Shopify, Meta Ads, bank feeds), presenting estimated and actual figures with variance reporting across revenue, cost of goods, advertising spend, staff costs and overheads. The dashboard needs to work on a rolling daily basis, with data refreshing within 24-48 hours of the source transactions. You will be working under the direction of the Finance Director who will provide the data sets, access credentials and the overall structure. Your job is to take that brief and build the thing, working largely independently on the technical delivery. What you will be building The first deliverable is a daily financial dashboard with the following characteristics: (a) High-level summary rows for revenue, cost of goods, gross profit, expenses, VAT and net profit, with drill-down capability into subcategories (advertising by channel, COGS by supplier, staff costs by source). (b) Three-column structure per day: Estimate, Actual and Variance, with favourable/unfavourable variance logic built in. (c) Dual views: an accruals-based dashboard and a cash-based dashboard. (d) Populated initially with estimated costs (COGS from supplier invoices, staff costs from historical data, ad spend from recent actuals), then progressively replaced with live data as the API integrations come online. (e) Connected via Zapier (or similar) to Shopify (UK, US and ROW stores), Meta Ads, TikTok Shop, Stripe, PayPal, Revolut, Wise, Remote and Airtable (creator contracts), pulling actuals automatically. (f) Built with scalability in mind. The client is expanding into a group structure (multiple brands and entities), so the dashboard needs to be designed in a way that can be replicated and consolidated across additional businesses in the near future. Following the dashboard build, you will assist with Xero integration work: aligning the chart of accounts, reconciling recent months and ensuring the management accounts output ties back to the dashboard figures. What we need from you Essential: You are a qualified or part-qualified management accountant (CIMA or equivalent) with demonstrable experience building financial dashboards and management accounts from scratch, not just maintaining existing ones. You are comfortable working with AI tools and using them in your workflow. This is not optional. We use Claude, ChatGPT and similar tools as part of our delivery process and expect you to do the same. You have hands-on experience with API-driven data pipelines, whether through Zapier or direct API work. You need to be able to connect data sources, map fields and troubleshoot when feeds break. You have experience with Xero (or a comparable cloud accounting platform) and understand how to structure a chart of accounts for ecommerce businesses with multi-channel, multi-currency revenue. You can work independently with minimal supervision once given the brief and access. Preferred: Experience designing management accounts and dashboards for ecommerce, DTC or Shopify-based businesses. Familiarity with A2X, Finaloop or similar ecommerce accounting connectors. Experience building financial models that can scale across a company group (consolidated reporting, intercompany, multi-entity). Understanding of contribution margin, MER (marketing efficiency ratio) and channel-level unit economics. Practical details This is a remote, freelance contract. Hours are approximately 20 to 30 per week for an initial 4-week period, with the possibility of extending to 6 weeks depending on progress. Rate is $8-15 per hour Depending on Experience. There is potential for this to develop into a longer-term management accountant role as the client's group structure grows, but the immediate need is the project build. To apply Please include in your proposal: (a) A copy of your CV. (b) A brief summary of a financial dashboard or management accounts pack you have built from scratch, including what tools and data sources were involved. (c) Your experience with Zapier or similar API/automation tools. (d) Your accounting qualifications and level. (e) Your availability to start (ideally within the next week).",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-28T21:59:39.385166+00:00",
+    "category": "Finance"
   }
 ]
