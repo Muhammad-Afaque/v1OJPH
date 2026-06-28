@@ -39025,5 +39025,53 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-28T18:02:38.234640+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1678172",
+    "title": "Senior Zoho Solutions Architect / Developer",
+    "company": "Inside Sales Solutions, Inc",
+    "type": "Any",
+    "salary": "$10-15 USD per hour BOE",
+    "posted": "2026-06-29 03:00:07",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1678172",
+    "tags": [
+      "Zoho CRM",
+      "Zoho One Suite"
+    ],
+    "scraped_at": "2026-06-28T20:09:45.658142+00:00",
+    "job_title": "Senior Zoho Solutions Architect / Developer",
+    "work_type": "Any",
+    "salary_detail": "$10-15 USD per hour BOE",
+    "hours": "30",
+    "date_updated": "Jun 28, 2026",
+    "description": "Who We Are Inside Sales Solutions helps leading technology companies accelerate growth by delivering world-class lead generation and appointment-setting services. As we continue expanding our Zoho One platform following a major migration, we're looking for an experienced Zoho professional to help us build the next generation of our internal business systems. This is not a maintenance role. We're looking for someone who enjoys solving complex business problems, designing scalable solutions, and building applications, reporting, and automation that become the operational backbone of a growing organization. If you enjoy taking ownership of a Zoho environment, improving existing architecture, and building elegant long-term solutions instead of quick fixes, we'd love to hear from you. Key Responsibilities CRM & Solution Architecture Design, optimize, and maintain scalable solutions across Zoho CRM, Creator, Analytics, Projects, Desk, Campaigns, and other Zoho One applications. Evaluate existing architecture and recommend improvements that increase scalability, performance, and maintainability. Refactor or redesign legacy workflows and applications where appropriate. Custom Application Development Design, build, and enhance custom applications in Zoho Creator. Develop business workflows supporting operations, HR, reporting, sales, and client management. Deluge Development & Automation Develop clean, modular Deluge functions. Build advanced workflow automation, approval processes, scheduled jobs, custom functions, and business logic. Improve existing code to reduce technical debt and improve reliability. Reporting, Dashboards & Analytics Design executive, operational, and departmental dashboards using Zoho Analytics. Build scalable reporting that delivers meaningful KPIs and business insights. Develop reporting for operational metrics, campaign performance, productivity, quality, and incentive tracking. Ensure reporting remains accurate, performant, and maintainable as business requirements evolve. System Integration Integrate Zoho applications with one another and third-party platforms using REST APIs, webhooks, Zoho Flow, and custom integrations. Troubleshoot integration issues and improve data synchronization across systems. Data & System Optimization Improve data integrity, architecture, and performance following our CRM migration. Reduce manual processes through automation and thoughtful system design. Optimize database structures, layouts, fields, modules, and relationships. Collaboration Work directly with business leaders to understand operational challenges and translate them into scalable technical solutions. Recommend best practices rather than simply implementing requests. Produce clear technical documentation for future maintenance. Required Qualifications Advanced experience developing solutions within Zoho One. Expert-level Deluge scripting experience. Strong experience with Zoho CRM and Zoho Creator. Hands-on experience building dashboards and reporting using Zoho Analytics. Experience designing scalable CRM architecture rather than simply configuring workflows. Experience inheriting and optimizing existing Zoho environments. Strong understanding of APIs, REST services, webhooks, and system integrations. Knowledge of relational databases and data modeling. Experience troubleshooting production systems and minimizing technical debt. Strong communication skills with the ability to translate business requirements into technical solutions. Preferred Qualifications Zoho Certified Developer. Experience building operational KPI dashboards and executive reporting. Experience designing CRM data models and reporting structures. Experience with HTML, CSS, JavaScript, and SQL. Experience with Python, PHP, or other backend languages. Experience supporting post-migration CRM optimization. Experience working within SaaS, technology, sales enablement, or high-growth organizations. What Success Looks Like Within your first six months, you will have: Improved our CRM architecture and reduced technical debt. Built scalable dashboards and executive reporting. Enhanced our operational reporting and analytics. Completed and optimized existing Creator applications. Streamlined workflows through clean Deluge development. Helped establish Zoho as the single source of truth for our business operations.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-28T20:09:59.638886+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1678167",
+    "title": "Full-Stack Developer — Python / FastAPI / React / Playwright",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "$700-$1400",
+    "posted": "2026-06-29 02:48:40",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1678167",
+    "tags": [
+      "Python",
+      "Playwright"
+    ],
+    "scraped_at": "2026-06-28T20:09:45.660178+00:00",
+    "job_title": "Full-Stack Developer — Python / FastAPI / React / Playwright",
+    "work_type": "Any",
+    "salary_detail": "$700-$1400",
+    "hours": "TBD",
+    "date_updated": "Jun 28, 2026",
+    "description": "Chasers Automotive is a vehicle acquisition and remarketing business based in Florida. We're building internal tooling to scale how we source, evaluate, and resell vehicles — and we need a solid developer to continue building and maintaining that platform. This role can start part-time or milestone-based and grow into full-time for the right person. If you're a developer who's interested in more than just writing code — someone who can take ownership, communicate clearly, and eventually wear a few hats — read on. The Stack - Backend: Python, FastAPI - Frontend: React, TypeScript - Scraping / automation: Playwright - Database: PostgreSQL - Task queue / caching: Celery, Redis What You'll Do - Take ownership of an existing codebase and continue development — this is not a greenfield project - Fix bugs, improve performance, and ship new features on a regular cadence - Work with web scraping pipelines (Playwright) and keep them reliable as target sites change - Build and maintain API integrations with third-party platforms - Communicate clearly about progress, blockers, and timelines — no radio silence What We're Looking For Required: - Solid Python experience — you're comfortable with FastAPI, async patterns, and writing clean, maintainable code - React + TypeScript frontend experience — you can build functional UI without needing a designer to hold your hand - Hands-on Playwright experience — you've written and maintained scrapers or automation scripts - PostgreSQL proficiency — you write your own queries, you understand indexing, you don't just use an ORM blindly - Experience with Celery and Redis for background tasks and caching - Self-directed — you can read existing code, understand what it's doing, and extend it without step-by-step instructions - Strong written English for async communication Bonus (will move you to the top and or full time oppurtunity): - Any familiarity with Go High Level or marketing automation tools - Interest in eventually contributing beyond pure development (light VA tasks, research, etc.) If you're a developer who also has Go High Level experience or is open to picking it up, there's a strong case for a full-time role with expanded responsibilities!! Send a brief message (keep it under 200 words) that includes: 1. A link to one project or repo you've worked on that uses this stack (or a close subset) 2. Your experience with Playwright specifically — what kind of scraping or automation have you built? 3. Your preferred engagement model (part-time vs full-time) and your availability",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-28T20:10:05.444764+00:00",
+    "category": "Development"
   }
 ]
