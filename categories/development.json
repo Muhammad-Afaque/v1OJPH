@@ -39073,5 +39073,51 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-28T20:10:05.444764+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1678210",
+    "title": "Full-Stack AI App Developer for Mortgage AI Software MVPstom Software",
+    "company": "Acclaimed Lending, LLC",
+    "type": "Gig",
+    "salary": "6.00",
+    "posted": "2026-06-29 06:51:45",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1678210",
+    "tags": [],
+    "scraped_at": "2026-06-28T23:10:08.988828+00:00",
+    "job_title": "Full-Stack AI App Developer for Mortgage AI Software MVPstom Software",
+    "work_type": "Gig",
+    "salary_detail": "6.00",
+    "hours": "20",
+    "date_updated": "Jun 28, 2026",
+    "description": "We are building MOLOAI, an AI Loan Officer Assistant for mortgage professionals. This will be a web app that helps loan officers intake borrower information, upload mortgage documents, review files, and generate clean loan summaries. This is an MVP build first, with the opportunity for long-term work if the first version is built well. Main Responsibilities: Build a secure web app using Next.js / React Set up authentication and user login Build borrower dashboard and file management system Create secure document upload and storage Connect OpenAI API for AI-powered document review Add OCR/PDF parsing for paystubs, W2s, tax returns, bank statements, and credit reports Generate structured loan summaries, missing document lists, income notes, credit red flags, and next steps Connect backend/database using Supabase Deploy and manage app on Vercel Write clean, organized, scalable code Required Skills: Next.js / React Supabase Vercel OpenAI API PDF parsing / OCR Database design Secure file upload/storage API integrations Strong English communication Ability to work in milestones Bonus Skills: Experience with financial documents Experience with AI document review tools Experience with mortgage, lending, banking, or fintech software Experience building SaaS dashboards Experience with security and sensitive customer data This software will assist licensed mortgage professionals. It will not replace underwriting or make final loan approval decisions. How We Will Work: We will start with a paid test project or first milestone. If the work is strong, this can become a long-term role. First MVP Features: Login/authentication Borrower dashboard Borrower intake form Secure document upload AI document review Loan file summary Missing document checklist Admin view To Apply: Please answer these questions: Have you built an AI document-review app before? Please share examples. Have you worked with OCR, PDF parsing, or financial documents? Have you built using Next.js, Supabase, Vercel, and OpenAI API? How would you securely handle borrower documents? Are you available for milestone-based work? What would you recommend building first for the MVP? Please do not send a generic application. Start your message with: “MOLOAI MVP” so I know you read the full job post.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-28T23:10:20.704634+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1678204",
+    "title": "Shopify Developer WANTED - Full Time - Immediate Opening",
+    "company": "N/A",
+    "type": "Any",
+    "salary": "Negotiable",
+    "posted": "2026-06-29 06:05:23",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1678204",
+    "tags": [
+      "Shopify",
+      "Shopify",
+      "Shopify"
+    ],
+    "scraped_at": "2026-06-28T23:10:08.996853+00:00",
+    "job_title": "Shopify Developer WANTED - Full Time - Immediate Opening",
+    "work_type": "Any",
+    "salary_detail": "Negotiable",
+    "hours": "40",
+    "date_updated": "Jun 28, 2026",
+    "description": "About Us - We are an established eCommerce consultancy and Shopify partner agency helping merchants scale their online presence. Our team works on high-profile and specialized Shopify stores—handling theme upgrades, theme customizations, custom builds, conversion optimizations and etc for many merchants around the world. We want to hire a highly experienced Shopify Developer to join our team. You’ll collaborate closely with designers, QA, and project managers to build, customize, and optimize Shopify storefronts that meet advanced technical and UX standards. Responsibilities - Develop and customize Shopify themes (Dawn, Focal, Prestige, Broadcast, Enterprise, etc.) - Implement advanced front-end features using Liquid (avoid apps and page builder where possible) - Build responsive, and high-performance layouts optimized for speed and conversion - Create custom templates, metafield, and dynamic content sections - You'll NEED to know how to code without help of AI. - Handle migrations and theme updates with no downtime Requirements 1. 4+ years of hands-on Shopify development experience 2. Proficiency in Shopify Liquid, HTML5, CSS3, 3. Excellent attention to detail and ability to communicate clearly with designers and project managers What We Offer Competitive pay (full time salary) Opportunity to work closely in the Shopify Eco-system How to Apply (if you do not reside in the Philippines, do NOT apply) Please send your resume, and answers to the following to my email - ---------- 1. Show us a custom feature you built - provide a url - and why it was something worth custom code rather than using an app. 2. Show us your last 3 projects, and tell us what you did with them. 3. What you are looking for salary wise for a full 40 hour week. 4. What agency experience have you had, especially the ones in US or AU? If you have that, please describe what your day to day is like.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-28T23:10:40.755780+00:00",
+    "category": "Development"
   }
 ]
