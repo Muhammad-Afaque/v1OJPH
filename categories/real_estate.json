@@ -15052,5 +15052,51 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-28T16:06:59.819683+00:00",
     "category": "Real Estate"
+  },
+  {
+    "job_id": "1678149",
+    "title": "Expert in Instantly.ai / Smartlead & Apollo.io needed for Cold Email Infrastructure S",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "$5/hour",
+    "posted": "2026-06-29 01:56:03",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1678149",
+    "tags": [],
+    "scraped_at": "2026-06-28T18:02:00.967195+00:00",
+    "job_title": "Expert in Instantly.ai / Smartlead & Apollo.io needed for Cold Email Infrastructure S",
+    "work_type": "Gig",
+    "salary_detail": "$5/hour",
+    "hours": "10",
+    "date_updated": "Jun 28, 2026",
+    "description": "Hi, I am the founder of an AI Chatbot B2B SaaS agency, and I am looking for an experienced Cold Email Deliverability & Infrastructure Specialist to set up a scalable outbound email system from scratch. Our target markets are B2B companies in the UK, Denmark, Sweden, and Norway. Phase 1: The Setup (Immediate Task) You will be responsible for the complete technical backend setup. We need to ensure maximum deliverability and avoid spam filters from day one. Your tasks will include: Setting up 3 new look-alike domains (Google Workspace or Microsoft 365). Complete authentication setup: SPF, DKIM, DMARC, and MX records. Setting up Custom Tracking Domains (CTD) for each domain. Connecting domains to Instantly.ai (or Smartlead) and initiating the warm-up process with optimal settings. Connecting and integrating our lead source ( ---------- ). Ensuring everything flows correctly into our booking system/CRM (Calendly). Phase 2: Ongoing Growth & Lead Generation (For the right candidate) Once the system is warm and running, we are looking for someone to manage the ongoing campaigns for 10 hours a week. This will include: Building targeted lead lists in ---------- based on our ideal customer profile (ICP) in the UK and Scandinavia. Cleaning and verifying email lists (using tools like MillionVerifier or NeverBounce). Monitoring the master inbox, handling out-of-office replies, and pushing positive leads to book a demo on my Calendly link. Requirements: Proven track record with Instantly.ai / Smartlead and ---------- (Please share screenshots or case studies of your past campaign deliverability/open rates). Deep understanding of email deliverability, spam filters, and inbox rotation. Excellent written English skills. Highly organized and data-driven. How to Apply & Technical Screening Questions: Please start your application with the word \"EZENTRO OUTBOUND\" so I know you read the full description. To be considered for this job, you must answer the following three questions in your application: How many days do you recommend warming up new domains before sending the first live cold email ? What is the maximum number of cold email s you recommend sending per day, per email account, to ensure long-term deliverability? Please provide a screenshot link (e.g., Imgur, Loom, or Upwork portfolio) showing your past deliverability rates, open rates, or active setups in Instantly or Smartlead. Applications without answers to these 3 questions or missing the keyword will be rejected immediately.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-28T18:02:11.062132+00:00",
+    "category": "Real Estate"
+  },
+  {
+    "job_id": "1546671",
+    "title": "DMCA & IP Specialist for Meta Ads (E-commerce) Copyright Trademark Protection Compliance Intellectual Property",
+    "company": "U-S Limited",
+    "type": "Any",
+    "salary": "3$-6$/hour + Performance-based**",
+    "posted": "2026-06-29 01:06:36",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1546671",
+    "tags": [
+      "Shopify",
+      "Shopify",
+      "Intellectual Property Rights"
+    ],
+    "scraped_at": "2026-06-28T18:02:00.976263+00:00",
+    "job_title": "DMCA & IP Specialist for Meta Ads (E-commerce) Copyright Trademark Protection Compliance Intellectual Property",
+    "work_type": "Any",
+    "salary_detail": "3$-6$/hour + Performance-based**",
+    "hours": "32",
+    "date_updated": "Jun 28, 2026",
+    "description": "Job Description: We are a fast-growing international e-commerce company operating multiple online stores across Europe. Our business model is similar to large marketplaces, and we run high ad volumes on Meta. Due to scale, we are looking for a dedicated IP & DMCA Specialist who will fully own the process of handling copyright and trademark reports across all our stores and ad accounts. This is a long-term role with responsibility and growth. Key Responsibilities: 1. Monitor and manage all DMCA and IP reports on Meta (Facebook and Instagram) 2. Centralize all reports in a structured system (Google Sheets or internal dashboard) 3. Review claims and distinguish between valid and fake reports 4. Submit counter-notices correctly and on time 5. Coordinate with product research and creative teams when action is required 6. Pause or adjust ads when necessary to reduce account risk 7. Build and maintain SOPs for IP and DMCA handling 8. Track repeat reporters and potential abuse cases 9. Prepare clear internal reports for management Important Requirement (Please read carefully): This role requires hands-on experience with Meta DMCA or IP cases. Please do not apply if your experience is limited to general VA, customer support, or basic ad operations. Requirements: 1. Proven experience handling DMCA or IP reports on Meta 2. Strong understanding of copyright and trademark basics 3. Experience in e-commerce or dropshipping is a strong plus 4. Highly organized and detail-oriented 5. Able to work independently and take full ownership 6. Clear written English 7. Familiar with Meta Business Manager Nice to Have: 1. Experience working with multiple ad accounts and stores 2. Experience creating SOPs 3. Legal or compliance background (not required) To Apply: Please include the following in your application: 1. Your experience with DMCA or IP cases on Meta 2. Examples of how you handled fake or abusive reports 3. Tools or systems you used to track cases 4. Include the word \"Airplane\" in your application to confirm you have read this job post carefully",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-28T18:02:33.888812+00:00",
+    "category": "Real Estate"
   }
 ]
