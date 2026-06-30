@@ -40217,5 +40217,55 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-29T22:53:22.115371+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1679005",
+    "title": "Full-Stack Engineer (React/TypeScript + Node) — Rental Tech Platform",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "1600",
+    "posted": "2026-06-30 07:11:56",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1679005",
+    "tags": [
+      "Node JS",
+      "React JS",
+      "Typescript"
+    ],
+    "scraped_at": "2026-06-29T23:59:14.678335+00:00",
+    "job_title": "Full-Stack Engineer (React/TypeScript + Node) — Rental Tech Platform",
+    "work_type": "Full Time",
+    "salary_detail": "1600",
+    "hours": "40",
+    "date_updated": "Jun 29, 2026",
+    "description": "We're Nestra, a rental-tech / lead-generation startup launching in Arizona. We match renters to apartments, book tours, run a soft credit check + background screening, and refer pre-qualified renters to apartment communities for a commission. Your job is to integrate third-party APIs and ship features, not build from scratch. Tech stack (must know): React 19 + TypeScript, Tailwind CSS, tRPC, Node/Express, Drizzle ORM with MySQL. Deployed on Vercel, source in a shared GitHub repo (PRs + code review). What you'll work on: Integrate a Credit Reporting Service (CRS) API for soft credit pulls Integrate a tenant background-check provider, including async webhooks Build a partner portal where apartment communities log in to view leads Build automated email /SMS notification workflows Implement a commission-tracking pipeline and consent/audit logging Must-haves: Strong TypeScript + React; REST/webhook API integration experience; experience deploying via Vercel and working in a shared GitHub repo; clean code habits; good written English for daily async communication. Bonus: FCRA/credit/background-check or payments APIs, real-estate/proptech, queues/background jobs on serverless. How we work: We use AI-assisted development tools (e.g., Claude Code) in our workflow. Comfort with AI coding tools is a plus, but strong fundamentals come first. To apply, reply with: (1) a link to your GitHub or portfolio (2) a short note on a third-party API you've integrated and how you handled errors/webhooks, and (3) how you'd handle a slow third-party webhook callback on Vercel without hitting function timeouts. Applicants who answer all three are prioritized!",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-30T00:00:03.851207+00:00",
+    "category": "Development"
+  },
+  {
+    "job_id": "1678969",
+    "title": "Web Developer",
+    "company": "N/A",
+    "type": "Gig",
+    "salary": "$2,000/2 Weeks",
+    "posted": "2026-06-30 06:54:35",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1678969",
+    "tags": [
+      "Shopify",
+      "Shopify",
+      "API Integration"
+    ],
+    "scraped_at": "2026-06-29T23:59:14.681586+00:00",
+    "job_title": "Web Developer",
+    "work_type": "Gig",
+    "salary_detail": "$2,000/2 Weeks",
+    "hours": "TBD",
+    "date_updated": "Jun 29, 2026",
+    "description": "Shopify Developer — Fine Art Logistics Booking System Job Title: Shopify Developer | Hulk Product Options + Cowlendar + QuickBooks Integration Job Overview: We're a fine art transportation and white-glove logistics company operating across California. We need an experienced Shopify developer to build a custom booking and quoting system for our website — this is not a typical product store. We move specific items under specific conditions (fine art, sculpture, luxury furniture), and the site needs to capture detailed item specs, apply fixed pricing rules with surcharges, route bookings into our scheduling calendar, and handle multiple payment paths. What You'll Be Building: A multi-step intake flow: service area routing (in-state instant booking vs. out-of-state/quote-needed), item category selection, and detailed conditional questions per item type (dimensions, weight tiers, framing, stairs, fragility, installation needs) Complex fixed-price logic (not percentage-based) across dozens of item types, with tiered surcharges for size, weight, stairs, and installation An automatic 10% discount rule on furniture/décor subtotals ?$1,000, scoped to exclude certain line items Calendar/scheduling integration tied to pickup region and route days, with capacity limits and blackout dates Multiple payment paths (Zelle, card/PayPal/Venmo via QuickBooks, check) with different booking/confirmation behavior for each Automated internal notifications to our logistics team with full job details, including for quote-only requests Apps You'll Configure: Hulk Product Options (Advanced Plan) — conditional item logic, pricing, order metadata Cowlendar (Ultra Plan) — scheduling, Google Calendar sync, SMS/email reminders QuickBooks Online + ---------- — payment links and invoicing Requirements: Proven experience building and customizing Shopify stores (portfolio required) Strong with Shopify Liquid, HTML, CSS, JavaScript Experience with Hulk Product Options or similar conditional-logic apps Experience integrating booking/calendar apps (Cowlendar or similar) with Shopify Experience with ---------- automation and QuickBooks integration Comfortable working from a detailed written spec and asking clarifying questions when something's ambiguous Strong written English for back-and-forth on logic edge cases Nice to Have: Experience with service-based or quote-based Shopify stores (not standard retail) Familiarity with Shopify order metadata / metafields Experience with Google Calendar API or similar sync tools Compensation: $2,000 Type: Project based Schedule: 2 weeks To Apply: Please share your portfolio of Shopify builds, especially any involving conditional product logic or custom booking/quoting flows.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-30T00:00:14.293673+00:00",
+    "category": "Development"
   }
 ]
