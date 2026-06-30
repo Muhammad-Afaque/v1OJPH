@@ -40980,5 +40980,28 @@
     "contact_person": "N/A",
     "detail_scraped_at": "2026-06-30T21:25:37.385938+00:00",
     "category": "Development"
+  },
+  {
+    "job_id": "1678301",
+    "title": "AI Data Engineer - Data Extraction",
+    "company": "N/A",
+    "type": "Full Time",
+    "salary": "",
+    "posted": "2026-07-01 06:55:53",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1678301",
+    "tags": [
+      "Data scraping"
+    ],
+    "scraped_at": "2026-06-30T23:06:18.215445+00:00",
+    "job_title": "AI Data Engineer - Data Extraction",
+    "work_type": "Full Time",
+    "salary_detail": "N/A",
+    "hours": "30",
+    "date_updated": "Jun 30, 2026",
+    "description": "Specification-Driven Extraction Engineering: Design and maintain declarative extraction specifications—using Pydantic models, JSON schemas, or domain-specific languages—that describe exactly which fields to capture, their types, and validation rules. Implement pipelines that translate these specifications into executable extraction plans, leveraging both classical (Scrapy, Playwright) and AI-augmented (LLM-based semantic parsing) backends. Build reusable specification libraries for recurring data types (product prices, tariff codes, regulatory texts) to accelerate onboarding of new sources. Design and implement autonomous data extraction agents that can make decisions about source selection, retry logic, and parsing strategies Autonomous & Self-Healing Systems: Deploy self-healing spiders that automatically detect website layout changes and repair themselves using Model Context Protocol (MCP) servers (e.g., Scrapy MCP Server, Playwright MCP). Integrate semantic extraction (Scrapy-LLM, custom LLM pipelines) to eliminate selector brittleness—spiders rely on field descriptions, not fragile XPaths. Hands-on experience building AI agents and orchestration systems. Orchestrate complex, multi-step browsing workflows with agentic frameworks (BMAD/TEA, AutoGPT-like agents) that reason about page state, adapt to anti-bot measures, and correct their own behaviour in real time. Platform Thinking & Reusability: Move beyond one-off scrapers: build a component-based extraction platform where selectors, login handlers, and pagination logic are shared, versioned, and tested. Implement monitoring, alerting, and automatic rollback for failed extraction runs. Champion ethical crawling by design—rate limiting, robots.txt respect, and compliance with GDPR/CCPA are built into the specification layer, not retrofitted. Collaboration & Continuous Innovation: Partner with data scientists and domain experts to refine extraction specifications for complex, unstructured domains (e.g., legal texts, tariff classifications). Evaluate and pilot emerging tools to push automation coverage beyond 90%. Document and evangelise specification-driven best practices across the engineering organisation. Qualification: Bachelor’s degree in Computer Science 3+ years of experience in web scraping or data extraction Required Skills: Proficiency with Python Experience with specification-Driven Extraction Experience with LangChain, LangGraph, LlamaIndex, AutoGen Hands?on use of Scrapy?LLM, Scrapy MCP Server, or similar systems that decouple field definitions from page structure Familiarity with frameworks that give LLMs browser control (Playwright + MCP, BMAD/TEA) to handle complex, non?deterministic crawling tasks. Classical Scraping Fundamentals Data Validation & Storage – Ability to define validation rules within specifications and land clean data into SQL/NoSQL databases or data lake Basic API integration and authentication flows. HTTP, DOM, XPath, CSS. Nice to Haves: Contributions to open-source scraping or AI-automation projects. Contributions to open-source scraping or AI-automation projects. Familiarity with data privacy engineering (GDPR, CCPA) baked into specification design. DevOps light – Docker, CI/CD for testing extraction specifications.",
+    "company_detail": "N/A",
+    "contact_person": "N/A",
+    "detail_scraped_at": "2026-06-30T23:06:43.648272+00:00",
+    "category": "Development"
   }
 ]
