@@ -513,6 +513,7 @@ const state = {
   totalPages: 1,
 };
 
+let allJobs = [];
 let allCategoryStats = [];
 let charts = {};
 
@@ -532,40 +533,186 @@ const CAT_ICONS = {
 // ══════════════════════════════════════════════════════════
 //  DATA
 // ══════════════════════════════════════════════════════════
-async function fetchStats() {
-  const r = await fetch('/api/stats');
-  if (!r.ok) throw new Error('Failed to load stats');
-  return await r.json();
+async function loadAllJobs() {
+  const loadChunk = async (i) => {
+    const num = String(i).padStart(3, '0');
+    try {
+      const r = await fetch(`chunks/chunk_${num}.json`);
+      if (!r.ok) return [];
+      return await r.json();
+    } catch { return []; }
+  };
+  const results = await Promise.all(Array.from({length: 50}, (_, i) => loadChunk(i + 1)));
+  allJobs = results.flat();
+  if (!allJobs.length) throw new Error('No data loaded');
 }
 
-async function fetchJobsAPI(params = {}) {
-  const qs = new URLSearchParams();
-  if (params.page) qs.set('page', params.page);
-  if (params.limit) qs.set('limit', params.limit);
-  if (params.search) qs.set('search', params.search);
-  if (params.category) qs.set('category', params.category);
-  if (params.type) qs.set('type', params.type);
-  if (params.sort) qs.set('sort', params.sort);
-  if (params.order) qs.set('order', params.order);
-  if (params.salary_min) qs.set('salary_min', params.salary_min);
-  if (params.salary_max) qs.set('salary_max', params.salary_max);
-  if (params.date_from) qs.set('date_from', params.date_from);
-  if (params.date_to) qs.set('date_to', params.date_to);
-  const r = await fetch('/api/jobs?' + qs.toString());
-  if (!r.ok) throw new Error('Failed to load jobs');
-  return await r.json();
+function parseSalary(j) {
+  const raw = j.salary_detail || j.salary || '';
+  if (!raw || raw === 'N/A') return null;
+  const m = String(raw).replace(/,/g, '').match(/(\d+)/g);
+  if (!m) return null;
+  return m.map(Number);
 }
 
-async function fetchJobDetail(jobId) {
-  const r = await fetch('/api/jobs/' + encodeURIComponent(jobId));
-  if (!r.ok) throw new Error('Job not found');
-  return await r.json();
+function jobDate(j) {
+  const d = j.posted || j.scraped_at;
+  if (!d || d === 'N/A') return null;
+  const dt = new Date(d.endsWith('Z') ? d : d.replace(' ', 'T') + (d.includes('Z') || d.includes('+') ? '' : 'Z'));
+  return isNaN(dt.getTime()) ? null : dt;
+}
+
+function filterJobs(jobs) {
+  return jobs.filter(j => {
+    const title = (j.job_title || j.title || '').toLowerCase();
+    const company = (j.company || '').toLowerCase();
+    const desc = (j.description || '').toLowerCase();
+    const query = state.search.toLowerCase();
+    if (query && !title.includes(query) && !company.includes(query) && !desc.includes(query)) return false;
+    if (state.category.length) {
+      const cat = j.category || 'Other';
+      if (!state.category.includes(cat)) return false;
+    }
+    if (state.types.length) {
+      const t = (j.work_type || j.type || '').toLowerCase();
+      let match = state.types.some(t2 => t.includes(t2));
+      if (!match) return false;
+    }
+    if (state.salaryMin || state.salaryMax) {
+      const nums = parseSalary(j);
+      if (!nums) return false;
+      const minV = nums.reduce((a, b) => Math.min(a, b), Infinity);
+      if (state.salaryMin && minV < Number(state.salaryMin)) return false;
+      if (state.salaryMax) {
+        const maxV = nums.reduce((a, b) => Math.max(a, b), -Infinity);
+        if (maxV > Number(state.salaryMax)) return false;
+      }
+    }
+    if (state.dateFrom || state.dateTo) {
+      const dt = jobDate(j);
+      if (!dt) return false;
+      if (state.dateFrom) {
+        const from = new Date(state.dateFrom);
+        if (dt < from) return false;
+      }
+      if (state.dateTo) {
+        const to = new Date(state.dateTo + 'T23:59:59Z');
+        if (dt > to) return false;
+      }
+    }
+    return true;
+  });
+}
+
+function sortJobs(jobs) {
+  const s = state.sort;
+  const dir = state.order === 'desc' ? -1 : 1;
+  return [...jobs].sort((a, b) => {
+    let va, vb;
+    if (s === 'posted') {
+      va = jobDate(a) || 0; vb = jobDate(b) || 0;
+      if (va instanceof Date) va = va.getTime();
+      if (vb instanceof Date) vb = vb.getTime();
+    } else if (s === 'title') {
+      va = (a.job_title || a.title || '').toLowerCase();
+      vb = (b.job_title || b.title || '').toLowerCase();
+      return va < vb ? -dir : va > vb ? dir : 0;
+    } else if (s === 'company') {
+      va = (a.company || '').toLowerCase();
+      vb = (b.company || '').toLowerCase();
+      return va < vb ? -dir : va > vb ? dir : 0;
+    } else if (s === 'salary_detail' || s === 'salary') {
+      const na = parseSalary(a);
+      const nb = parseSalary(b);
+      va = na ? na[0] : 0;
+      vb = nb ? nb[0] : 0;
+    }
+    return (va - vb) * dir || 0;
+  });
+}
+
+function paginateJobs(jobs) {
+  state.totalResults = jobs.length;
+  state.totalPages = Math.max(1, Math.ceil(jobs.length / state.limit));
+  const start = (state.page - 1) * state.limit;
+  return jobs.slice(start, start + state.limit);
+}
+
+function fetchJobs() {
+  const filtered = filterJobs(allJobs);
+  const sorted = sortJobs(filtered);
+  const page = paginateJobs(sorted);
+  return { jobs: page, total: state.totalResults, totalPages: state.totalPages };
+}
+
+function computeStats() {
+  const total = allJobs.length;
+  const cats = {};
+  const types = {};
+  const dateBuckets = {};
+  const salaryBuckets = {};
+  const tagCounts = {};
+  let withSalary = 0;
+
+  allJobs.forEach(j => {
+    const cat = j.category || 'Other';
+    cats[cat] = (cats[cat] || 0) + 1;
+
+    const t = j.work_type || j.type || 'unknown';
+    types[t] = (types[t] || 0) + 1;
+
+    const dt = jobDate(j);
+    if (dt) {
+      const key = dt.toISOString().slice(0, 10);
+      dateBuckets[key] = (dateBuckets[key] || 0) + 1;
+    }
+
+    const nums = parseSalary(j);
+    if (nums) {
+      withSalary++;
+      const avg = nums.reduce((a, b) => a + b, 0) / nums.length;
+      let range;
+      if (avg <= 500) range = '0-500';
+      else if (avg <= 1000) range = '500-1K';
+      else if (avg <= 2000) range = '1K-2K';
+      else if (avg <= 4000) range = '2K-4K';
+      else range = '4K+';
+      salaryBuckets[range] = (salaryBuckets[range] || 0) + 1;
+    }
+
+    (j.tags || []).forEach(tag => {
+      tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+    });
+  });
+
+  const categories = Object.entries(cats)
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count);
+
+  const workTypes = Object.entries(types)
+    .map(([type, count]) => ({ type, count }))
+    .sort((a, b) => b.count - a.count);
+
+  const postingTimeline = Object.entries(dateBuckets)
+    .map(([date, count]) => ({ date, count }))
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .slice(-30);
+
+  const topTags = Object.entries(tagCounts)
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 20);
+
+  const salaryPct = total ? Math.round((withSalary / total) * 100) : 0;
+
+  return { total, categories, work_types: workTypes, posting_timeline: postingTimeline, salary_pct: salaryPct, salary_ranges: salaryBuckets, top_tags: topTags, with_salary: withSalary };
 }
 
 async function loadDashboard() {
   const el = document.getElementById('dashboardContent');
   try {
-    const stats = await fetchStats();
+    if (!allJobs.length) await loadAllJobs();
+    const stats = computeStats();
     allCategoryStats = stats.categories;
     renderDashboard(el, stats);
   } catch (e) {
@@ -715,13 +862,7 @@ function renderDashboard(el, stats) {
 // ══════════════════════════════════════════════════════════
 //  BROWSE
 // ══════════════════════════════════════════════════════════
-async function loadBrowse() {
-  try {
-    const stats = await fetchStats();
-    allCategoryStats = stats.categories;
-  } catch (e) {
-    console.error('Failed to load stats for filters:', e);
-  }
+function loadBrowse() {
   buildCategoryFilters();
   buildTypeFilters();
   refreshJobs();
@@ -768,33 +909,12 @@ function buildTypeFilters() {
   });
 }
 
-async function refreshJobs() {
+function refreshJobs() {
   const listEl = document.getElementById('jobList');
 
-  const params = {
-    page: state.page,
-    limit: state.limit,
-    sort: state.sort,
-    order: state.order,
-  };
-  if (state.search) params.search = state.search;
-  if (state.category.length) params.category = state.category.join(',');
-  if (state.types.length) params.type = state.types.join(',');
-  if (state.salaryMin) params.salary_min = state.salaryMin;
-  if (state.salaryMax) params.salary_max = state.salaryMax;
-  if (state.dateFrom) params.date_from = state.dateFrom;
-  if (state.dateTo) params.date_to = state.dateTo;
-
-  try {
-    const data = await fetchJobsAPI(params);
-    state.totalResults = data.total;
-    state.totalPages = data.totalPages;
-    renderJobList(data.jobs);
-    renderPagination();
-  } catch (e) {
-    listEl.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-muted);">
-      <i class="fa-solid fa-triangle-exclamation" style="font-size:1.5rem;display:block;margin-bottom:0.5rem;"></i>Failed to load: ${e.message}</div>`;
-  }
+  const data = fetchJobs();
+  renderJobList(data.jobs);
+  renderPagination();
 }
 
 function renderJobList(jobs) {
@@ -884,7 +1004,7 @@ function renderPagination() {
 // ══════════════════════════════════════════════════════════
 let activeJob = null;
 
-async function selectJob(jobId) {
+function selectJob(jobId) {
   const dc = document.getElementById('detailContent');
   const de = document.getElementById('detailEmpty');
 
@@ -896,14 +1016,15 @@ async function selectJob(jobId) {
   const card = document.querySelector(`.job-card[data-id="${escAttr(jobId)}"]`);
   if (card) card.classList.add('active');
 
-  try {
-    const j = await fetchJobDetail(jobId);
-    applyStoredNotes(j);
-    activeJob = j;
-    renderDetail(j);
-  } catch (e) {
+  const j = allJobs.find(j => j.job_id === jobId || j.id === jobId);
+  if (!j) {
     dc.innerHTML = `<div style="text-align:center;padding:3rem;color:var(--text-muted);">Job not found</div>`;
+    return;
   }
+
+  applyStoredNotes(j);
+  activeJob = j;
+  renderDetail(j);
 }
 
 function renderDetail(j) {
@@ -1043,22 +1164,13 @@ function saveJob() {
 // ══════════════════════════════════════════════════════════
 //  EXPORT CSV
 // ══════════════════════════════════════════════════════════
-async function exportCSV() {
+function exportCSV() {
   try {
-    const params = { page: 1, limit: 10000, sort: state.sort, order: state.order };
-    if (state.search) params.search = state.search;
-    if (state.category.length) params.category = state.category.join(',');
-    if (state.types.length) params.type = state.types.join(',');
-    if (state.salaryMin) params.salary_min = state.salaryMin;
-    if (state.salaryMax) params.salary_max = state.salaryMax;
-    if (state.dateFrom) params.date_from = state.dateFrom;
-    if (state.dateTo) params.date_to = state.dateTo;
-
-    const data = await fetchJobsAPI(params);
-    if (!data.jobs.length) { alert('No jobs to export'); return; }
+    const filtered = filterJobs(allJobs);
+    if (!filtered.length) { alert('No jobs to export'); return; }
 
     const headers = ['job_id', 'title', 'company', 'category', 'type', 'salary', 'hours', 'posted', 'url', 'tags', 'description'];
-    const rows = data.jobs.map(j => headers.map(h => {
+    const rows = filtered.map(j => headers.map(h => {
       let val = j[h];
       if (h === 'tags') val = (j.tags || []).join('; ');
       if (h === 'description') val = (j.description || '').slice(0, 500);
@@ -1215,6 +1327,15 @@ function setupEvents() {
 // ══════════════════════════════════════════════════════════
 async function init() {
   setupEvents();
+  try {
+    await loadAllJobs();
+  } catch (e) {
+    document.getElementById('dashboardContent').innerHTML =
+      `<div style="grid-column:1/-1;text-align:center;padding:3rem;color:var(--text-muted);">
+        <i class="fa-solid fa-triangle-exclamation" style="font-size:2rem;display:block;margin-bottom:0.5rem;"></i>
+        Failed to load data: ${e.message}</div>`;
+    return;
+  }
   loadDashboard();
   loadBrowse();
 }
