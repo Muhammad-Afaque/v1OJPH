@@ -7,12 +7,13 @@ import sys
 import urllib.parse
 from collections import Counter
 from datetime import datetime, timedelta
+from glob import glob
 from pathlib import Path
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 FRONTEND_DIR = Path(__file__).resolve().parent
-JSON_FILE = PROJECT_DIR / "enriched_jobs.json"
+CHUNKS_DIR = PROJECT_DIR / "chunks"
 
 JOBS_CACHE = None
 
@@ -20,8 +21,11 @@ JOBS_CACHE = None
 def load_jobs():
     global JOBS_CACHE
     if JOBS_CACHE is None:
-        with open(JSON_FILE, "r", encoding="utf-8") as f:
-            JOBS_CACHE = json.load(f)
+        JOBS_CACHE = []
+        chunk_files = sorted(glob(str(CHUNKS_DIR / "chunk_*.json")))
+        for cf in chunk_files:
+            with open(cf, "r", encoding="utf-8") as f:
+                JOBS_CACHE.extend(json.load(f))
     return JOBS_CACHE
 
 
@@ -272,45 +276,13 @@ class APIHandler(http.server.SimpleHTTPRequestHandler):
         self._json_response({"error": "not found"}, 404)
 
     def _save_job(self):
-        try:
-            length = int(self.headers.get("Content-Length", 0))
-            raw = self.rfile.read(length)
-            payload = json.loads(raw)
-
-            job_id = payload.get("job_id")
-            if not job_id:
-                self._json_response({"error": "job_id required"}, 400)
-                return
-
-            jobs = load_jobs()
-            updated = False
-            for job in jobs:
-                if job.get("job_id") == job_id:
-                    for key in ("email", "extra_description", "custom_notes"):
-                        if key in payload:
-                            job[key] = payload[key]
-                    updated = True
-                    break
-
-            if not updated:
-                self._json_response({"error": "not found"}, 404)
-                return
-
-            with open(JSON_FILE, "w", encoding="utf-8") as f:
-                json.dump(jobs, f, indent=2, ensure_ascii=False)
-            JOBS_CACHE = None
-
-            self._json_response({"ok": True, "job_id": job_id})
-
-        except json.JSONDecodeError:
-            self._json_response({"error": "invalid JSON"}, 400)
-        except Exception as e:
-            self._json_response({"error": str(e)}, 500)
+        self._json_response({"ok": True, "note": "saved to localStorage only"})
 
 
 if __name__ == "__main__":
+    jobs = load_jobs()
     print(f"Server: http://localhost:{PORT}/frontend/")
     print(f"API:    http://localhost:{PORT}/api/jobs?page=1&limit=50")
     print(f"Stats:  http://localhost:{PORT}/api/stats")
-    print(f"Data:   {JSON_FILE} ({len(load_jobs())} jobs)")
+    print(f"Data:   {len(jobs)} jobs from chunks/")
     http.server.HTTPServer(("0.0.0.0", PORT), APIHandler).serve_forever()

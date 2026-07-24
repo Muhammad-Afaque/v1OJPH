@@ -74,8 +74,9 @@ else
 fi
 
 # ── Copy data for frontend ──────────────────────────────────
-cp enriched_jobs.json frontend/enriched_jobs.json
-log "Copied enriched_jobs.json to frontend/"
+rm -rf frontend/chunks
+cp -r chunks frontend/chunks
+log "Copied chunks/ to frontend/chunks/"
 
 # ── Summary ────────────────────────────────────────────────
 log ""
@@ -84,6 +85,7 @@ log "Pipeline complete"
 log "Outputs:"
 log "  Listing data:   $(du -h jobs.json 2>/dev/null | cut -f1) ($(python3 -c "import json; print(len(json.load(open('jobs.json'))))" 2>/dev/null || echo '?') jobs)"
 log "  Enriched data:  $(du -h enriched_jobs.json 2>/dev/null | cut -f1) ($(python3 -c "import json; print(len(json.load(open('enriched_jobs.json'))))" 2>/dev/null || echo '?') jobs)"
+log "  Chunks:         $(ls chunks/chunk_*.json 2>/dev/null | wc -l) files"
 log "  Categories:     $(ls categories/*.json 2>/dev/null | wc -l) files"
 log "========================================="
 

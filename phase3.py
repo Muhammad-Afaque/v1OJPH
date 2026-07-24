@@ -4,6 +4,8 @@ from collections import Counter
 
 INPUT_FILE = "enriched_jobs.json"
 OUTPUT_FILE = "enriched_jobs.json"
+CHUNKS_DIR = "chunks"
+CHUNK_MAX_BYTES = 10 * 1024 * 1024  # 10MB per chunk
 
 CATEGORY_RULES = {
     "Design": {
@@ -190,6 +192,39 @@ CATEGORY_RULES = {
 }
 
 
+def write_chunks(jobs):
+    os.makedirs(CHUNKS_DIR, exist_ok=True)
+    for f in os.listdir(CHUNKS_DIR):
+        if f.startswith("chunk_") and f.endswith(".json"):
+            os.remove(os.path.join(CHUNKS_DIR, f))
+
+    chunks = []
+    current_chunk = []
+    current_size = 2  # opening bracket + indent overhead
+
+    for job in jobs:
+        job_bytes = len(json.dumps(job, ensure_ascii=False)) + 2  # +2 for comma/newline
+        if current_chunk and current_size + job_bytes > CHUNK_MAX_BYTES:
+            chunks.append(current_chunk)
+            current_chunk = []
+            current_size = 2
+        current_chunk.append(job)
+        current_size += job_bytes
+
+    if current_chunk:
+        chunks.append(current_chunk)
+
+    for i, chunk in enumerate(chunks, 1):
+        path = os.path.join(CHUNKS_DIR, f"chunk_{i:03d}.json")
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(chunk, f, ensure_ascii=False)
+        size_mb = os.path.getsize(path) / (1024 * 1024)
+        print(f"  {path}: {len(chunk)} jobs, {size_mb:.1f}MB")
+
+    print(f"Wrote {len(chunks)} chunks to {CHUNKS_DIR}/")
+    return len(chunks)
+
+
 def classify(job):
     title = job.get("title", "").lower()
     title_detailed = job.get("job_title", "").lower()
@@ -237,6 +272,7 @@ def main():
         job["category"] = classify(job)
 
     json.dump(jobs, open(OUTPUT_FILE, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    write_chunks(jobs)
 
     counts = Counter(j["category"] for j in jobs)
     print(f"Categorized {len(jobs)} jobs")
