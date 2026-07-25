@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { defineCommand, runMain } from "citty";
 import { scrapeList } from "./scraper/list";
-import { createD1Client } from "./db/d1";
+import type { Job } from "./scraper/types";
 
 const main = defineCommand({
   meta: {
@@ -83,8 +83,78 @@ const main = defineCommand({
         name: "detail",
         description: "Enrich job listings with detail data (Phase 2)",
       },
-      async run() {
-        console.log("Phase 2: Detail enrichment — not yet implemented");
+      args: {
+        input: {
+          type: "string",
+          description: "Input file path (jobs.json)",
+          default: "jobs.json",
+        },
+        output: {
+          type: "string",
+          description: "Output file path (enriched_jobs.json)",
+          default: "enriched_jobs.json",
+        },
+        "dry-run": {
+          type: "boolean",
+          description: "Preview what would be scraped without making changes",
+          default: false,
+        },
+      },
+      async run({ args }) {
+        console.log("OnlineJobs.ph Detail Scraper — Phase 2");
+        console.log("=".repeat(50));
+
+        const fs = await import("node:fs/promises");
+        const inputFile = String(args.input || "jobs.json");
+        const outputFile = String(args.output || "enriched_jobs.json");
+        const dryRun = Boolean(args["dry-run"]);
+
+        // Load existing jobs
+        let existing: Job[] = [];
+        try {
+          const data = await fs.readFile(inputFile, "utf-8");
+          existing = JSON.parse(data);
+        } catch {
+          console.error(`No ${inputFile} found. Run 'ojph list' first.`);
+          return;
+        }
+
+        if (!existing.length) {
+          console.error(`No jobs in ${inputFile}. Run 'ojph list' first.`);
+          return;
+        }
+
+        // Load already-enriched jobs to get existing IDs
+        let alreadyEnriched: Job[] = [];
+        try {
+          const data = await fs.readFile(outputFile, "utf-8");
+          alreadyEnriched = JSON.parse(data);
+        } catch {
+          // File doesn't exist yet
+        }
+
+        const existingIds = new Set(
+          alreadyEnriched.map((j) => j.job_id).filter(Boolean),
+        );
+
+        console.log(`Loaded ${existing.length} jobs from ${inputFile}`);
+        console.log(`${existingIds.size} already enriched — will skip`);
+
+        const { scrapeDetail } = await import("./scraper/detail-scraper");
+        const result = await scrapeDetail({
+          jobs: existing,
+          existingIds,
+          dryRun,
+        });
+
+        // Merge and save
+        const allEnriched = [...alreadyEnriched, ...result.enriched];
+        await fs.writeFile(outputFile, JSON.stringify(allEnriched, null, 2));
+
+        console.log(`\n${"=".repeat(50)}`);
+        console.log(`Done. ${result.newCount} jobs enriched (${result.skipped} skipped).`);
+        console.log(`Total in ${outputFile}: ${allEnriched.length}`);
+        console.log("=".repeat(50));
       },
     }),
 
