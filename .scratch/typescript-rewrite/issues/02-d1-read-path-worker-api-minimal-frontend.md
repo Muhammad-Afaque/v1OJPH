@@ -4,7 +4,7 @@
 
 **Blocked by:** 01 — Project scaffolding + D1 write path
 
-**Status:** ready-for-agent
+**Status:** done
 
 - [ ] Cloudflare Worker setup with Hono or itty-router
 - [ ] `GET /api/jobs` endpoint: pagination, sort, filter by category/type
