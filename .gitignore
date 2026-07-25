@@ -4,3 +4,5 @@ logs/
 .commandcode/
 *.pyc
 enriched_jobs.json
+node_modules/
+dist/
