@@ -163,8 +163,63 @@ const main = defineCommand({
         name: "categorize",
         description: "Categorize jobs (Phase 3)",
       },
-      async run() {
-        console.log("Phase 3: Categorization — not yet implemented");
+      args: {
+        input: {
+          type: "string",
+          description: "Input file path (enriched_jobs.json)",
+          default: "enriched_jobs.json",
+        },
+        output: {
+          type: "string",
+          description: "Output file path",
+          default: "enriched_jobs.json",
+        },
+      },
+      async run({ args }) {
+        console.log("OnlineJobs.ph Categorizer — Phase 3");
+        console.log("=".repeat(50));
+
+        const fs = await import("node:fs/promises");
+        const inputFile = String(args.input || "enriched_jobs.json");
+        const outputFile = String(args.output || "enriched_jobs.json");
+
+        let jobs: Job[] = [];
+        try {
+          const data = await fs.readFile(inputFile, "utf-8");
+          jobs = JSON.parse(data);
+        } catch {
+          console.error(`No ${inputFile} found. Run 'ojph detail' first.`);
+          return;
+        }
+
+        if (!jobs.length) {
+          console.error(`No jobs in ${inputFile}. Run 'ojph detail' first.`);
+          return;
+        }
+
+        const { classify } = await import("./scraper/categorize");
+
+        for (const job of jobs) {
+          job.category = classify(job);
+        }
+
+        await fs.writeFile(outputFile, JSON.stringify(jobs, null, 2));
+
+        // Print distribution
+        const counts: Record<string, number> = {};
+        for (const job of jobs) {
+          const cat = job.category || "Other";
+          counts[cat] = (counts[cat] || 0) + 1;
+        }
+
+        const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+        console.log(`Categorized ${jobs.length} jobs`);
+        console.log("=".repeat(40));
+        for (const [cat, count] of sorted) {
+          const pct = (count / jobs.length) * 100;
+          console.log(`  ${cat.padEnd(15)} ${String(count).padStart(3)} (${pct.toFixed(0)}%)`);
+        }
+        console.log("=".repeat(40));
       },
     }),
 
