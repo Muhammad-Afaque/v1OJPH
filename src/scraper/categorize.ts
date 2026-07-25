@@ -1,4 +1,4 @@
-import type { Job } from "./types";
+import type { Category, Job } from "./types";
 
 interface CategoryRule {
   tags: string[];
@@ -189,7 +189,7 @@ const CATEGORY_RULES: Record<string, CategoryRule> = {
   },
 };
 
-export function classify(job: Job): string {
+export function classify(job: Job): Category {
   const title = (job.title || "").toLowerCase();
   const jobTitle = (job.job_title || "").toLowerCase();
   const combinedTitle = `${title} ${jobTitle}`;
@@ -227,7 +227,7 @@ export function classify(job: Job): string {
   }
 
   if (Object.keys(scores).length === 0) {
-    return "Other";
+    return "Other" as Category;
   }
 
   // Find max score, break ties by first match (entries are in CATEGORY_RULES order)
@@ -240,9 +240,9 @@ export function classify(job: Job): string {
 
   for (const [cat, score] of Object.entries(scores)) {
     if (score === maxScore) {
-      return cat;
+      return cat as Category;
     }
   }
 
-  return "Other";
+  return "Other" as Category;
 }

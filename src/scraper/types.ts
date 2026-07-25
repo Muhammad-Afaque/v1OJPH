@@ -1,3 +1,15 @@
+export type Category =
+  | "VA"
+  | "Marketing"
+  | "Design"
+  | "Development"
+  | "Sales"
+  | "Finance"
+  | "Writing"
+  | "Medical"
+  | "Real Estate"
+  | "Other";
+
 export interface Job {
   job_id: string;
   title: string;
@@ -21,7 +33,7 @@ export interface Job {
   detail_scraped_at: string;
 
   // Category (from Phase 3)
-  category: string;
+  category: Category;
 
   // User-editable fields
   email: string;

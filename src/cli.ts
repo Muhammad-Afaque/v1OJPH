@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 import { defineCommand, runMain } from "citty";
 import { scrapeList } from "./scraper/list";
-import type { Job } from "./scraper/types";
+import { loadJson, saveJson, mergeJobs, printCategoryDistribution } from "./cli-helpers";
+import type { Job, JobListItem } from "./scraper/types";
 
 const main = defineCommand({
   meta: {
@@ -52,27 +53,13 @@ const main = defineCommand({
           dryRun,
         });
 
-        // Save to JSON file
-        const fs = await import("node:fs/promises");
-        let existing: Record<string, unknown>[] = [];
-        try {
-          const data = await fs.readFile(outputFile, "utf-8");
-          existing = JSON.parse(data);
-        } catch {
-          // File doesn't exist yet
-        }
+        const existing = await loadJson<JobListItem>(outputFile);
+        const allJobs = mergeJobs(existing, result.newJobs);
 
-        const existingIds = new Set(
-          existing.map((j) => (j as { job_id?: string }).job_id).filter(Boolean),
-        );
-
-        const newJobs = result.newJobs.filter((j) => !existingIds.has(j.job_id));
-        const allJobs = [...existing, ...newJobs];
-
-        await fs.writeFile(outputFile, JSON.stringify(allJobs, null, 2));
+        await saveJson(outputFile, allJobs);
 
         console.log(`\n${"=".repeat(50)}`);
-        console.log(`Done. ${newJobs.length} new jobs added.`);
+        console.log(`Done. ${result.newJobs.length} new jobs added.`);
         console.log(`Total in ${outputFile}: ${allJobs.length}`);
         console.log("=".repeat(50));
       },
@@ -104,35 +91,17 @@ const main = defineCommand({
         console.log("OnlineJobs.ph Detail Scraper — Phase 2");
         console.log("=".repeat(50));
 
-        const fs = await import("node:fs/promises");
         const inputFile = String(args.input || "jobs.json");
         const outputFile = String(args.output || "enriched_jobs.json");
         const dryRun = Boolean(args["dry-run"]);
 
-        // Load existing jobs
-        let existing: Job[] = [];
-        try {
-          const data = await fs.readFile(inputFile, "utf-8");
-          existing = JSON.parse(data);
-        } catch {
+        const existing = await loadJson<Job>(inputFile);
+        if (!existing.length) {
           console.error(`No ${inputFile} found. Run 'ojph list' first.`);
           return;
         }
 
-        if (!existing.length) {
-          console.error(`No jobs in ${inputFile}. Run 'ojph list' first.`);
-          return;
-        }
-
-        // Load already-enriched jobs to get existing IDs
-        let alreadyEnriched: Job[] = [];
-        try {
-          const data = await fs.readFile(outputFile, "utf-8");
-          alreadyEnriched = JSON.parse(data);
-        } catch {
-          // File doesn't exist yet
-        }
-
+        const alreadyEnriched = await loadJson<Job>(outputFile);
         const existingIds = new Set(
           alreadyEnriched.map((j) => j.job_id).filter(Boolean),
         );
@@ -147,9 +116,8 @@ const main = defineCommand({
           dryRun,
         });
 
-        // Merge and save
         const allEnriched = [...alreadyEnriched, ...result.enriched];
-        await fs.writeFile(outputFile, JSON.stringify(allEnriched, null, 2));
+        await saveJson(outputFile, allEnriched);
 
         console.log(`\n${"=".repeat(50)}`);
         console.log(`Done. ${result.newCount} jobs enriched (${result.skipped} skipped).`);
@@ -179,21 +147,12 @@ const main = defineCommand({
         console.log("OnlineJobs.ph Categorizer — Phase 3");
         console.log("=".repeat(50));
 
-        const fs = await import("node:fs/promises");
         const inputFile = String(args.input || "enriched_jobs.json");
         const outputFile = String(args.output || "enriched_jobs.json");
 
-        let jobs: Job[] = [];
-        try {
-          const data = await fs.readFile(inputFile, "utf-8");
-          jobs = JSON.parse(data);
-        } catch {
-          console.error(`No ${inputFile} found. Run 'ojph detail' first.`);
-          return;
-        }
-
+        const jobs = await loadJson<Job>(inputFile);
         if (!jobs.length) {
-          console.error(`No jobs in ${inputFile}. Run 'ojph detail' first.`);
+          console.error(`No ${inputFile} found. Run 'ojph detail' first.`);
           return;
         }
 
@@ -203,23 +162,10 @@ const main = defineCommand({
           job.category = classify(job);
         }
 
-        await fs.writeFile(outputFile, JSON.stringify(jobs, null, 2));
+        await saveJson(outputFile, jobs);
 
-        // Print distribution
-        const counts: Record<string, number> = {};
-        for (const job of jobs) {
-          const cat = job.category || "Other";
-          counts[cat] = (counts[cat] || 0) + 1;
-        }
-
-        const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
         console.log(`Categorized ${jobs.length} jobs`);
-        console.log("=".repeat(40));
-        for (const [cat, count] of sorted) {
-          const pct = (count / jobs.length) * 100;
-          console.log(`  ${cat.padEnd(15)} ${String(count).padStart(3)} (${pct.toFixed(0)}%)`);
-        }
-        console.log("=".repeat(40));
+        printCategoryDistribution(jobs);
       },
     }),
 
