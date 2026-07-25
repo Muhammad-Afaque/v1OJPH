@@ -3,3 +3,4 @@ logs/
 .run.lock
 .commandcode/
 *.pyc
+enriched_jobs.json

@@ -16,6 +16,7 @@ HEADERS = {
 
 INPUT_FILE = "jobs.json"
 OUTPUT_FILE = "enriched_jobs.json"
+CHUNKS_DIR = "chunks"
 DELAY = 1
 MAX_RETRIES = 3
 SAVE_EVERY = 20
@@ -39,6 +40,26 @@ def load_json(filepath):
             except json.JSONDecodeError:
                 return []
     return []
+
+
+def load_existing_ids_from_chunks():
+    existing_ids = set()
+    chunk_dir = CHUNKS_DIR
+    if not os.path.isdir(chunk_dir):
+        return existing_ids, []
+    for fname in sorted(os.listdir(chunk_dir)):
+        if fname.startswith("chunk_") and fname.endswith(".json"):
+            path = os.path.join(chunk_dir, fname)
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    jobs = json.load(f)
+                for job in jobs:
+                    jid = job.get("job_id")
+                    if jid:
+                        existing_ids.add(jid)
+            except (json.JSONDecodeError, IOError):
+                pass
+    return existing_ids
 
 
 def save_json(filepath, data):
@@ -125,10 +146,16 @@ def main():
         return
 
     existing = load_json(OUTPUT_FILE)
-    existing_ids = {job["job_id"] for job in existing if job.get("job_id")}
-
     if existing:
-        print(f"Loaded {len(existing)} existing enriched jobs")
+        existing_ids = {job["job_id"] for job in existing if job.get("job_id")}
+        print(f"Loaded {len(existing)} existing enriched jobs from {OUTPUT_FILE}")
+    else:
+        existing_ids = load_existing_ids_from_chunks()
+        if existing_ids:
+            print(f"Loaded {len(existing_ids)} existing job IDs from {CHUNKS_DIR}/")
+        else:
+            print(f"No existing data found — will enrich all {len(jobs)} jobs")
+        existing = []
 
     enriched = list(existing)
     new_count = 0
