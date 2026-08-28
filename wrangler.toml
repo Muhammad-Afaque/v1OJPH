@@ -8,7 +8,7 @@ ENVIRONMENT = "production"
 [[d1_databases]]
 binding = "D1_DATABASE"
 database_name = "ojph-db"
-database_id = "placeholder-replace-with-actual-id"
+database_id = "b921915b-4ad0-44db-98a9-5b124bed0b7a"
 
 [build]
 command = "npm run build"

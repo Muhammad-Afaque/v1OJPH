@@ -6,3 +6,8 @@ logs/
 enriched_jobs.json
 node_modules/
 dist/
+
+# Cloudflare credentials (live API token) — never commit
+.env
+.env.*
+!.env.example

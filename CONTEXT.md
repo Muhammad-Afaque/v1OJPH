@@ -35,3 +35,26 @@ _Avoid_: Workflow, sequence, chain
 **Incremental Update**:
 A scraping run that skips already-collected Job Listings based on their job_id, appending only new records.
 _Avoid_: Differential update, delta sync
+
+## Session Log
+
+### 2026-07-25
+- **What was done**:
+  - Ticket 04: CLI categorize command implemented
+    - Classification rules ported from Python (9 categories + Other)
+    - Score-based matching: tags weighted 2, title keywords weighted 3
+    - Ties broken by first match
+    - CLI `npx ojph categorize` subcommand
+    - 20 new classification tests (65 total)
+  - Code review fixes:
+    - Added `Category` type union for `classify()` return (Primitive Obsession)
+    - Extracted shared file I/O helpers (`loadJson`, `saveJson`, `mergeJobs`, `printCategoryDistribution`)
+    - Reduced CLI boilerplate by ~40 lines
+- **Files changed**:
+  - Created: `src/scraper/categorize.ts`, `src/scraper/categorize.test.ts`, `src/cli-helpers.ts`
+  - Modified: `src/cli.ts`, `src/scraper/types.ts`
+- **Commits**:
+  - `d391dc2` feat: ticket 04 — CLI categorize command
+  - `2f732c3` refactor: fix code review issues from ticket 04
+- **Status**: Completed
+- **Next steps**: Ticket 05 — D1 write-back for all pipeline phases
