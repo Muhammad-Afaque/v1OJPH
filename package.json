@@ -14,13 +14,14 @@
     "test:watch": "vitest"
   },
   "dependencies": {
+    "cheerio": "^1.0.0",
     "citty": "^0.1.6",
-    "cheerio": "^1.0.0"
+    "hono": "^4.13.5"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@cloudflare/workers-types": "^4.20241022.0",
     "@types/node": "^22.10.0",
-    "@biomejs/biome": "^1.9.4",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2",
     "vitest": "^2.1.8",
