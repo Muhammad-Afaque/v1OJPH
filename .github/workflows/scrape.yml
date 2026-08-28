@@ -11,6 +11,11 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    # The CLOUDFLARE_* D1 credentials are stored as ENVIRONMENT secrets on the
+    # "Production" environment, so this job must reference that environment for
+    # the ${{ secrets.* }} expressions below to resolve. Job-level environment
+    # selection uses the environment NAME, not its numeric id.
+    environment: Production
     timeout-minutes: 360
     env:
       # Credentials for the D1 HTTP write path (set these in GitHub secret settings).
