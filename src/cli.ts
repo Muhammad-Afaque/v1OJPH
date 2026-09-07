@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { defineCommand, runMain } from "citty";
+import { splitIntoChunks, writeChunkFiles } from "./chunks";
 import {
   loadJson,
   mergeJobs,
@@ -337,6 +338,43 @@ const main = defineCommand({
           await d1Client.upsertBatch(detailResult.enriched);
           console.log("Done. Upserted to D1.");
         }
+        console.log("=".repeat(50));
+      },
+    }),
+
+    chunks: defineCommand({
+      meta: {
+        name: "chunks",
+        description: "Export all D1 jobs into frontend chunk files",
+      },
+      args: {
+        dirs: {
+          type: "string",
+          description: "Comma-separated output directories for chunk files",
+          default: "chunks,frontend/chunks",
+        },
+      },
+      async run({ args }) {
+        console.log("OnlineJobs.ph Chunk Export — D1 → frontend");
+        console.log("=".repeat(50));
+
+        const dirs = String(args.dirs || "chunks,frontend/chunks")
+          .split(",")
+          .map((d: string) => d.trim())
+          .filter(Boolean);
+
+        const d1Client = getD1Client();
+        const jobs = await d1Client.getAll();
+        console.log(`Loaded ${jobs.length} jobs from D1`);
+
+        const chunks = splitIntoChunks(jobs);
+        console.log(`Splitting into ${chunks.length} chunk file(s)`);
+
+        for (const dir of dirs) {
+          const written = await writeChunkFiles(dir, chunks);
+          console.log(`Wrote ${written.length} files to ${dir}`);
+        }
+
         console.log("=".repeat(50));
       },
     }),

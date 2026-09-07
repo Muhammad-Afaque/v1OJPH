@@ -1,6 +1,6 @@
-import { describe, it, expect, beforeEach } from "vitest";
-import { createD1Client } from "./d1";
+import { beforeEach, describe, expect, it } from "vitest";
 import type { Job } from "../scraper/types";
+import { createD1Client } from "./d1";
 
 function createMockD1() {
   const store = new Map<string, Record<string, unknown>>();
@@ -194,6 +194,30 @@ describe("D1 Client", () => {
     it("returns empty set when no jobs exist", async () => {
       const ids = await client.getExistingIds();
       expect(ids).toEqual(new Set());
+    });
+  });
+
+  describe("getAll", () => {
+    it("returns all jobs with tags parsed", async () => {
+      await client.upsert(
+        makeJob({ job_id: "1", tags: ["javascript", "react"] }),
+      );
+      await client.upsert(makeJob({ job_id: "2", title: "Second Job" }));
+
+      const all = await client.getAll();
+
+      expect(all).toHaveLength(2);
+      expect(all.map((j) => j.job_id).sort()).toEqual(["1", "2"]);
+      expect(all.find((j) => j.job_id === "1")?.tags).toEqual([
+        "javascript",
+        "react",
+      ]);
+      expect(all.find((j) => j.job_id === "1")?.title).toBe("Test Job");
+    });
+
+    it("returns empty array when no jobs exist", async () => {
+      const all = await client.getAll();
+      expect(all).toEqual([]);
     });
   });
 });

@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+    # Data-only pushes from the git-auto-commit step must not re-trigger the
+    # full scrape (would cause an infinite loop). Vercel still redeploys from
+    # these commits because they land on main.
+    paths-ignore:
+      - 'chunks/**'
+      - 'frontend/chunks/**'
   schedule:
     - cron: '0 * * * *'
   workflow_dispatch:
@@ -45,12 +51,14 @@ jobs:
       - name: Run scraper pipeline (list → detail → categorize → write to D1)
         run: node dist/cli.js pipeline --keywords wordpress,shopify,seo
 
-      # NOTE: Data now lives in D1, not the repo. Nothing is committed here.
-      # If you want a local/backup copy on CI for inspection, run:
-      #   node dist/cli.js pipeline --local-json
-      # and uncomment the git-auto-commit step below.
-      # - name: Commit updated data (optional local backup)
-      #   uses: stefanzweifel/git-auto-commit-action@v5
-      #   with:
-      #     commit_message: 'chore: update scraped job data'
-      #     file_pattern: 'jobs.json enriched_jobs.json'
+      - name: Export D1 jobs into frontend chunk files
+        # D1 is the source of truth; the static frontend (Vercel) loads chunk
+        # files, so regenerate them after every scrape and commit them so
+        # Vercel redeploys with fresh data.
+        run: node dist/cli.js chunks
+
+      - name: Commit updated chunk files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update scraped job data'
+          file_pattern: 'chunks/ frontend/chunks/'

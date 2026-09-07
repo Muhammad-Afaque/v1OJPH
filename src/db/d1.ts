@@ -7,7 +7,10 @@ interface D1Database {
 interface D1PreparedStatement {
   bind(...params: unknown[]): D1PreparedStatement;
   run(): Promise<{ success: boolean; meta: { changes: number } }>;
-  all<T = Record<string, unknown>>(): Promise<{ results: T[]; success: boolean }>;
+  all<T = Record<string, unknown>>(): Promise<{
+    results: T[];
+    success: boolean;
+  }>;
   first<T = Record<string, unknown>>(): Promise<T | null>;
 }
 
@@ -16,6 +19,7 @@ interface D1Client {
   upsertBatch(jobs: Job[]): Promise<void>;
   getJob(jobId: string): Promise<Job | null>;
   getExistingIds(): Promise<Set<string>>;
+  getAll(): Promise<Job[]>;
 }
 
 function serializeJob(job: Job): Record<string, unknown> {
@@ -53,7 +57,7 @@ export function createD1Client(db: D1Database): D1Client {
             ?, ?, ?, ?, ?, ?,
             ?, ?, ?, ?,
             ?, ?, ?, ?, ?, ?, ?
-          )`
+          )`,
         )
         .bind(
           data.job_id,
@@ -81,7 +85,7 @@ export function createD1Client(db: D1Database): D1Client {
           data.source_info,
           data.status,
           data.contact_info,
-          data.notes
+          data.notes,
         )
         .run();
     },
@@ -108,6 +112,14 @@ export function createD1Client(db: D1Database): D1Client {
         .all<{ job_id: string }>();
 
       return new Set(result.results.map((r) => r.job_id));
+    },
+
+    async getAll(): Promise<Job[]> {
+      const result = await db
+        .prepare("SELECT * FROM jobs")
+        .all<Record<string, unknown>>();
+
+      return result.results.map(deserializeJob);
     },
   };
 }
