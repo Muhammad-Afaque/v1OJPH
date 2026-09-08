@@ -36,6 +36,10 @@ _Avoid_: Workflow, sequence, chain
 A scraping run that skips already-collected Job Listings based on their job_id, appending only new records.
 _Avoid_: Differential update, delta sync
 
+## Hard Rules
+
+- NEVER save files, scripts, or scratch work in temp folders (`$env:TEMP`, `/tmp`, or any throwaway location). Keep all work inside this repository (e.g. `C:\proj\v1OJPH`) so it's tracked and reusable.
+
 ## Session Log
 
 ### 2026-07-25
