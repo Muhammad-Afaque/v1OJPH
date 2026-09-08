@@ -1,7 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import type { Job } from "../scraper/types";
 import { createD1Client } from "./d1";
-import { createD1Database } from "./d1-http";
+import { createD1Database, isD1WriteQuotaError } from "./d1-http";
 
 /** Records outbound requests and returns a canned D1 HTTP API response. */
 function makeMockFetch(opts: {
@@ -188,5 +188,18 @@ describe("d1-http adapter", () => {
     await expect(client.upsert(makeJob())).rejects.toThrow(
       /D1 query failed: boom/,
     );
+  });
+
+  it("detects the free-tier daily write quota error", () => {
+    const quota = new Error(
+      'D1 HTTP API returned 400 Bad Request: {"errors":[{"code":7500,' +
+        '"message":"Your account has exceeded D1\'s free tier daily row ' +
+        "write limit. Upgrade to a paid plan or wait until tomorrow (midnight " +
+        'UTC) to continue."}]}',
+    );
+    expect(isD1WriteQuotaError(quota)).toBe(true);
+    expect(isD1WriteQuotaError(new Error("D1 query failed: boom"))).toBe(false);
+    expect(isD1WriteQuotaError(null)).toBe(false);
+    expect(isD1WriteQuotaError("not an error")).toBe(false);
   });
 });

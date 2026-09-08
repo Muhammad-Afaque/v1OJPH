@@ -25,6 +25,19 @@ export interface D1HttpOptions {
   fetchImpl?: typeof fetch;
 }
 
+/**
+ * True when `err` is a D1 free-tier daily write-quota rejection. The account
+ * can exceed this after a large import (e.g. the legacy backfill); writes are
+ * blocked until 00:00 UTC but reads keep working. Callers that write should
+ * treat this as a recoverable condition rather than a hard failure.
+ */
+export function isD1WriteQuotaError(err: unknown): boolean {
+  return (
+    err instanceof Error &&
+    err.message.includes("free tier daily row write limit")
+  );
+}
+
 function requiredEnv(name: string): string | undefined {
   return process.env[name];
 }

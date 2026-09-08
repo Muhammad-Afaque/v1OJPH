@@ -8,7 +8,7 @@ import {
   saveJson,
 } from "./cli-helpers";
 import { createD1Client } from "./db/d1";
-import { createD1Database } from "./db/d1-http";
+import { createD1Database, isD1WriteQuotaError } from "./db/d1-http";
 import { classify } from "./scraper/categorize";
 import { scrapeDetail } from "./scraper/detail-scraper";
 import { scrapeList } from "./scraper/list";
@@ -335,8 +335,22 @@ const main = defineCommand({
         } else {
           console.log(`Writing ${detailResult.enriched.length} jobs to D1...`);
           if (!d1Client) throw new Error("D1 client not initialized");
-          await d1Client.upsertBatch(detailResult.enriched);
-          console.log("Done. Upserted to D1.");
+          try {
+            await d1Client.upsertBatch(detailResult.enriched);
+            console.log("Done. Upserted to D1.");
+          } catch (err) {
+            if (isD1WriteQuotaError(err)) {
+              // D1 free-tier write budget exhausted for the day (resets at
+              // 00:00 UTC). These jobs stay "new" and are picked up by a
+              // later run automatically, so exit cleanly and let the rest of
+              // the workflow (chunk export) continue.
+              console.warn(
+                `WARNING: D1 daily write quota exceeded — ${detailResult.enriched.length} job(s) were NOT written. They will be imported on a run after the quota resets.`,
+              );
+            } else {
+              throw err;
+            }
+          }
         }
         console.log("=".repeat(50));
       },
@@ -423,15 +437,27 @@ const main = defineCommand({
         // for a many-thousand-row legacy import.
         const streams = 8;
         const sliceSize = Math.ceil(fresh.length / streams);
-        await Promise.all(
-          Array.from({ length: streams }, (_, i) =>
-            d1Client.upsertBatch(
-              fresh.slice(i * sliceSize, (i + 1) * sliceSize),
+        try {
+          await Promise.all(
+            Array.from({ length: streams }, (_, i) =>
+              d1Client.upsertBatch(
+                fresh.slice(i * sliceSize, (i + 1) * sliceSize),
+              ),
             ),
-          ),
-        );
-
-        console.log(`Backfill done. Added ${fresh.length} job(s) to D1.`);
+          );
+          console.log(`Backfill done. Added ${fresh.length} job(s) to D1.`);
+        } catch (err) {
+          if (isD1WriteQuotaError(err)) {
+            // Writes except those already persisted are lost for today — the
+            // quota resets at 00:00 UTC. Rerun with the same --from files
+            // after the reset; existing IDs are skipped.
+            console.warn(
+              "WARNING: D1 daily write quota exceeded midway through the backfill. Rerun this command after 00:00 UTC to finish the import (existing IDs are skipped).",
+            );
+          } else {
+            throw err;
+          }
+        }
         console.log("=".repeat(50));
       },
     }),

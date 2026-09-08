@@ -160,3 +160,51 @@ Implementation steps:
 - Biome's `cli-linux-x64` platform binary was missing → approved via
   `npm install-scripts approve @biomejs/biome esbuild workerd` (local only).
 - Typecheck clean; build succeeds; 81/81 tests pass.
+
+## Second session (same day): data-loss fix + new frontend
+
+User: previously-scraped (pre-D1) jobs must stay visible alongside new ones.
+
+**Root cause of the data loss:** D1 (`src/worker.ts`-era pipeline) is the
+source of truth and only held ~9.7k jobs. The older **33,476 jobs** from the
+Python era existed ONLY in `enriched_jobs.json` (last full copy: commit
+`7ed19bc`, 104.6 MB) and the 20.8k-job chunk files; they had never been
+migrated into D1. Regenerating chunks from D1 alone dropped them all.
+(Note: chunk_007 truncated at commit time — that ~12.6k loss predates us and
+is not recoverable; the 33,476-job `enriched_jobs.json` is the complete set.)
+
+**What was done:**
+- `d1.ts`: extracted `JOB_COLUMNS`; rewrote `upsertBatch` to multi-row
+  `INSERT OR REPLACE` in batches of 3 rows — D1's SQLite build caps bound
+  variables at 99/statement (26 cols × 3 = 78); parallel backfill streams.
+- `cli.ts`: new `ojph backfill --from <json…>` imports legacy Job arrays,
+  skipping IDs already in D1; runs 8 concurrent upsert streams.
+- Backfilled `7ed19bc:enriched_jobs.json` (33,476 jobs, 0 overlap) into D1
+  → D1 = **43,188** unique jobs.
+- Regenerated chunks: **14 files × ~10 MB**, 43,188 jobs, both
+  `chunks/` and `frontend/chunks/` byte-identical. Oldest posted 2026-05-07
+  (legacy), newest 2026-09-08 (today).
+- **New frontend:** user wanted the nicer `frontend-new` UI (dark, searchable,
+  filter/sort/paginated) instead of the old one; chose chunk-based loading
+  (no Worker API). Rewrote its JS to load `chunks/chunk_NNN.json`
+  client-side with search/category/sort/pagination. Deployed as
+  `frontend/index.html`; `frontend-new/` deleted.
+- AGENTS.md: added hard rule — never store work in temp dirs.
+
+**Pending:** commit + push (push currently blocked: the git OAuth token has no
+`workflow` scope, which is required because the commit touches
+`.github/workflows/`).
+
+### Same-day incident: D1 free-tier daily write quota
+
+- Cloudflare began **enforcing** D1 free-tier limits on 2026-09-01: 100,000
+  rows written/day, reset at 00:00 UTC. The 33.5k-row backfill (+ hourly
+  pipeline writes) exhausted today's budget → CI pipeline failed at the
+  "Writing N jobs to D1" step with code 7500 "exceeded D1's free tier daily
+  row write limit". Reads kept working; the 43,188-row dataset is intact.
+- Fix (committed): `isD1WriteQuotaError()` detector in `d1-http.ts`; the
+  pipeline and `backfill` now treat the quota error as recoverable — log a
+  warning and continue, so the workflow still exports + commits chunks
+  (frontend stays fresh). Unwritten jobs remain "new" and are picked up on a
+  later run. No data was lost.
+- Operations: next successful write happens on the first run after 00:00 UTC.

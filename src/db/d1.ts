@@ -51,10 +51,10 @@ const JOB_COLUMNS = [
   "notes",
 ] as const;
 
-// D1's SQLite build caps bound variables at 99 per statement
-// (SQLITE_MAX_VARIABLE_NUMBER). 3 rows × 26 columns = 78 variables, safely
-// under the limit. Larger import jobs still go through the same batching, so
-// backfills stay fast without overflowing.
+// D1 caps bound parameters at 100 per query (SQLite SQLITE_MAX_VARIABLE_NUMBER
+// in Cloudflare's build). 3 rows × 26 columns = 78 parameters, safely under
+// the cap. Larger imports still go through the same batching, so backfills
+// stay fast without overflowing the statement.
 const UPSERT_BATCH_SIZE = 3;
 
 function serializeJob(job: Job): Record<string, unknown> {
