@@ -140,7 +140,7 @@ describe("d1-http adapter", () => {
     expect(call.body.params[7]).toBe('["javascript","react"]');
   });
 
-  it("upsertBatch writes one statement per job", async () => {
+  it("upsertBatch writes one multi-row statement per batch", async () => {
     const mock = makeMockFetch({});
     const client = makeClient(mock.fetchImpl);
     await client.upsertBatch([
@@ -149,8 +149,11 @@ describe("d1-http adapter", () => {
       makeJob({ job_id: "3" }),
     ]);
 
-    expect(mock.calls).toHaveLength(3);
-    expect(mock.calls.map((c) => c.body.params[0])).toEqual(["1", "2", "3"]);
+    expect(mock.calls).toHaveLength(1);
+    expect(mock.calls[0].body.sql).toContain("VALUES (?,");
+    expect(mock.calls[0].body.params[0]).toBe("1");
+    expect(mock.calls[0].body.params[26]).toBe("2");
+    expect(mock.calls[0].body.params[52]).toBe("3");
   });
 
   it("getExistingIds reads job_id rows", async () => {

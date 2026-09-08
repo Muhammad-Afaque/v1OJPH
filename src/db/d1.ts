@@ -22,6 +22,41 @@ interface D1Client {
   getAll(): Promise<Job[]>;
 }
 
+const JOB_COLUMNS = [
+  "job_id",
+  "title",
+  "company",
+  "type",
+  "salary",
+  "posted",
+  "url",
+  "tags",
+  "scraped_at",
+  "job_title",
+  "work_type",
+  "salary_detail",
+  "hours",
+  "date_updated",
+  "description",
+  "company_detail",
+  "contact_person",
+  "detail_scraped_at",
+  "category",
+  "email",
+  "extra_description",
+  "custom_notes",
+  "source_info",
+  "status",
+  "contact_info",
+  "notes",
+] as const;
+
+// D1's SQLite build caps bound variables at 99 per statement
+// (SQLITE_MAX_VARIABLE_NUMBER). 3 rows × 26 columns = 78 variables, safely
+// under the limit. Larger import jobs still go through the same batching, so
+// backfills stay fast without overflowing.
+const UPSERT_BATCH_SIZE = 3;
+
 function serializeJob(job: Job): Record<string, unknown> {
   return {
     ...job,
@@ -48,51 +83,28 @@ export function createD1Client(db: D1Database): D1Client {
       await db
         .prepare(
           `INSERT OR REPLACE INTO jobs (
-            job_id, title, company, type, salary, posted, url, tags, scraped_at,
-            job_title, work_type, salary_detail, hours, date_updated, description,
-            company_detail, contact_person, detail_scraped_at, category,
-            email, extra_description, custom_notes, source_info, status, contact_info, notes
+            ${JOB_COLUMNS.join(", ")}
           ) VALUES (
-            ?, ?, ?, ?, ?, ?, ?, ?, ?,
-            ?, ?, ?, ?, ?, ?,
-            ?, ?, ?, ?,
-            ?, ?, ?, ?, ?, ?, ?
+            ${JOB_COLUMNS.map(() => "?").join(", ")}
           )`,
         )
-        .bind(
-          data.job_id,
-          data.title,
-          data.company,
-          data.type,
-          data.salary,
-          data.posted,
-          data.url,
-          data.tags,
-          data.scraped_at,
-          data.job_title,
-          data.work_type,
-          data.salary_detail,
-          data.hours,
-          data.date_updated,
-          data.description,
-          data.company_detail,
-          data.contact_person,
-          data.detail_scraped_at,
-          data.category,
-          data.email,
-          data.extra_description,
-          data.custom_notes,
-          data.source_info,
-          data.status,
-          data.contact_info,
-          data.notes,
-        )
+        .bind(...JOB_COLUMNS.map((c) => data[c]))
         .run();
     },
 
     async upsertBatch(jobs: Job[]): Promise<void> {
-      for (const job of jobs) {
-        await this.upsert(job);
+      for (let i = 0; i < jobs.length; i += UPSERT_BATCH_SIZE) {
+        const rows = jobs.slice(i, i + UPSERT_BATCH_SIZE).map(serializeJob);
+        const values = rows
+          .map(() => `(${JOB_COLUMNS.map(() => "?").join(", ")})`)
+          .join(", ");
+        await db
+          .prepare(
+            `INSERT OR REPLACE INTO jobs (${JOB_COLUMNS.join(", ")})
+             VALUES ${values}`,
+          )
+          .bind(...rows.flatMap((r) => JOB_COLUMNS.map((c) => r[c])))
+          .run();
       }
     },
 

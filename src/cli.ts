@@ -378,6 +378,63 @@ const main = defineCommand({
         console.log("=".repeat(50));
       },
     }),
+
+    backfill: defineCommand({
+      meta: {
+        name: "backfill",
+        description:
+          "Import legacy job arrays (e.g. old enriched_jobs.json) into D1",
+      },
+      args: {
+        from: {
+          type: "string",
+          description: "Comma-separated JSON file paths containing Job arrays",
+          required: true,
+        },
+      },
+      async run({ args }) {
+        console.log("OnlineJobs.ph Backfill — legacy JSON → D1");
+        console.log("=".repeat(50));
+
+        const files = String(args.from)
+          .split(",")
+          .map((f: string) => f.trim())
+          .filter(Boolean);
+
+        const d1Client = getD1Client();
+        const existingIds = await d1Client.getExistingIds();
+        console.log(`D1 already holds ${existingIds.size} job(s)`);
+
+        const fresh: Job[] = [];
+        for (const file of files) {
+          const rows = await loadJson<Record<string, unknown>>(file);
+          const newRows = rows.filter(
+            (r) => r.job_id && !existingIds.has(String(r.job_id)),
+          );
+          for (const row of newRows) existingIds.add(String(row.job_id));
+          console.log(
+            `${file}: ${rows.length} total, ${newRows.length} new for D1`,
+          );
+          fresh.push(...(newRows as unknown as Job[]));
+        }
+
+        // Run several upsertBatch streams in parallel: each batch is only 3
+        // rows (D1 variable limit) so a single serial stream is far too slow
+        // for a many-thousand-row legacy import.
+        const streams = 8;
+        const sliceSize = Math.ceil(fresh.length / streams);
+        await Promise.all(
+          Array.from({ length: streams }, (_, i) =>
+            d1Client.upsertBatch(
+              fresh.slice(i * sliceSize, (i + 1) * sliceSize),
+            ),
+          ),
+        );
+
+        console.log(`Backfill done. Added ${fresh.length} job(s) to D1.`);
+        console.log("=".repeat(50));
+      },
+    }),
   },
 });
 

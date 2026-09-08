@@ -21,13 +21,23 @@ function createMockD1() {
             const upperSql = sql.toUpperCase();
             if (upperSql.includes("INSERT") || upperSql.includes("REPLACE")) {
               const columns = extractColumns(sql);
-              const row: Record<string, unknown> = {};
-              columns.forEach((col, i) => {
-                row[col] = boundParams[i];
-              });
-              const jobId = String(row.job_id);
-              store.set(jobId, row);
-              return { success: true, meta: { changes: 1 } };
+              const rows: Record<string, unknown>[] = [];
+              for (
+                let offset = 0;
+                offset < boundParams.length;
+                offset += columns.length
+              ) {
+                const row: Record<string, unknown> = {};
+                columns.forEach((col, i) => {
+                  row[col] = boundParams[offset + i];
+                });
+                row.job_id = String(row.job_id);
+                rows.push(row);
+              }
+              for (const row of rows) {
+                store.set(String(row.job_id), row);
+              }
+              return { success: true, meta: { changes: rows.length } };
             }
             if (upperSql.includes("DELETE")) {
               const id = String(boundParams[0]);
@@ -153,6 +163,17 @@ describe("D1 Client", () => {
       await client.upsertBatch(jobs);
 
       expect(mockD1.store.size).toBe(3);
+    });
+
+    it("upserts thousands of jobs across multiple batch SQL statements", async () => {
+      const jobs = Array.from({ length: 1000 }, (_, i) =>
+        makeJob({ job_id: `batch-${i}`, title: `Batch Job ${i}` }),
+      );
+
+      await client.upsertBatch(jobs);
+
+      expect(mockD1.store.size).toBe(1000);
+      expect(mockD1.store.get("batch-237")?.title).toBe("Batch Job 237");
     });
   });
 
